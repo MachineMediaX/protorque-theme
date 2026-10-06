@@ -1,0 +1,11 @@
+import chromium from '@sparticuz/chromium';
+import puppeteer from 'puppeteer-core';
+const [,, url, sel = 'main > section, footer, header'] = process.argv;
+const browser = await puppeteer.launch({ args: chromium.args, executablePath: await chromium.executablePath(), headless: true, defaultViewport: { width: 1440, height: 900 } });
+const page = await browser.newPage();
+await page.setRequestInterception(true);
+page.on('request', r => /googletagmanager|google-analytics/.test(r.url()) ? r.abort() : r.continue());
+await page.goto(url, { waitUntil: 'networkidle0', timeout: 60000 });
+const rows = await page.evaluate((sel) => [...document.querySelectorAll(sel)].map(e => { const r = e.getBoundingClientRect(); return `${(e.className||e.tagName).toString().split(' ')[0].padEnd(22)} top ${Math.round(r.top+scrollY)}  h ${Math.round(r.height)}`; }), sel);
+console.log(rows.join('\n'));
+await browser.close();

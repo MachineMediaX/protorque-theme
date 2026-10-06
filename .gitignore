@@ -11,3 +11,4 @@ sqlite/
 theme-src/node_modules/
 php-server.log
 *.wpress
+preview/*.html

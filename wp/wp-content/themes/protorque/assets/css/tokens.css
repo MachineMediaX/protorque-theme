@@ -1,26 +1,57 @@
-/* ProTorque design tokens. Values marked TODO are read from the comps / dev-site CSS before build. */
+/* ProTorque design tokens.
+   Values sampled from the approved homepage comp (Sam Benesh, Sept 29, 2026).
+   TODO items are confirmed from Sam's build assets or the dev-site CSS. */
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/bebas-neue-latin-400-normal.woff2") format("woff2"),
        url("../fonts/bebas-neue-latin-400-normal.woff") format("woff");
-  font-weight: 400; font-style: normal; font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
+
 :root {
+  /* Type */
   --pt-font-title: "Bebas Neue", "Arial Narrow", Impact, sans-serif;
-  --pt-font-body: system-ui, sans-serif;          /* TODO: body font from dev-site CSS */
+  --pt-font-body: "Helvetica Neue", Arial, system-ui, sans-serif; /* TODO: body font from dev-site CSS */
 
-  --pt-red: #c8102e;                              /* TODO: confirm from comp */
-  --pt-red-dark: #7a0a1c;                         /* TODO: gradient top/left stop from comp */
-  --pt-red-gradient: linear-gradient(180deg, var(--pt-red-dark) 0%, var(--pt-red) 100%);
-  --pt-black: #0b0b0b;                            /* TODO */
-  --pt-charcoal: #1f1f1f;                         /* TODO + texture overlay asset */
+  /* Colour */
+  --pt-red: #d22730;
+  --pt-red-deep: #99161b;
+  --pt-red-gradient: linear-gradient(90deg, var(--pt-red-deep) 0%, var(--pt-red) 100%);
+  --pt-black: #000000;
+  --pt-charcoal: #1a1a1a;
+  --pt-charcoal-texture: url("../img/placeholder/texture-charcoal.jpg"); /* TODO: texture asset from Sam */
   --pt-white: #ffffff;
-  --pt-grey-light: #f2f2f2;                       /* TODO */
-  --pt-yellow: #f5c400;                           /* TODO; only ever on --pt-black */
+  --pt-grey-light: #f2f2f2;
+  --pt-grey-text: #4a4a4a;
+  --pt-yellow: #f0b914; /* only ever on --pt-black */
 
-  --pt-size-body: 1rem;                           /* client flagged small; keep as variables */
-  --pt-size-card: 0.9375rem;
-  --pt-size-eyebrow: 0.75rem;
+  /* Scale: build to the comp, review live, bump by parameter */
+  --pt-size-body: 1rem;        /* 16px */
+  --pt-size-card: 0.9375rem;   /* 15px */
+  --pt-size-eyebrow: 0.8125rem;/* 13px */
+  --pt-size-button: 0.9375rem;
+  --pt-size-h2: clamp(2rem, 3.05vw, 2.75rem);     /* 44px at 1440 */
+  --pt-size-hero: clamp(4rem, 8.3vw, 7.5rem);      /* 120px at 1440 */
+  --pt-size-mission: clamp(1.75rem, 3.5vw, 3.125rem);/* 50px at 1440 */
+  --pt-size-card-title: clamp(2.5rem, 3.9vw, 3.5rem); /* 56px at 1440 */
+  --pt-size-stat: clamp(3rem, 5.8vw, 5.25rem);     /* 84px at 1440; comp figures are narrower than Bebas Neue, confirm font with Sam */
+  --pt-size-band-title: clamp(3rem, 4.4vw, 4rem);
+
+  /* Layout */
+  --pt-container: 1296px;
+  --pt-gutter: 72px;
   --pt-measure: 70ch;
-  --pt-container: 1280px;
+  --pt-section-y: 112px;
+  --pt-header-h: 102px;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --pt-gutter: 20px;
+    --pt-section-y: 72px;
+    --pt-header-h: 72px;
+  }
 }

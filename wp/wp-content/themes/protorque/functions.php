@@ -22,3 +22,24 @@ add_action( 'wp_enqueue_scripts', function () {
 } );
 
 /* GTM container GTM-WJJMKJV: head and noscript snippets go in header.php once the build starts. */
+
+if ( ! defined( 'PT_GTM_ID' ) ) {
+	define( 'PT_GTM_ID', 'GTM-WJJMKJV' );
+}
+
+/** Fallback primary nav until a menu is assigned to the location. */
+function pt_primary_nav_fallback() {
+	$home = home_url( '/' );
+	echo '<ul class="pt-nav__list">'
+		. '<li><a href="' . esc_url( $home . 'about/' ) . '">About</a></li>'
+		. '<li class="menu-item-has-children"><a href="' . esc_url( $home . 'tubular-running-services/' ) . '">Services</a><ul class="sub-menu">'
+		. '<li><a href="' . esc_url( $home . 'tubular-running-services/' ) . '">Tubular Running Services</a></li>'
+		. '<li><a href="' . esc_url( $home . 'drilling-services/' ) . '">Drilling Services</a></li>'
+		. '<li><a href="' . esc_url( $home . 'midstream-services/' ) . '">Midstream Services</a></li></ul></li>'
+		. '<li class="menu-item-has-children"><a href="' . esc_url( $home . 'equipment-and-innovation/' ) . '">Equipment</a><ul class="sub-menu">'
+		. '<li><a href="' . esc_url( $home . 'equipment-and-innovation/' ) . '">Equipment &amp; Innovation</a></li></ul></li>'
+		. '<li><a href="' . esc_url( $home . 'news/' ) . '">News</a></li>'
+		. '<li><a href="' . esc_url( $home . 'careers/' ) . '">Careers</a></li>'
+		. '<li><a href="' . esc_url( $home . 'contact-us/' ) . '">Contact</a></li>'
+		. '</ul>';
+}
