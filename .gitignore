@@ -1,0 +1,13 @@
+# WordPress core and runtime: only the theme and tooling are versioned
+wp/*
+!wp/wp-content/
+wp/wp-content/*
+!wp/wp-content/themes/
+wp/wp-content/themes/*
+!wp/wp-content/themes/protorque/
+wp/wp-content/database/
+wp/wp-content/uploads/
+sqlite/
+theme-src/node_modules/
+php-server.log
+*.wpress

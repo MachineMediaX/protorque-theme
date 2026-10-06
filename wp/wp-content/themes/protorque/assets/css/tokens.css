@@ -1,0 +1,26 @@
+/* ProTorque design tokens. Values marked TODO are read from the comps / dev-site CSS before build. */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/bebas-neue-latin-400-normal.woff2") format("woff2"),
+       url("../fonts/bebas-neue-latin-400-normal.woff") format("woff");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+:root {
+  --pt-font-title: "Bebas Neue", "Arial Narrow", Impact, sans-serif;
+  --pt-font-body: system-ui, sans-serif;          /* TODO: body font from dev-site CSS */
+
+  --pt-red: #c8102e;                              /* TODO: confirm from comp */
+  --pt-red-dark: #7a0a1c;                         /* TODO: gradient top/left stop from comp */
+  --pt-red-gradient: linear-gradient(180deg, var(--pt-red-dark) 0%, var(--pt-red) 100%);
+  --pt-black: #0b0b0b;                            /* TODO */
+  --pt-charcoal: #1f1f1f;                         /* TODO + texture overlay asset */
+  --pt-white: #ffffff;
+  --pt-grey-light: #f2f2f2;                       /* TODO */
+  --pt-yellow: #f5c400;                           /* TODO; only ever on --pt-black */
+
+  --pt-size-body: 1rem;                           /* client flagged small; keep as variables */
+  --pt-size-card: 0.9375rem;
+  --pt-size-eyebrow: 0.75rem;
+  --pt-measure: 70ch;
+  --pt-container: 1280px;
+}
