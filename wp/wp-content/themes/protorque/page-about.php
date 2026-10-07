@@ -19,7 +19,7 @@ get_header();
 	<!-- Intro statement -->
 	<section class="pt-intro pt-section--red">
 		<div class="pt-container pt-center">
-			<p class="pt-intro__text">Total Rig and Midstream Solutions. Engineering, experienced crews, and disciplined execution built over 20+ years.</p>
+			<p class="pt-intro__text">Total Rig and Midstream Solutions. <br>Engineering, experienced crews, and disciplined execution built over 20+ years.</p>
 			<a class="pt-btn pt-btn--black" href="<?php echo esc_url( $home . 'contact-us/' ); ?>">Get in Touch</a>
 		</div>
 	</section>
@@ -117,7 +117,7 @@ get_header();
 			<p class="pt-eyebrow pt-eyebrow--red">Our Commitment</p>
 			<h2 class="pt-h2">The ProTorque Advantage</h2>
 			<ul class="pt-advantage__list">
-				<li><h3>Safety as a Core Value</h3><p>An uncompromised dedication to protecting people and assets.</p></li>
+				<li><h3>Safety Comes First</h3><p>An uncompromised dedication to protecting people and assets.</p></li>
 				<li><h3>Partnership Mindset</h3><p>Aligning our goals with yours for long-term success.</p></li>
 				<li><h3>Industry-Leading Expertise:</h3><p>Delivering efficient and reliable solutions.</p></li>
 				<li><h3>Technology-Driven Approach</h3><p>Utilizing advancements to maximize results.</p></li>
@@ -130,7 +130,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow">How We Work</p>
-				<h2 class="pt-h2">Safety at ProTorque is a <br>working practice, not a poster.</h2>
+				<h2 class="pt-h2">Safety at ProTorque Is a Working Practice</h2>
 				<p class="pt-lede pt-safety__lede">Every job starts with a job safety analysis. High-risk work gets dedicated safety supervision. Equipment is inspected on a schedule, and any crew member can stop work when conditions call for it. The record is kept the same way the work is done: documented, current, and available to the operators who audit it. ProTorque maintains compliance across the contractor qualification networks our customers use and reports through the provincial and industry bodies that govern the work.</p>
 			</div>
 			<div class="pt-safety__cols">
@@ -175,21 +175,17 @@ get_header();
 				<p class="pt-eyebrow pt-eyebrow--red">From the President</p>
 				<h2 class="pt-h2">The Foundation We Started With</h2>
 			</div>
-			<div class="pt-president__cols">
-				<div>
+			<div class="pt-president__body">
 					<p>I&rsquo;ve always considered myself an entrepreneur first. I believe the best businesses are built by people who are willing to work hard, take calculated risks, challenge the way things have always been done, and never become satisfied with where they are today. The desire to be better is what drives me.</p>
 					<p>ProTorque was built on those principles.</p>
 					<p>What began as a blue-collar energy service business with one CATM system in a pickup has grown into an internationally recognized group of companies providing specialized TRS and Midstream services, manufacturing innovative equipment, and developing technology that is changing how work is performed in the field.</p>
 					<p>I&rsquo;m proud of that evolution, but I&rsquo;m even more proud that we have never lost the foundation we started with.</p>
 					<p>At our core, we are still field technicians, or rig hands. We understand that technology only creates value when it makes the job safer, more efficient, more reliable, or more productive. Our innovation comes from field experience, from understanding the challenges our people and customers face, and from the determination to build a better solution.</p>
-				</div>
-				<div>
 					<p>That mindset has taken ProTorque beyond providing services. We are building equipment, developing technology, and integrating data and automation to create solutions that let our customers and our people perform at a higher level.</p>
 					<p>My vision for ProTorque is not to become the biggest company in our industry. It is to build a group of companies recognized for execution, innovation, entrepreneurship, and the quality of our people, while continuing to create opportunities for the employees, customers, partners, and communities who have helped us grow.</p>
 					<p>The equipment will continue to change. Technology will continue to evolve. Markets will rise and fall. But the fundamentals of building a great company remain remarkably consistent: work hard, surround yourself with great people, take care of your customers, embrace change, and never stop looking for a better way.</p>
 					<p>That was the foundation of ProTorque when we started, and it will remain the foundation of where we go next.</p>
 					<p class="pt-president__sig"><strong>Landon McDonald</strong><br>President, ProTorque Energy Companies</p>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -204,7 +200,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--red">Office Locations</p>
-				<h2 class="pt-h2">Where we work</h2>
+				<h2 class="pt-h2">Where We Work</h2>
 			</div>
 			<ul class="pt-offices__grid">
 				<li class="pt-office">

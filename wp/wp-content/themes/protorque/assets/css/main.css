@@ -291,6 +291,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 /* Intro statement */
 .pt-intro { padding: 112px var(--pt-gutter) 130px; }
 .pt-intro__text { font-family: var(--pt-font-title); font-size: var(--pt-size-mission); line-height: 1.15; text-transform: uppercase; max-width: 1020px; margin-inline: auto; }
+.pt-intro__text br { display: none; }
+@media (min-width: 901px) { .pt-intro__text br { display: inline; } }
 .pt-intro .pt-btn { margin-top: 44px; }
 
 /* Our Story + map */
@@ -350,16 +352,16 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-advantage__box .pt-h2 { margin-top: 26px; }
 .pt-advantage__list { display: grid; grid-template-columns: 1fr 1fr; gap: 44px 40px; margin-top: 60px; text-align: left; }
 .pt-advantage__list li { position: relative; padding-left: 24px; }
-.pt-advantage__list li::before { content: "+"; position: absolute; left: 0; top: -2px; color: var(--pt-red); font-weight: 700; font-size: 1.25rem; }
+.pt-advantage__list li::before { content: ""; position: absolute; left: 0; top: 7px; width: 12px; height: 3px; background: var(--pt-red); }
 .pt-advantage__list h3 { font-family: var(--pt-font-title); font-weight: 400; font-size: 1.375rem; letter-spacing: 0.02em; text-transform: uppercase; line-height: 1; white-space: nowrap; }
 .pt-advantage__list p { margin-top: 8px; font-size: 1rem; line-height: 1.4; max-width: 240px; }
 
 /* Safety */
 .pt-safety { padding: 136px var(--pt-gutter) 124px; }
 .pt-safety .pt-lede { max-width: 56rem; font-weight: 600; margin-top: 36px; }
-.pt-safety__cols { display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 0 70px; margin-top: 90px; max-width: 1230px; margin-inline: auto; }
-.pt-safety__cols > div { padding: 0 0 10px; }
-.pt-safety__cols > div + div { border-left: 2px solid var(--pt-yellow); padding-left: 80px; }
+.pt-safety__cols { display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 0 40px; margin-top: 90px; max-width: 1230px; margin-inline: auto; }
+.pt-safety__cols > div { padding: 0 0 10px; text-align: center; }
+.pt-safety__cols > div + div { border-left: 2px solid var(--pt-yellow); padding-left: 40px; }
 .pt-safety__cols h3 { font-family: var(--pt-font-title); font-weight: 400; font-size: 2.5rem; line-height: 0.95; text-transform: uppercase; }
 .pt-safety__cols p { margin-top: 28px; font-weight: 700; font-size: 1.0625rem; line-height: 1.4; }
 
@@ -373,9 +375,9 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* From the President */
 .pt-president { padding: 128px var(--pt-gutter) 140px; }
-.pt-president__cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 70px; max-width: 1090px; margin: 80px auto 0; }
-.pt-president__cols p { font-size: 1.0625rem; line-height: 1.33; }
-.pt-president__cols p + p { margin-top: 22px; }
+.pt-president__body { max-width: var(--pt-measure); margin: 72px auto 0; }
+.pt-president__body p { font-size: 1.125rem; line-height: 1.5; }
+.pt-president__body p + p { margin-top: 22px; }
 .pt-president__sig { margin-top: 24px; font-size: 1.125rem; }
 .pt-president__sig strong { font-weight: 700; }
 
@@ -417,11 +419,11 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .pt-map__cards .pt-map__card { display: none; position: static; width: 100%; box-shadow: none; }
   .pt-map__cards .pt-map__card.is-open { display: block; }
   .pt-map__cards .pt-map__card img { height: 200px; }
-  .pt-principles__grid, .pt-team__grid, .pt-offices__grid, .pt-safety__cols, .pt-president__cols { grid-template-columns: 1fr; }
+  .pt-principles__grid, .pt-team__grid, .pt-offices__grid, .pt-safety__cols { grid-template-columns: 1fr; }
   .pt-safety__cols > div + div { border-left: 0; padding-left: 0; margin-top: 40px; }
   .pt-advantage { padding: 72px var(--pt-gutter); }
   .pt-advantage__box { padding: 48px 24px; }
   .pt-advantage__list { grid-template-columns: 1fr; gap: 28px 0; }
-  .pt-president__cols { gap: 22px 0; margin-top: 48px; }
+  .pt-president__body { margin-top: 48px; }
   .pt-photoband--plain { height: 320px; }
 }
