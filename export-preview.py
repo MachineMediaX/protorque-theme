@@ -63,7 +63,7 @@ for path,fname in PAGES.items():
 for root,_,files in os.walk(THEME+'/assets'):
     for f in files:
         src=os.path.join(root,f); rel='assets/'+os.path.relpath(src,THEME+'/assets')
-        if rel.startswith('assets/img/placeholder/texture') or '/fonts/' in rel or rel.endswith(('.svg','.css','.js')):
+        if rel.startswith('assets/img/placeholder/texture') or '/fonts/' in rel or '/video/' in rel or rel.endswith(('.svg','.css','.js')):
             dst=os.path.join(OUT,rel); os.makedirs(os.path.dirname(dst),exist_ok=True); shutil.copy(src,dst)
 total=sum(os.path.getsize(os.path.join(r,f)) for r,_,fs in os.walk(OUT) for f in fs)
 print('files', sum(len(fs) for _,_,fs in os.walk(OUT)), 'total MB', round(total/1048576,1))
