@@ -31,7 +31,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   color: var(--pt-white);
 }
 .pt-eyebrow--dark { color: var(--pt-black); font-size: 1.625rem; letter-spacing: 0.04em; }
-.pt-h2 { font-size: var(--pt-size-h2); font-weight: 400; line-height: 1.15; letter-spacing: -0.01em; margin-top: 32px; }
+.pt-h2 { font-family: var(--pt-font-heading); font-size: var(--pt-size-h2); font-weight: 500; line-height: 1.15; letter-spacing: -0.01em; margin-top: 32px; }
 .pt-lede { font-size: var(--pt-size-body); line-height: 1.5; max-width: 60rem; margin-top: 28px; font-weight: 500; }
 .pt-btn {
   display: inline-block;
@@ -128,10 +128,10 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   padding: 0 48px 100px 76px; margin-top: auto; text-shadow: 0 2px 20px rgba(0,0,0,.35);
 }
 .pt-card__toggle { position: absolute; z-index: 2; left: 0; bottom: 0; width: 88px; height: 88px; background: var(--pt-black); color: #fff; display: grid; place-items: center; }
-.pt-card__panel { position: relative; z-index: 1; display: none; background: var(--pt-black); padding: 50px 46px 46px 46px; text-align: left; }
+.pt-card__panel { position: relative; z-index: 1; display: none; background: var(--pt-black); padding: 48px 40px 44px 44px; text-align: left; }
 .pt-card__eyebrow { font-family: var(--pt-font-title); font-size: 1.1875rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pt-yellow); }
-.pt-card__headline { font-size: 1.3125rem; line-height: 1.3; margin-top: 14px; }
-.pt-card__body { font-size: var(--pt-size-card); line-height: 1.5; margin-top: 14px; font-weight: 500; }
+.pt-card__headline { font-family: var(--pt-font-heading); font-weight: 500; font-size: 1.25rem; line-height: 1.3; margin-top: 14px; letter-spacing: -0.01em; }
+.pt-card__body { font-size: var(--pt-size-card); line-height: 1.45; margin-top: 14px; font-weight: 500; }
 .pt-card__link { display: inline-block; margin-top: 24px; font-weight: 600; font-size: var(--pt-size-body); }
 .pt-card.is-open .pt-card__img { position: relative; height: 242px; flex: none; object-position: 50% 12%; }
 .pt-card.is-open .pt-card__title, .pt-card.is-open .pt-card__toggle { display: none; }

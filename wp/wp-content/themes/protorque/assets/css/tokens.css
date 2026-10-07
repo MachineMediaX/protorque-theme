@@ -11,10 +11,21 @@
   font-display: swap;
 }
 
+/* HK Grotesk (body) and Maison Neue (section headings), carried over from the current site. Files from the dev-site export. */
+@font-face { font-family: "HK Grotesk"; src: url("../fonts/hk-grotesk-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "HK Grotesk"; src: url("../fonts/hk-grotesk-500.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "HK Grotesk"; src: url("../fonts/hk-grotesk-600.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "HK Grotesk"; src: url("../fonts/hk-grotesk-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Maison Neue"; src: url("../fonts/maison-neue-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Maison Neue"; src: url("../fonts/maison-neue-500.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Maison Neue"; src: url("../fonts/maison-neue-600.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Maison Neue"; src: url("../fonts/maison-neue-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
 :root {
   /* Type */
   --pt-font-title: "Bebas Neue", "Arial Narrow", Impact, sans-serif;
-  --pt-font-body: "Helvetica Neue", Arial, system-ui, sans-serif; /* TODO: body font from dev-site CSS */
+  --pt-font-body: "HK Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --pt-font-heading: "Maison Neue", "HK Grotesk", Arial, sans-serif;
 
   /* Colour */
   --pt-red: #d22730;
