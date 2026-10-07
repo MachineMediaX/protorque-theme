@@ -1,7 +1,8 @@
 <?php
 /**
  * Homepage. Built to the approved comp (Sam Benesh, Sept 29, 2026).
- * Copy is final per the Development Brief; stats and client logos are placeholders pending the client.
+ * Copy: comp for everything visible on it; the three closed cards' expanded text comes from the dev site's Home Slider (pt_slider 1453).
+ * Stats and client logos are placeholders pending the client.
  */
 $img = get_template_directory_uri() . '/assets/img';
 $home = home_url( '/' );
@@ -74,8 +75,8 @@ get_header();
 					[
 						'title' => 'Midstream<br>Construction<br>&amp; Maintenance',
 						'eyebrow' => 'Midstream Construction &amp; Maintenance',
-						'headline' => 'Plant, pipeline and facilities work, built and maintained to spec.',
-						'body' => 'Midstream construction, plant and pipeline maintenance, electrical and instrumentation, mechanical and facilities support, environmental and water management, and right-of-way work.',
+						'headline' => 'Operational reliability across midstream infrastructure.',
+						'body' => 'Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.',
 						'cta' => 'Explore Midstream Services',
 						'url' => $home . 'midstream-services/',
 						'img' => 'card-midstream',
@@ -83,8 +84,8 @@ get_header();
 					[
 						'title' => 'Drilling<br>Verification<br>&amp; Monitoring',
 						'eyebrow' => 'Drilling Verification &amp; Monitoring',
-						'headline' => 'Trust the numbers on every connection.',
-						'body' => 'Hook load and top drive torque verification, iron roughneck torque testing, CATM for power tongs and top drives, and real-time drilling data.',
+						'headline' => 'Drilling verification that keeps operations on track.',
+						'body' => 'Torque verification. Hook load confirmation. CATM calibration. ProTorque\'s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.',
 						'cta' => 'Explore Drilling Services',
 						'url' => $home . 'drilling-services/',
 						'img' => 'card-drilling',
@@ -92,8 +93,8 @@ get_header();
 					[
 						'title' => 'Equipment<br>&amp; Innovation',
 						'eyebrow' => 'Equipment &amp; Innovation',
-						'headline' => 'Engineered equipment that takes risk off the rig floor.',
-						'body' => 'RCD Press, CRT Tether Ring, Mobile BHA Frame, Mobile Bucking Frame and Electric Hydraulic Power Units, provided by ProStar, the dedicated equipment division.',
+						'headline' => 'Equipment designed by the crews that use it.',
+						'body' => 'Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.',
 						'cta' => 'Explore Equipment &amp; Innovation',
 						'url' => $home . 'equipment-and-innovation/',
 						'img' => 'card-equipment',
