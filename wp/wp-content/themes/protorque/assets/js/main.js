@@ -1,13 +1,7 @@
 (function () {
-  // Header: mobile menu and search
-  var header = document.querySelector('.pt-header');
-  var menuBtn = document.querySelector('.pt-header__menu');
+  // Header search
   var searchBtn = document.querySelector('.pt-header__search');
   var search = document.getElementById('pt-search');
-  if (menuBtn) menuBtn.addEventListener('click', function () {
-    var open = header.classList.toggle('is-open');
-    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
   if (searchBtn && search) searchBtn.addEventListener('click', function () {
     var open = search.hasAttribute('hidden');
     if (open) { search.removeAttribute('hidden'); search.querySelector('input').focus(); }

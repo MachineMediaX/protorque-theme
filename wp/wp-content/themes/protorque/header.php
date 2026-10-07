@@ -17,6 +17,7 @@
 <?php endif; ?>
 <a class="pt-skip" href="#main"><?php esc_html_e( 'Skip to content', 'protorque' ); ?></a>
 
+<?php $pt_tree = pt_nav_tree( 'primary' ); ?>
 <header class="pt-header" id="top">
 	<div class="pt-header__inner">
 		<a class="pt-header__logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php esc_attr_e( 'ProTorque home', 'protorque' ); ?>">
@@ -24,15 +25,7 @@
 		</a>
 
 		<nav class="pt-nav" aria-label="<?php esc_attr_e( 'Primary', 'protorque' ); ?>">
-			<?php
-			wp_nav_menu( [
-				'theme_location' => 'primary',
-				'container'      => false,
-				'menu_class'     => 'pt-nav__list',
-				'depth'          => 2,
-				'fallback_cb'    => 'pt_primary_nav_fallback',
-			] );
-			?>
+			<?php pt_nav_render_desktop( $pt_tree ); ?>
 		</nav>
 
 		<div class="pt-header__actions">
@@ -45,6 +38,10 @@
 			</button>
 		</div>
 	</div>
+	<nav class="pt-mobile" id="pt-mobile-nav" aria-label="<?php esc_attr_e( 'Primary', 'protorque' ); ?>" hidden>
+		<?php pt_nav_render_mobile( $pt_tree ); ?>
+		<a class="pt-btn pt-mobile__quote" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>"><?php esc_html_e( 'Request a Quote', 'protorque' ); ?></a>
+	</nav>
 	<div class="pt-search" id="pt-search" hidden>
 		<form role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 			<label class="screen-reader-text" for="pt-search-field"><?php esc_html_e( 'Search ProTorque', 'protorque' ); ?></label>

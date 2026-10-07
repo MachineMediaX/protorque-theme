@@ -13,3 +13,4 @@ php-server.log
 *.wpress
 preview/*.html
 wp/wp-content/uploads/
+preview/site/
