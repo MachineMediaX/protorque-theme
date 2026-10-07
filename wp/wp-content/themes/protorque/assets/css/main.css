@@ -133,7 +133,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-card__headline { font-size: 1.3125rem; line-height: 1.3; margin-top: 14px; }
 .pt-card__body { font-size: var(--pt-size-card); line-height: 1.5; margin-top: 14px; font-weight: 500; }
 .pt-card__link { display: inline-block; margin-top: 24px; font-weight: 600; font-size: var(--pt-size-body); }
-.pt-card.is-open .pt-card__img { position: relative; height: 242px; flex: none; }
+.pt-card.is-open .pt-card__img { position: relative; height: 242px; flex: none; object-position: 50% 12%; }
 .pt-card.is-open .pt-card__title, .pt-card.is-open .pt-card__toggle { display: none; }
 .pt-card.is-open .pt-card__panel { display: block; flex: 1; }
 

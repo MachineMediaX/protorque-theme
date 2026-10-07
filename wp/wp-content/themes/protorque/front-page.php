@@ -30,11 +30,11 @@ get_header();
 	<!-- Two-photo band -->
 	<section class="pt-band" aria-label="Service areas">
 		<a class="pt-band__item" href="<?php echo esc_url( $home . 'tubular-running-services/' ); ?>">
-			<img src="<?php echo esc_url( "$img/placeholder/band-trs.jpg" ); ?>" alt="" width="718" height="650">
+			<img src="<?php echo esc_url( "$img/home/band-trs.jpg" ); ?>" srcset="<?php echo esc_url( "$img/home/band-trs@2x.jpg" ); ?> 2x" alt="" width="718" height="527">
 			<span class="pt-btn">Tubular Running Services</span>
 		</a>
 		<a class="pt-band__item" href="<?php echo esc_url( $home . 'midstream-services/' ); ?>">
-			<img src="<?php echo esc_url( "$img/placeholder/band-midstream.jpg" ); ?>" alt="" width="720" height="650">
+			<img src="<?php echo esc_url( "$img/home/band-midstream.jpg" ); ?>" srcset="<?php echo esc_url( "$img/home/band-midstream@2x.jpg" ); ?> 2x" alt="" width="723" height="527">
 			<span class="pt-btn">Midstream Solutions</span>
 		</a>
 	</section>
@@ -103,7 +103,7 @@ get_header();
 					$open = ! empty( $c['open'] );
 					?>
 				<article class="pt-card<?php echo $open ? ' is-open' : ''; ?>">
-					<img class="pt-card__img" src="<?php echo esc_url( "$img/placeholder/{$c['img']}.jpg" ); ?>" alt="" loading="lazy">
+					<img class="pt-card__img" src="<?php echo esc_url( "$img/home/{$c['img']}.jpg" ); ?>" srcset="<?php echo esc_url( "$img/home/{$c['img']}@2x.jpg" ); ?> 2x" alt="" loading="lazy">
 					<h3 class="pt-card__title"><?php echo $c['title']; ?></h3>
 					<button class="pt-card__toggle" type="button" aria-expanded="<?php echo $open ? 'true' : 'false'; ?>" aria-label="<?php echo esc_attr( wp_strip_all_tags( 'Open ' . $c['eyebrow'] ) ); ?>">
 						<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg>
@@ -135,7 +135,7 @@ get_header();
 
 	<!-- Built to Lead -->
 	<section class="pt-photoband">
-		<img src="<?php echo esc_url( "$img/placeholder/built-to-lead.jpg" ); ?>" alt="" width="1440" height="655" loading="lazy">
+		<img src="<?php echo esc_url( "$img/home/built-to-lead.jpg" ); ?>" srcset="<?php echo esc_url( "$img/home/built-to-lead@2x.jpg" ); ?> 2x" alt="" width="1440" height="658" loading="lazy">
 		<h2 class="pt-photoband__title">Built to Lead</h2>
 	</section>
 
