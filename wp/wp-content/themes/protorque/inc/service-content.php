@@ -2,7 +2,7 @@
 /**
  * Template 2 (service detail) content, keyed by page slug. Source: PT_Midstream_Detail_Pages_18_to_23.docx (Machine Media, May 2026).
  * Geographic copy (Permian, New Mexico, West Texas) stays as written pending the US content review.
- * Phone in the CTA is the number given in the copy deck.
+ * The copy deck's CTA phone line is not used: the client asked for no phone number in the Get in Touch band (About feedback).
  */
 return [
 	'midstream-construction' => [

@@ -107,10 +107,7 @@ endif;
 		<div class="pt-ctabar__inner">
 			<h2 class="pt-ctabar__title"><?php echo esc_html( $c['cta']['h2'] ); ?></h2>
 			<p class="pt-ctabar__text"><?php echo esc_html( $c['cta']['text'] ); ?></p>
-			<div class="pt-ctabar__actions">
-				<a class="pt-btn" href="<?php echo esc_url( $home . 'contact-us/' ); ?>">Get in Touch</a>
-				<a class="pt-ctabar__phone" href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', $c['cta']['phone'] ) ); ?>"><?php echo esc_html( $c['cta']['phone'] ); ?></a>
-			</div>
+			<a class="pt-btn" href="<?php echo esc_url( $home . 'contact-us/' ); ?>">Get in Touch</a>
 		</div>
 	</section>
 
