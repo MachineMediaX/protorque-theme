@@ -1,0 +1,492 @@
+{
+ "tables": {
+  "694": {
+   "title": "Mobile Bucking Frame - Specs",
+   "rows": [
+    [
+     "PIPE SIZE RANGE",
+     "Power Tong 4.5 – 13.63” (114.3 – 346 mm)\nBack-up jaw 4 – 15” (101.6 – 381 mm)"
+    ],
+    [
+     "TORQUE RANGE",
+     "4.5 – 5.5” (114.3 – 139.7 mm) 25,000 ft/lbs (33,850 Nm)\n7 – 13.63” (177.8 – 346 mm) 35,000 ft/lbs (47,400 Nm)"
+    ],
+    [
+     "FLOW RATING",
+     "40 – 60 GPM (152 – 227 LPM)"
+    ],
+    [
+     "WEIGHT",
+     "4,500 lbs (2045 kg)"
+    ],
+    [
+     "DIMENSIONS",
+     "Length 95” (2,413 mm), Width 58” (1,473 mm), Height 68” (1,727 mm)"
+    ],
+    [
+     "HEIGHT ADJUSTMENT",
+     "12” (305 mm)"
+    ],
+    [
+     "BACK-UP JAW ADJUSTMENT (SCOPE)",
+     "Maximum 52” (1,321 mm) Minimum 9” (229 mm)"
+    ]
+   ],
+   "head": false
+  },
+  "750": {
+   "title": "Tether Ring - Specs",
+   "rows": [
+    [
+     "LOAD RATING",
+     "3,000 lbs (1,665 kg)"
+    ],
+    [
+     "SHOCK RATING",
+     "40,000 lbs (18,182 kg) of force"
+    ],
+    [
+     "FALL HEIGHT RATED",
+     "24” (60.9 cm)"
+    ],
+    [
+     "RPM RATING:",
+     "120 RPM"
+    ]
+   ],
+   "head": false
+  },
+  "752": {
+   "title": "Vacuum Drift System - Specs",
+   "rows": [
+    [
+     "165 CFM @ 1,150 RPM",
+     ""
+    ],
+    [
+     "27 HG (Mercury units of vacuum force)",
+     ""
+    ],
+    [
+     "13 HP Honda motor",
+     ""
+    ],
+    [
+     "Rubberized drifting ends for hoses",
+     ""
+    ]
+   ],
+   "head": false
+  },
+  "764": {
+   "title": "RCD Press - Specs",
+   "rows": [
+    [
+     "PRESS STROKE LENGTH",
+     "36” (914.4 mm)"
+    ],
+    [
+     "OVERALL HEAD LENGTH (MAXIMUM)",
+     "52” (1,320 mm)"
+    ],
+    [
+     "HEAD OD (MAXIMUM)",
+     "24” (609 mm)"
+    ],
+    [
+     "TUBULAR OD (RANGE)",
+     "3 – 7.63” (76.2 – 193.8 mm)"
+    ],
+    [
+     "UNIT PRESSURE RATING (MAXIMUM)",
+     "3,000 PSI (20,700 kPa)"
+    ],
+    [
+     "HYDRAULIC FLOW REQUIREMENTS",
+     "5 – 70 gal/min (19 – 265 L/min)"
+    ]
+   ],
+   "head": false
+  },
+  "774": {
+   "title": "Pipe Roller - Specs",
+   "rows": [
+    [
+     "CASING SIZES AVAILABLE",
+     "4.5 – 5.5” (114.3 – 139.7 mm)\n7 – 9.63” (177.8 – 244.6 mm)"
+    ],
+    [
+     "HANDLING WEIGHT",
+     "4.5 – 5.5” – 11 lbs (5 kg)\n7 – 9.63” – 14 lbs (6.4 kg)"
+    ]
+   ],
+   "head": false
+  },
+  "795": {
+   "title": "BHA Frame - Specs",
+   "rows": [
+    [
+     "PIPE SIZE RANGE",
+     "4 ½”-12”"
+    ],
+    [
+     "TORQUE RANGE",
+     "100,000 ft/lbs"
+    ],
+    [
+     "WEIGHT",
+     "10,100 lbs"
+    ],
+    [
+     "DIMENSIONS",
+     "95”L X 90”W X 57”H"
+    ],
+    [
+     "BACK-UP JAW ADJUSTMENT (SCOPE)",
+     "18”"
+    ]
+   ],
+   "head": false
+  },
+  "804": {
+   "title": "CRT Nubbin - Specs",
+   "rows": [
+    [
+     "SIZING",
+     "4.5 – 13.38” (114.3 – 339.7 mm)"
+    ],
+    [
+     "AVAILABLE CONNECTIONS",
+     "API and most premium manufacturers"
+    ]
+   ],
+   "head": false
+  },
+  "818": {
+   "title": "Break-Out Vise - Specs",
+   "rows": [
+    [
+     "TORQUE RATING",
+     "40,000 – 90,000 ft/lbs (54,230 – 12,2025 Nm)"
+    ],
+    [
+     "TUBULAR OD RANGE",
+     "4 – 14” OD"
+    ],
+    [
+     "DIMENSIONS",
+     "Length 60“ (1,524 mm), Width 46” (1,168 mm), Height 56” (1,422 mm)"
+    ],
+    [
+     "WEIGHT",
+     "1,500 lbs (680 kg)"
+    ],
+    [
+     "PRESSURE RATING",
+     "3,000 PSI (20,700 kPa)"
+    ],
+    [
+     "HYDRAULIC FLOW REQUIREMENTS",
+     "2 – 8 gal/min (7.5 – 30.5 L/min)"
+    ]
+   ],
+   "head": false
+  },
+  "827": {
+   "title": "Flush Mounted Spider - Specs",
+   "rows": [
+    [
+     "MAXIMUM TENSION RATING",
+     "350 TONS"
+    ],
+    [
+     "MAXIMUM WORKING PRESSURE",
+     "2000 PSI (13,790 kPa)"
+    ],
+    [
+     "FLOW RATE REQUIRED",
+     "34 GPM (128 LPM)"
+    ],
+    [
+     "MASS (TOOL ONLY)",
+     "2,900 LBS (1,315 KG)"
+    ],
+    [
+     "MASS RANGE (CARRIERS AND GUIDE PLATES INCLUDED)",
+     "3,050-3,700 LBS (1,383-1,678 KG)"
+    ],
+    [
+     "TIME TO EXTEND AND RETRACT",
+     "6 SECONDS"
+    ],
+    [
+     "COMPATIBLE ROTARY TABLE",
+     "27 1/2”, 37 1/2*\n\nWith addition of the adapter ring, same FMS can be used with any other most common 37 1/2″ rotaries: national or EMSCO configuration"
+    ],
+    [
+     "CASING SIZE RANGE",
+     "13.625″ – 2.375″"
+    ]
+   ],
+   "head": false
+  },
+  "831": {
+   "title": "Flush Mounted Spider - Torque - Specs",
+   "rows": [
+    [
+     "MAXIMUM TENSION RATING",
+     "50,000"
+    ],
+    [
+     "MAXIMUM WORKING PRESSURE",
+     "38,000"
+    ],
+    [
+     "FLOW RATE REQUIRED",
+     "30,000"
+    ],
+    [
+     "MASS (TOOL ONLY)",
+     "22,000"
+    ],
+    [
+     "MASS RANGE (CARRIERS AND GUIDE PLATES INCLUDED)",
+     "14,000"
+    ]
+   ],
+   "head": false
+  }
+ },
+ "sliders": {
+  "1453": [
+   {
+    "img": "content/midstream-operations.jpg",
+    "title": "Midstream Construction & Maintenance",
+    "subtitle": "Operational reliability across midstream infrastructure.",
+    "text": "Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.",
+    "cta": "Explore Midstream Services",
+    "url": "/midstream-services/"
+   },
+   {
+    "img": "content/tubular-running-services.jpg",
+    "title": "Drilling Verification & Monitoring",
+    "subtitle": "Drilling verification that keeps operations on track.",
+    "text": "Torque verification. Hook load confirmation. CATM calibration. ProTorque’s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.",
+    "cta": "Explore Drilling Services",
+    "url": "/drilling-services/"
+   },
+   {
+    "img": "content/protorque-bucking-frame-2.png",
+    "title": "Equipment & Innovation",
+    "subtitle": "Equipment designed by the crews that use it.",
+    "text": "Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.",
+    "cta": "Explore Equipment & Innovation",
+    "url": "/equipment-and-innovation/"
+   },
+   {
+    "img": "content/protorque-and-prostar.jpg",
+    "title": "Tubular Running Services",
+    "subtitle": "Casing operations. Done right. Every connection.",
+    "text": "Experienced crews, engineered tools, and disciplined preparation from thread cleaning and inspection to final make-up. ProTorque keeps casing programs predictable, safe, and on schedule.",
+    "cta": "Explore Tubular Running Services",
+    "url": "/tubular-running-services/"
+   }
+  ],
+  "1466": [
+   {
+    "img": "content/midstream-operations.jpg",
+    "title": "Midstream Construction & Maintenance",
+    "subtitle": "Operational reliability across midstream infrastructure.",
+    "text": "Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.",
+    "cta": "Explore Midstream Services",
+    "url": "/midstream-services/"
+   },
+   {
+    "img": "content/tubular-running-services.jpg",
+    "title": "Drilling Verification & Monitoring",
+    "subtitle": "Drilling verification that keeps operations on track.",
+    "text": "Torque verification. Hook load confirmation. CATM calibration. ProTorque’s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.",
+    "cta": "Explore Drilling Services",
+    "url": "/drilling-services/"
+   },
+   {
+    "img": "content/protorque-bucking-frame-2.png",
+    "title": "Equipment & Innovation",
+    "subtitle": "Equipment designed by the crews that use it.",
+    "text": "Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.",
+    "cta": "Explore Equipment & Innovation",
+    "url": "/equipment-and-innovation/"
+   }
+  ],
+  "1488": [
+   {
+    "img": "content/tubular-running-services.jpg",
+    "title": "Drilling Verification & Monitoring",
+    "subtitle": "Drilling verification that keeps operations on track.",
+    "text": "Torque verification. Hook load confirmation. CATM calibration. ProTorque’s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.",
+    "cta": "Explore Drilling Services",
+    "url": "/drilling-services/"
+   },
+   {
+    "img": "content/protorque-bucking-frame-2.png",
+    "title": "Equipment & Innovation",
+    "subtitle": "Equipment designed by the crews that use it.",
+    "text": "Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.",
+    "cta": "Explore Equipment & Innovation",
+    "url": "/equipment-and-innovation/"
+   },
+   {
+    "img": "content/protorque-and-prostar.jpg",
+    "title": "Tubular Running Services",
+    "subtitle": "Casing operations. Done right. Every connection.",
+    "text": "Experienced crews, engineered tools, and disciplined preparation from thread cleaning and inspection to final make-up. ProTorque keeps casing programs predictable, safe, and on schedule.",
+    "cta": "Explore Tubular Running Services",
+    "url": "/tubular-running-services/"
+   }
+  ],
+  "1491": [
+   {
+    "img": "content/midstream-operations.jpg",
+    "title": "Midstream Construction & Maintenance",
+    "subtitle": "Operational reliability across midstream infrastructure.",
+    "text": "Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.",
+    "cta": "Explore Midstream Services",
+    "url": "/midstream-services/"
+   },
+   {
+    "img": "content/protorque-bucking-frame-2.png",
+    "title": "Equipment & Innovation",
+    "subtitle": "Equipment designed by the crews that use it.",
+    "text": "Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.",
+    "cta": "Explore Equipment & Innovation",
+    "url": "/equipment-and-innovation/"
+   },
+   {
+    "img": "content/protorque-and-prostar.jpg",
+    "title": "Tubular Running Services",
+    "subtitle": "Casing operations. Done right. Every connection.",
+    "text": "Experienced crews, engineered tools, and disciplined preparation from thread cleaning and inspection to final make-up. ProTorque keeps casing programs predictable, safe, and on schedule.",
+    "cta": "Explore Tubular Running Services",
+    "url": "/tubular-running-services/"
+   }
+  ],
+  "1512": [
+   {
+    "img": "content/midstream-operations.jpg",
+    "title": "Midstream Construction & Maintenance",
+    "subtitle": "Operational reliability across midstream infrastructure.",
+    "text": "Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.",
+    "cta": "Explore Midstream Services",
+    "url": "/midstream-services/"
+   },
+   {
+    "img": "content/tubular-running-services.jpg",
+    "title": "Drilling Verification & Monitoring",
+    "subtitle": "Drilling verification that keeps operations on track.",
+    "text": "Torque verification. Hook load confirmation. CATM calibration. ProTorque’s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.",
+    "cta": "Explore Drilling Services",
+    "url": "/drilling-services/"
+   },
+   {
+    "img": "content/protorque-and-prostar.jpg",
+    "title": "Tubular Running Services",
+    "subtitle": "Casing operations. Done right. Every connection.",
+    "text": "Experienced crews, engineered tools, and disciplined preparation from thread cleaning and inspection to final make-up. ProTorque keeps casing programs predictable, safe, and on schedule.",
+    "cta": "Explore Tubular Running Services",
+    "url": "/tubular-running-services/"
+   }
+  ]
+ },
+ "tabs": {
+  "tubular-running-services-page": [
+   {
+    "label": "Preparation",
+    "eyebrow": "Phase 1:",
+    "title": "Preparation",
+    "text": "Every casing program starts before the pipe arrives at the rig. ProTorque coordinates thread inspection and cleaning, vacuum drifting, CRT readiness, and program-specific equipment confirmation in advance. By the time casing reaches the floor, the variables are gone.",
+    "img": null
+   },
+   {
+    "label": "Verification",
+    "eyebrow": "Phase 2:",
+    "title": "Verification",
+    "text": "Independent verification at every critical point. Hook load, top drive torque, iron roughneck calibration, and connection make-up data captured and documented for every joint. Operators see the numbers in real time and walk away with the records.",
+    "img": null
+   },
+   {
+    "label": "Execution",
+    "eyebrow": "Phase 3:",
+    "title": "Execution",
+    "text": "The same crews. The same standards. The same maintenance discipline on every tool that hits the floor. Whether the work is a new well in Canada, a workover in West Texas, or a CCS string, the casing crew arrives ready and stays ready.",
+    "img": null
+   },
+   {
+    "label": "Documentation",
+    "eyebrow": "Phase 4:",
+    "title": "Documentation",
+    "text": "Every job leaves with a job package. Make-up reports, tally confirmation, thread inspection records, equipment logs. The documentation supports operator audits and protects integrity from the connection up.",
+    "img": null
+   }
+  ],
+  "drilling-services-page": [
+   {
+    "label": "Equipment Assessment",
+    "eyebrow": "Phase 1",
+    "title": "Equipment Assessment",
+    "text": "Pre-job inspection of the equipment that will be verified. Connection specs, torque requirements, and program-specific calibration targets confirmed before the work starts.",
+    "img": null
+   },
+   {
+    "label": "Calibration & Setup",
+    "eyebrow": "Phase 2",
+    "title": "Calibration & Setup",
+    "text": "Independent calibration of power tongs, top drives, iron roughneck systems, and hook load equipment to manufacturer or program specification. Test fixtures, traceable standards, and documented results.",
+    "img": null
+   },
+   {
+    "label": "Live Verification",
+    "eyebrow": "Phase 3",
+    "title": "Live Verification",
+    "text": "Real-time monitoring during operations. Every connection, every joint, every measurement captured and documented. Anomalies flagged in real time so the crew can act.",
+    "img": null
+   },
+   {
+    "label": "Reporting & Handoff",
+    "eyebrow": "Phase 4",
+    "title": "Reporting & Handoff",
+    "text": "Documentation that supports operator audits, equipment performance reviews, and AFE justification. Numbers operators can act on, records they can stand behind.",
+    "img": null
+   }
+  ],
+  "midstream-services-page": [
+   {
+    "label": "Scope & Planning",
+    "eyebrow": "Phase 1",
+    "title": "Scope & Planning",
+    "text": "Pre-job scoping with the operator or EPC. Trades required, timeline, materials, site access, and any specialty considerations (pipe materials, environmental constraints, permitting) locked in before mobilization.",
+    "img": null
+   },
+   {
+    "label": "Trade Coordination",
+    "eyebrow": "Phase 2",
+    "title": "Trade Coordination",
+    "text": "Internal trade coordination across electrical, instrumentation, mechanical, civil, and specialty piping. ProTorque’s in-house capability removes the friction of managing multiple subcontractors on a single job.",
+    "img": null
+   },
+   {
+    "label": "Execution",
+    "eyebrow": "Phase 3",
+    "title": "Execution",
+    "text": "Crews on site. Work executed to spec, on schedule, with the same field discipline ProTorque brings to drilling and casing operations. Coordination with operator field representatives throughout.",
+    "img": null
+   },
+   {
+    "label": "Documentation",
+    "eyebrow": "Phase 4",
+    "title": "Documentation",
+    "text": "Job package delivered. As-built documentation, weld records, inspection reports, environmental compliance records. The operator has what they need for audits, regulatory reporting, and ongoing facility management.",
+    "img": null
+   }
+  ]
+ }
+}

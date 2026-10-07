@@ -3,7 +3,15 @@
 Writes preview/site/{index.html, about.html, assets/..., uploads/...}. Links to pages that are not built yet show a notice."""
 import re, os, shutil, subprocess, urllib.parse
 BASE='http://localhost:8080'
-PAGES={'/': 'index.html', '/about/': 'about.html', '/midstream-services/': 'midstream-services.html', '/midstream-services/midstream-construction/': 'midstream-construction.html'}
+import subprocess as _sp
+PAGES={'/': 'index.html', '/about/': 'about.html', '/midstream-services/': 'midstream-services.html', '/news/': 'news.html', '/careers/': 'careers.html', '/contact-us/': 'contact-us.html'}
+# every other published page, named by slug
+for line in _sp.run(['bash','-c','cd wp && wp post list --post_type=page --post_status=publish --fields=url,post_name --allow-root --format=csv'],capture_output=True,text=True).stdout.splitlines()[1:]:
+    url,slug=line.rsplit(',',1)
+    if slug in ('home','about','midstream-services','news','careers','contact-us','sample-page','service-name-template','privacy-policy'): continue
+    PAGES[urllib.parse.urlparse(url).path]=slug+'.html'
+# one news post for the single template
+PAGES['/mechanical-maintenance-in-midstream-facilities/']='post-mechanical-maintenance.html'
 OUT='preview/site'
 THEME='/home/claude/protorque-wp/wp/wp-content/themes/protorque'
 UPLOADS='/home/claude/protorque-wp/wp/wp-content/uploads'
@@ -26,7 +34,7 @@ def copy_asset(url):
         return rel
     return None
 notice='''<script>document.addEventListener('click',function(e){var a=e.target.closest('a[data-notbuilt]');if(!a)return;e.preventDefault();var t=document.getElementById('pt-notbuilt');if(!t){t=document.createElement('div');t.id='pt-notbuilt';t.style.cssText='position:fixed;left:50%;bottom:48px;transform:translateX(-50%);background:#0F172A;color:#F1F5F9;font:14px/1.4 Calibri,Arial,sans-serif;padding:12px 18px;border-radius:4px;z-index:1000;box-shadow:0 10px 30px rgba(0,0,0,.3)';document.body.appendChild(t);}t.textContent='Not built yet: '+a.getAttribute('data-notbuilt');clearTimeout(t._h);t._h=setTimeout(function(){t.remove();},2200);});</script>'''
-banner='<div style="position:fixed;left:0;right:0;bottom:0;z-index:999;background:#0F172A;color:#F1F5F9;font:12px/1.4 Calibri,Arial,sans-serif;padding:8px 16px;text-align:center">Development preview. Pages built so far: Home, About, Midstream Services, Midstream Construction. Other links show a notice. Hero still is a placeholder pending the video.</div>'
+banner='<div style="position:fixed;left:0;right:0;bottom:0;z-index:999;background:#0F172A;color:#F1F5F9;font:12px/1.4 Calibri,Arial,sans-serif;padding:8px 16px;text-align:center">Development preview, static export. All pages are built; forms, search and the YouTube embeds are live on the WordPress install, not in this preview.</div>'
 for path,fname in PAGES.items():
     html=subprocess.run(['curl','-s','--noproxy','*',BASE+path],capture_output=True,text=True).stdout
     html=re.sub(r'<!-- Google Tag Manager -->.*?<!-- End Google Tag Manager -->','',html,flags=re.S)
@@ -46,6 +54,9 @@ for path,fname in PAGES.items():
         q=m.group(1); rel=copy_asset(m.group(2).split('?')[0]) or m.group(2)
         return f'{m.group(0)[:m.group(0).index(q)+1]}{rel}{q}'
     html=re.sub(r'(?:href|src|poster|data-image)=(["\'])('+re.escape(BASE)+r'/wp-content/[^"\']+)\1', lambda m: m.group(0).replace(m.group(2), copy_asset(m.group(2).split('?')[0]) or m.group(2)), html)
+    html=re.sub(r' srcset="[^"]*localhost[^"]*"','',html)
+    html=re.sub(r' sizes="auto[^"]*"','',html)
+    html=re.sub(r'<script[^>]*src="http://localhost:8080/wp-content/plugins[^"]*"[^>]*></script>\n?','',html)
     html=re.sub(r"<link rel='stylesheet' id='pt-[^']*' href='("+re.escape(BASE)+r"/wp-content/[^']*)'", lambda m: m.group(0).replace(m.group(1), copy_asset(m.group(1).split('?')[0]) or m.group(1)), html)
     # page links
     def link(m):

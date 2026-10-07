@@ -14,3 +14,4 @@ php-server.log
 preview/*.html
 wp/wp-content/uploads/
 preview/site/
+deploy/*.zip

@@ -108,6 +108,19 @@ function pt_nav_render_split( array $node ): void {
 	echo '</div></div></div>';
 }
 
+/** Equipment preview image: the theme-bundled product image by page slug, else the page's _pt_mm_image_id meta. */
+function pt_nav_item_image( $page_id ) {
+	if ( ! $page_id ) {
+		return '';
+	}
+	$slug = get_post_field( 'post_name', $page_id );
+	if ( $slug && file_exists( get_template_directory() . "/assets/img/menu/$slug.png" ) ) {
+		return get_template_directory_uri() . "/assets/img/menu/$slug.png";
+	}
+	$img = (int) get_post_meta( $page_id, '_pt_mm_image_id', true );
+	return $img ? ( wp_get_attachment_image_url( $img, 'medium' ) ?: '' ) : '';
+}
+
 function pt_nav_render_equipment( array $node ): void {
 	$items = $node['children'];
 	$half  = (int) ceil( count( $items ) / 2 );
@@ -119,8 +132,7 @@ function pt_nav_render_equipment( array $node ): void {
 		echo '<ul class="pt-mega__links">';
 		foreach ( $col as $c ) {
 			$blurb = $c['object'] ? get_post_meta( $c['object'], '_pt_mm_blurb', true ) : '';
-			$img   = $c['object'] ? (int) get_post_meta( $c['object'], '_pt_mm_image_id', true ) : 0;
-			$src   = $img ? wp_get_attachment_image_url( $img, 'medium' ) : '';
+			$src   = pt_nav_item_image( $c['object'] );
 			printf(
 				'<li><a href="%s" data-blurb="%s" data-image="%s" data-title="%s">%s<span class="pt-nav__chev" aria-hidden="true"></span></a></li>',
 				esc_url( $c['url'] ),
@@ -134,8 +146,7 @@ function pt_nav_render_equipment( array $node ): void {
 	}
 	echo '</div></div>';
 	$fb = $first && $first['object'] ? get_post_meta( $first['object'], '_pt_mm_blurb', true ) : '';
-	$fi = $first && $first['object'] ? (int) get_post_meta( $first['object'], '_pt_mm_image_id', true ) : 0;
-	$fs = $fi ? wp_get_attachment_image_url( $fi, 'medium' ) : '';
+	$fs = $first ? pt_nav_item_image( $first['object'] ) : '';
 	echo '<div class="pt-mega__preview" aria-live="polite">';
 	echo '<div class="pt-mega__previewtext"><h3 class="pt-mega__previewtitle">' . esc_html( $first['title'] ?? '' ) . '</h3><p class="pt-mega__previewblurb">' . esc_html( $fb ) . '</p><a class="pt-btn pt-mega__cta" href="' . esc_url( $first['url'] ?? '#' ) . '">Explore ' . esc_html( $first['title'] ?? '' ) . '</a></div>';
 	echo '<div class="pt-mega__previewimg"><img src="' . esc_url( $fs ) . '" alt="" width="300" height="300"></div>';

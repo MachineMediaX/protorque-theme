@@ -1,0 +1,4709 @@
+{
+ "tubular-running-services": {
+  "slug": "tubular-running-services",
+  "kind": "landing",
+  "title": "Tubular Running Services",
+  "id": 185,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Tubular Running Services",
+    "sub": "Field-proven crews. Engineered tools. Disciplined casing operations across new wells, completions, and workovers."
+   },
+   {
+    "kind": "overview",
+    "title": "The foundation of ProTorque Total Rig Solutions™",
+    "paras": [
+     "Tubular running services are the foundation of ProTorque. Casing programs, power tong operations, CRT execution, thread inspection, vacuum drifting. Every part of running pipe in the hole, delivered with the discipline operators rely on when the program has to go right the first time.",
+     "ProTorque crews work across new well construction in Canada, completions and workover operations in the United States, and specialty applications including carbon capture wells and fiber-optic instrumented casing. The work is technical. The standard is the same on every job.",
+     "Twenty-plus years of casing experience. Crews trained on every major connection. Equipment maintained to the same readiness standard on every job, every region, every rig."
+    ],
+    "tiles": [
+     {
+      "value": "20+",
+      "label": "Years Operating"
+     },
+     {
+      "value": "3",
+      "label": "Countries Active"
+     },
+     {
+      "value": "All",
+      "label": "Major Connections"
+     }
+    ]
+   },
+   {
+    "kind": "services",
+    "title": "What we deliver in the field",
+    "cards": [
+     {
+      "n": "1",
+      "title": "Casing Running & Power Tong Services",
+      "lead": "Run casing with the crews that do it every day.",
+      "text": "Experienced casing crews and engineered power tong operations across new wells, completions, and workovers. ProTorque keeps casing on schedule and connections inside spec.",
+      "cta": "Explore Casing Running & Power Tong Services",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "n": "2",
+      "title": "CRT Redress & Maintenance",
+      "lead": "CRTs ready when the program calls for them.",
+      "text": "Full redress, inspection, and maintenance for casing running tools across the ProTorque fleet. Documentation that supports operator audits and field reliability.",
+      "cta": "Explore CRT Redress and Maintenance",
+      "url": "/tubular-running-services/crt-redress-and-maintenance-program/"
+     },
+     {
+      "n": "3",
+      "title": "Tubular Thread Cleaning & Inspection",
+      "lead": "Start every run with clean, gauged connections.",
+      "text": "Visual inspection, thread cleaning, gauge verification, and laser tally confirmation before pipe reaches the rig floor. Removes a major source of NPT before the job starts.",
+      "cta": "Explore Tubular Thread Cleaning and Inspection",
+      "url": "/tubular-running-services/tubular-thread-cleaning-and-inspection/"
+     },
+     {
+      "n": "4",
+      "title": "Vacuum Drifting & Casing ID Confirmation",
+      "lead": "Verify ID. Confirm the program before the run.",
+      "text": "Vacuum drifting and casing ID confirmation services that catch dimensional issues before casing goes downhole. Faster, cleaner, and more verifiable than conventional drift methods.",
+      "cta": "Explore Vacuum Drifting & Casing ID Confirmation",
+      "url": "/tubular-running-services/vacuum-drifting-and-casing-id-confirmation/"
+     },
+     {
+      "n": "5",
+      "title": "Carbon Capture & Storage (CCS)",
+      "lead": "Chrome casing operations for CCS wells.",
+      "text": "Specialized casing services for carbon capture and storage projects, including chrome casing handling and connection-specific make-up. Built on ProTorque’s experience running premium materials in challenging environments.",
+      "cta": "Explore CCS Casing Services",
+      "url": "/tubular-running-services/ccs-casing-operations/"
+     },
+     {
+      "n": "6",
+      "title": "Fiber-Optic Casing Installation",
+      "lead": "Run casing with the data line that comes with it.",
+      "text": "Casing running services for fiber-optic instrumented strings, including coordination with fiber installation crews and connection workflows that protect the cable through make-up.",
+      "cta": "Explore Fiber-Optic Casing Installation",
+      "url": "/tubular-running-services/fiber-optic-casing-installation/"
+     }
+    ],
+    "intro": [
+     "Six core capabilities. One standard of execution. ProTorque’s tubular running services cover every step from connection preparation to make-up verification, with the equipment, crews, and documentation operators need to keep casing programs on schedule."
+    ]
+   },
+   {
+    "kind": "tabs",
+    "title": "How we run tubular operations",
+    "images": [
+     "content/024A7522-small.jpg"
+    ],
+    "tabs": [
+     {
+      "label": "Preparation",
+      "eyebrow": "Phase 1:",
+      "title": "Preparation",
+      "text": "Every casing program starts before the pipe arrives at the rig. ProTorque coordinates thread inspection and cleaning, vacuum drifting, CRT readiness, and program-specific equipment confirmation in advance. By the time casing reaches the floor, the variables are gone.",
+      "img": null
+     },
+     {
+      "label": "Verification",
+      "eyebrow": "Phase 2:",
+      "title": "Verification",
+      "text": "Independent verification at every critical point. Hook load, top drive torque, iron roughneck calibration, and connection make-up data captured and documented for every joint. Operators see the numbers in real time and walk away with the records.",
+      "img": null
+     },
+     {
+      "label": "Execution",
+      "eyebrow": "Phase 3:",
+      "title": "Execution",
+      "text": "The same crews. The same standards. The same maintenance discipline on every tool that hits the floor. Whether the work is a new well in Canada, a workover in West Texas, or a CCS string, the casing crew arrives ready and stays ready.",
+      "img": null
+     },
+     {
+      "label": "Documentation",
+      "eyebrow": "Phase 4:",
+      "title": "Documentation",
+      "text": "Every job leaves with a job package. Make-up reports, tally confirmation, thread inspection records, equipment logs. The documentation supports operator audits and protects integrity from the connection up.",
+      "img": null
+     }
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Where ProTorque runs casing",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Applications:"
+     },
+     {
+      "kind": "li",
+      "text": "New well casing construction"
+     },
+     {
+      "kind": "li",
+      "text": "Completions and workover operations"
+     },
+     {
+      "kind": "li",
+      "text": "Carbon capture and storage (CCS) wells"
+     },
+     {
+      "kind": "li",
+      "text": "Fiber-optic instrumented casing strings"
+     },
+     {
+      "kind": "li",
+      "text": "Premium and chrome casing programs"
+     },
+     {
+      "kind": "li",
+      "text": "Workover rigs and pulling units"
+     },
+     {
+      "kind": "li",
+      "text": "Onshore and offshore operations"
+     }
+    ],
+    "intro": [
+     "ProTorque tubular running services are active across Canada, the United States, and South America, supporting operators on new drills, completions, workovers, and specialty applications.",
+     "In Canada, ProTorque crews run casing on new wells across Alberta, British Columbia, and Saskatchewan. In the United States, the focus is completions and workover operations across the Permian Basin and broader Texas oil and gas country, with crews positioned for fast response. In South America, ProTorque Energy SAS supports operators across Colombia and select markets."
+    ]
+   },
+   {
+    "kind": "slider",
+    "title": "What casing programs are built on",
+    "paras": [
+     "Tubular running services connect to the rest of ProTorque’s capabilities. Verification, equipment, and supporting services that keep casing programs running clean."
+    ],
+    "slides": [
+     {
+      "img": "content/midstream-operations.jpg",
+      "title": "Midstream Construction & Maintenance",
+      "subtitle": "Operational reliability across midstream infrastructure.",
+      "text": "Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.",
+      "cta": "Explore Midstream Services",
+      "url": "/midstream-services/"
+     },
+     {
+      "img": "content/tubular-running-services.jpg",
+      "title": "Drilling Verification & Monitoring",
+      "subtitle": "Drilling verification that keeps operations on track.",
+      "text": "Torque verification. Hook load confirmation. CATM calibration. ProTorque’s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.",
+      "cta": "Explore Drilling Services",
+      "url": "/drilling-services/"
+     },
+     {
+      "img": "content/protorque-bucking-frame-2.png",
+      "title": "Equipment & Innovation",
+      "subtitle": "Equipment designed by the crews that use it.",
+      "text": "Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.",
+      "cta": "Explore Equipment & Innovation",
+      "url": "/equipment-and-innovation/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to run your next casing program?",
+    "paras": [
+     "Talk to a ProTorque crew lead about your upcoming TRS work. We respond fast and prepare before the rig is ready."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "drilling-services": {
+  "slug": "drilling-services",
+  "kind": "landing",
+  "title": "Drilling Services",
+  "id": 347,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Drilling Services",
+    "sub": "Independent verification and monitoring that gives operators the numbers they can act on."
+   },
+   {
+    "kind": "overview",
+    "title": "The numbers you can trust.",
+    "paras": [
+     "Drilling does not get more efficient by accident. It gets more efficient when the equipment that does the work has been calibrated, monitored, and verified by an independent third party. ProTorque drilling services do exactly that. From power tong torque to top drive performance, from hook load accuracy to iron roughneck calibration, ProTorque provides the independent verification operators need to drill faster, drill safer, and drill with confidence.",
+     "Every service is built on the same principle: give the operator the data. Document the work. Catch the drift before it becomes a problem.",
+     "No matter where the rig is, ProTorque crews show up with calibrated equipment, documented procedures, and real-time data systems that turn drilling decisions into informed ones."
+    ],
+    "tiles": [
+     {
+      "value": "All",
+      "label": "major rig equipment covered"
+     },
+     {
+      "value": "Real-time",
+      "label": "data capture and reporting"
+     },
+     {
+      "value": "Documented",
+      "label": "every connection, every joint"
+     }
+    ]
+   },
+   {
+    "kind": "services",
+    "title": "What we verify and monitor",
+    "cards": [
+     {
+      "n": "1",
+      "title": "CATM for Power Tongs",
+      "lead": "Independent torque verification at the connection.",
+      "text": "Calibrated automated torque make-up for power tong operations. Documented connection-by-connection data that operators can verify and trust.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "n": "2",
+      "title": "CATM for Top Drive",
+      "lead": "Calibrated make-up for every connection.",
+      "text": "Independent torque verification on top drive make-up operations. Catches calibration drift and confirms connection integrity before the program goes off plan.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "n": "3",
+      "title": "Top Drive + Hook Load Verification",
+      "lead": "Trust the readings. Trust the equipment.",
+      "text": "Independent verification of top drive torque and hook load systems. Documented results give operators the numbers they need for performance benchmarking and audits.",
+      "cta": "Explore Hook Load Verification",
+      "url": "/drilling-services/top-drive-and-hook-load-verification/"
+     },
+     {
+      "n": "4",
+      "title": "Torque Verification",
+      "lead": "Catch the drift before it costs you time.",
+      "text": "Independent torque verification across rig equipment. The drift you do not catch becomes the NPT you cannot explain. ProTorque catches it.",
+      "cta": "Explore Torque Verification",
+      "url": "/drilling-services/torque-verification/"
+     },
+     {
+      "n": "5",
+      "title": "Iron Roughneck Torque Testing",
+      "lead": "Verify the iron roughneck. Verify the connection.",
+      "text": "Independent calibration and torque testing for iron roughneck systems. Confirms the equipment is making up connections the way the program calls for.",
+      "cta": "Explore Iron Roughneck Torque Testing",
+      "url": "/drilling-services/iron-roughneck-torque-testing/"
+     },
+     {
+      "n": "6",
+      "title": "Real-Time Drilling Data",
+      "lead": "Drilling data that supports the decision.",
+      "text": "Real-time drilling data systems and integration that put the operator in control of the rig. Pressure, torque, hook load, and connection data captured and delivered when it matters",
+      "cta": "Explore Real-Time Drilling Data",
+      "url": "/drilling-services/real-time-drilling-data/"
+     }
+    ],
+    "intro": [
+     "Power tongs, top drive, iron roughneck, hook load, real-time data, and emerging applications. Every service is built around one outcome: numbers operators can act on."
+    ]
+   },
+   {
+    "kind": "tabs",
+    "title": "How drilling verification works",
+    "tabs": [
+     {
+      "label": "Equipment Assessment",
+      "eyebrow": "Phase 1",
+      "title": "Equipment Assessment",
+      "text": "Pre-job inspection of the equipment that will be verified. Connection specs, torque requirements, and program-specific calibration targets confirmed before the work starts.",
+      "img": null
+     },
+     {
+      "label": "Calibration & Setup",
+      "eyebrow": "Phase 2",
+      "title": "Calibration & Setup",
+      "text": "Independent calibration of power tongs, top drives, iron roughneck systems, and hook load equipment to manufacturer or program specification. Test fixtures, traceable standards, and documented results.",
+      "img": null
+     },
+     {
+      "label": "Live Verification",
+      "eyebrow": "Phase 3",
+      "title": "Live Verification",
+      "text": "Real-time monitoring during operations. Every connection, every joint, every measurement captured and documented. Anomalies flagged in real time so the crew can act.",
+      "img": null
+     },
+     {
+      "label": "Reporting & Handoff",
+      "eyebrow": "Phase 4",
+      "title": "Reporting & Handoff",
+      "text": "Documentation that supports operator audits, equipment performance reviews, and AFE justification. Numbers operators can act on, records they can stand behind.",
+      "img": null
+     }
+    ]
+   },
+   {
+    "kind": "slider",
+    "title": "What drilling verification supports",
+    "paras": [
+     "Drilling verification does not stand alone. It supports the casing program, the equipment that runs the work, and the broader field operation that follows."
+    ],
+    "slides": [
+     {
+      "img": "content/midstream-operations.jpg",
+      "title": "Midstream Construction & Maintenance",
+      "subtitle": "Operational reliability across midstream infrastructure.",
+      "text": "Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.",
+      "cta": "Explore Midstream Services",
+      "url": "/midstream-services/"
+     },
+     {
+      "img": "content/protorque-bucking-frame-2.png",
+      "title": "Equipment & Innovation",
+      "subtitle": "Equipment designed by the crews that use it.",
+      "text": "Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.",
+      "cta": "Explore Equipment & Innovation",
+      "url": "/equipment-and-innovation/"
+     },
+     {
+      "img": "content/protorque-and-prostar.jpg",
+      "title": "Tubular Running Services",
+      "subtitle": "Casing operations. Done right. Every connection.",
+      "text": "Experienced crews, engineered tools, and disciplined preparation from thread cleaning and inspection to final make-up. ProTorque keeps casing programs predictable, safe, and on schedule.",
+      "cta": "Explore Tubular Running Services",
+      "url": "/tubular-running-services/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need verification on your next program?",
+    "paras": [
+     "Talk to ProTorque about CATM, hook load verification, torque testing, or any of our drilling verification services."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "equipment-and-innovation": {
+  "slug": "equipment-and-innovation",
+  "kind": "landing",
+  "title": "Equipment & Innovation",
+  "id": 382,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Equipment & Innovation",
+    "sub": "Purpose-built equipment for tubular running, drilling, and casing operations. Engineered, field-proven equipment."
+   },
+   {
+    "kind": "overview",
+    "title": "Equipment designed by the crews that use it.",
+    "paras": [
+     "Every piece of equipment in the ProTorque lineup exists because crews in the field needed a better answer to a real problem. Dropped object risks on the rig floor. RCD installs creating handling exposure. BHA assembly chewing up the critical path. Make-up that needed to happen somewhere other than the rig floor.",
+     "ProTorque engineers and supplies the lineup, field-proves it on rigs across Canada, the USA, and South America. The result is engineered equipment that solves operational problems because it was built to solve operational problems."
+    ]
+   },
+   {
+    "kind": "services",
+    "title": "The ProTorque equipment lineup",
+    "cards": [
+     {
+      "n": "1",
+      "title": "CRT Tether Ring",
+      "lead": "Dropped object prevention for CRT operations.",
+      "text": "Engineered safety equipment that prevents the CRT from becoming a dropped object risk during casing operations. Inspection, maintenance, and field readiness backed by ProTorque.",
+      "cta": "Explore CRT Tether Ring",
+      "url": "/equipment-and-innovation/crt-tether-ring/",
+      "img": "content/tether-ring-800.png"
+     },
+     {
+      "n": "2",
+      "title": "Mobile BHA Frame",
+      "lead": "Offline BHA assembly. Safer starts.",
+      "text": "Move bottom hole assembly work off the rig floor and into a controlled, horizontal setup. Saves time, reduces exposure, supports cleaner starts.",
+      "cta": "Explore Mobile BHA Frame",
+      "url": "/equipment-and-innovation/mobile-bha-frame/",
+      "img": "content/mobile-bha-800.png"
+     },
+     {
+      "n": "3",
+      "title": "Mobile Bucking Frame",
+      "lead": "Portable make-up off the rig floor.",
+      "text": "Controlled make-up for accessories, shop work, and remote operations. Moves the work to where the operator needs it, not where the rig dictates.",
+      "cta": "Explore Mobile Bucking Frame",
+      "url": "/equipment-and-innovation/mobile-bucking-frame/",
+      "img": "content/protorque-bucking-frame-2.png"
+     },
+     {
+      "n": "4",
+      "title": "RCD Press",
+      "lead": "RCD installs, taken offline.",
+      "text": "Take RCD installation off the rig floor. Reduce handling exposure. Reduce MPD NPT. Clear ROI that operations and procurement can justify on the AFE.",
+      "cta": "Explore RCD Press",
+      "url": "/equipment-and-innovation/rcd-press/",
+      "img": "content/rcd-press-800.png"
+     },
+     {
+      "n": "5",
+      "title": "Electric Hydraulic Power Unit (eHPU)",
+      "lead": "Hydraulic power without the diesel.",
+      "text": "Electric hydraulic power for tubular running and rig support operations. Cleaner, quieter, lower fuel consumption, lower maintenance burden.",
+      "cta": "Explore eHPU",
+      "url": "/equipment-and-innovation/electric-hydraulic-power-unit/",
+      "img": "content/ehpu-800.png"
+     },
+     {
+      "n": "6",
+      "title": "Vacuum Drift System",
+      "lead": "Verified casing ID before the run.",
+      "text": "Engineered vacuum drift equipment for documented casing ID confirmation. Faster, cleaner, more verifiable than conventional drift methods.",
+      "cta": "Explore Vacuum Drift System",
+      "url": "/equipment-and-innovation/vacuum-drift-system/",
+      "img": "content/vacuum-drift-800.png"
+     },
+     {
+      "n": "7",
+      "title": "Break-Out Vise",
+      "lead": "Controlled break-out for tubular operations.",
+      "text": "Engineered break-out vise for tubular operations where controlled, documented break-out matters.",
+      "cta": "Explore Break-Out Vise",
+      "url": "/equipment-and-innovation/break-out-vise/",
+      "img": "content/break-out-vise-800.png"
+     },
+     {
+      "n": "8",
+      "title": "CRT Nubbin",
+      "lead": "Supporting equipment for CRT operations.",
+      "text": "Engineered nubbin equipment supporting CRT operations alongside the Tether Ring and ProTorque’s casing running services.",
+      "cta": "Explore CRT Nubbin",
+      "url": "/equipment-and-innovation/crt-nubbin/",
+      "img": "content/crt-nubbin-800.png"
+     },
+     {
+      "n": "9",
+      "title": "Pipe Roller",
+      "lead": "Tubular handling. Done right.",
+      "text": "Engineered pipe handling equipment for tubular operations. Built to support casing yards, pipe handling, and pre-run staging.",
+      "cta": "Explore Pipe Roller",
+      "url": "/equipment-and-innovation/pipe-roller/",
+      "img": "content/pipe-roller-800.png"
+     },
+     {
+      "n": "10",
+      "title": "Flush Mounted Spider",
+      "lead": "Floor-level safety for casing operations.",
+      "text": "Flush-mounted spider equipment supplied by ProTorque. Cleaner rig floor, reduced trip hazards, safer casing handling. Available through ProTorque directly.",
+      "cta": "Explore Flush Mounted Spider",
+      "url": "/equipment-and-innovation/flush-mounted-spider/",
+      "img": "content/flush-mounted-spider-800.png"
+     }
+    ]
+   },
+   {
+    "kind": "slider",
+    "title": "Where the equipment goes to work",
+    "paras": [
+     "ProTorque equipment is used across the full service set. From casing operations to drilling verification, the equipment connects to real field work."
+    ],
+    "slides": [
+     {
+      "img": "content/midstream-operations.jpg",
+      "title": "Midstream Construction & Maintenance",
+      "subtitle": "Operational reliability across midstream infrastructure.",
+      "text": "Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.",
+      "cta": "Explore Midstream Services",
+      "url": "/midstream-services/"
+     },
+     {
+      "img": "content/tubular-running-services.jpg",
+      "title": "Drilling Verification & Monitoring",
+      "subtitle": "Drilling verification that keeps operations on track.",
+      "text": "Torque verification. Hook load confirmation. CATM calibration. ProTorque’s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.",
+      "cta": "Explore Drilling Services",
+      "url": "/drilling-services/"
+     },
+     {
+      "img": "content/protorque-and-prostar.jpg",
+      "title": "Tubular Running Services",
+      "subtitle": "Casing operations. Done right. Every connection.",
+      "text": "Experienced crews, engineered tools, and disciplined preparation from thread cleaning and inspection to final make-up. ProTorque keeps casing programs predictable, safe, and on schedule.",
+      "cta": "Explore Tubular Running Services",
+      "url": "/tubular-running-services/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Looking for equipment for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use and operations."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "casing-running-and-power-tong-services": {
+  "slug": "casing-running-and-power-tong-services",
+  "kind": "service",
+  "title": "Casing Running and Power Tong Services",
+  "id": 319,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Casing Running & Power Tong Services",
+    "sub": "Skilled casing crews and engineered power tong operations across new wells, completions, and workover programs."
+   },
+   {
+    "kind": "overview",
+    "title": "Casing operations that show up ready.",
+    "eyebrow": "Our services",
+    "paras": [
+     "Running casing is the most consequential part of every drilling and completions program. Every joint matters, every connection matters, and every minute on the floor counts. ProTorque casing crews show up with the experience, the equipment, and the discipline to keep operations on schedule and connections inside spec.",
+     "Whether the work is a new well in Alberta, a workover in West Texas, or a chrome casing program for CCS, the standard is the same. Skilled crews, calibrated power tongs, documented make-up, and the readiness to handle whatever the program asks for."
+    ],
+    "images": [
+     "content/tongs-3-683x1024-1.jpg"
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Every casing job runs through the same standard sequence:",
+    "eyebrow": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Surface, intermediate, and production casing running"
+     },
+     {
+      "kind": "li",
+      "text": "Premium connection make-up"
+     },
+     {
+      "kind": "li",
+      "text": "Power tong operation across the full range of casing sizes"
+     },
+     {
+      "kind": "li",
+      "text": "CRT (Casing Running Tool) operations"
+     },
+     {
+      "kind": "li",
+      "text": "Connection make-up monitoring and torque-turn documentation"
+     },
+     {
+      "kind": "li",
+      "text": "Workover casing operations for completions and re-completions"
+     },
+     {
+      "kind": "li",
+      "text": "Tubing running and pulling for workover programs"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with thread inspection, vacuum drifting, and verification teams"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "eyebrow": "How we work",
+    "steps": [
+     {
+      "title": "Pre-Job Planning",
+      "text": "Connection specs, tally confirmation, equipment readiness, and crew composition locked in before the job starts. Power tongs are pre-calibrated against the connection requirements."
+     },
+     {
+      "title": "On-Site Execution",
+      "text": "Crew arrives prepared. Casing is run with attention to handling, alignment, and torque integrity. Every connection is monitored in real time with documented torque-turn graphs."
+     },
+     {
+      "title": "Docs & Handoff",
+      "text": "The job leaves with a complete record. Tally confirmation, make-up logs, connection-by-connection torque data, and any anomaly notes. Operators have what they need for audits and integrity tracking."
+     },
+     {
+      "title": "Post-Job Review",
+      "text": "Equipment returns to the shop for inspection and redress. Crew debriefs the job. Lessons feed into the next program."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Every casing program is a foundation for the well’s life cycle. A missed connection, a rushed run, or a calibration drift can turn into a costly remedial job or worse. ProTorque crews work the way the program was meant to be run: deliberately, with verification, and with documentation that holds up after the cement sets.",
+     "For operators in Canada running new wells, this means a casing crew that integrates cleanly with the drilling program. For operators in the US running completions and workovers, this means fast-response crews that can mobilize for short-cycle work without compromising on quality. For specialty applications including CCS and fiber-optic instrumented casing, this means the same discipline applied to demanding pipe metallurgies and tighter connection tolerances."
+    ],
+    "quote": "Documented connections. Calibrated equipment. Ready crews. Every casing program built on the same standard of execution."
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/crt-redress-2.jpg",
+      "title": "CRT Redress and Maintenance Program",
+      "text": "Keeps the running tools field-ready and documented for every casing job.",
+      "cta": "Explore CRT Redress",
+      "url": "/tubular-running-services/crt-redress-and-maintenance-program/"
+     },
+     {
+      "img": "content/teeth-inspection.jpg",
+      "title": "Tubular Thread Cleaning and Inspection",
+      "text": "Confirms connection integrity before pipe reaches the rig floor.",
+      "cta": "Explore Thread Cleaning",
+      "url": "/tubular-running-services/tubular-thread-cleaning-and-inspection/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Engineered Equipment",
+      "text": "Purpose-built equipment for tubular running, drilling, and casing operations. Engineered, field-proven equipment.",
+      "cta": "Explore Equipment",
+      "url": "/equipment-and-innovation/"
+     }
+    ],
+    "intro": [
+     "Casing running connects to every other part of the TRS program. These services and equipment make the run cleaner, faster, and more verifiable."
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need a casing crew?",
+    "paras": [
+     "Talk to a ProTorque crew lead about your next casing program. We respond fast and prepare before the rig is ready."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "crt-redress-and-maintenance-program": {
+  "slug": "crt-redress-and-maintenance-program",
+  "kind": "service",
+  "title": "CRT Redress and Maintenance Program",
+  "id": 835,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "CRT Redress & Maintenance Program",
+    "sub": "Casing running tools maintained to operational readiness. Documented, inspected, and field-ready when the program calls for them."
+   },
+   {
+    "kind": "overview",
+    "title": "Tools that show up ready.",
+    "paras": [
+     "The casing running tool is the single most important piece of equipment on the floor during a casing run. When the CRT works, the run works. When it does not, the program stops. ProTorque’s CRT redress and maintenance program keeps casing running tools in operational condition through scheduled overhaul, inspection, and certification.",
+     "Every CRT in the ProTorque fleet runs through a documented redress and maintenance cycle. Operators get tools that perform predictably, and the records to prove it."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Full CRT teardown, inspection, and component replacement"
+     },
+     {
+      "kind": "li",
+      "text": "Wear-part renewal to manufacturer specification"
+     },
+     {
+      "kind": "li",
+      "text": "Hydraulic system inspection and service"
+     },
+     {
+      "kind": "li",
+      "text": "Pressure testing and functional verification"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation of inspection results and component history"
+     },
+     {
+      "kind": "li",
+      "text": "Recertification with traceable records"
+     },
+     {
+      "kind": "li",
+      "text": "Service across the ProTorque CRT fleet, including Volant CRT partner equipment"
+     },
+     {
+      "kind": "li",
+      "text": "Fleet readiness reporting for casing program planning"
+     }
+    ],
+    "intro": [
+     "The program covers every step from intake through ready pool:"
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Intake and Inspection",
+      "text": "Every CRT returning from a job is inspected for wear, damage, and operational status. Findings are logged and the redress plan is built."
+     },
+     {
+      "title": "Redress and Service",
+      "text": "The tool is fully redressed: worn components replaced, seals renewed, hydraulics serviced, and assemblies rebuilt to factory specification."
+     },
+     {
+      "title": "Test and Certify",
+      "text": "The redressed CRT runs through pressure and functional testing. Documentation is generated for audit traceability."
+     },
+     {
+      "title": "Ready Pool",
+      "text": "Certified tools are returned to the ready pool. When the next job needs a CRT, the operator gets one with current paperwork and verified status."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "A CRT that fails on the floor is a costly problem. Rig time stops, replacement tools have to be mobilized, and the casing run goes off plan. The redress and maintenance program is how ProTorque keeps that from happening. Every tool that leaves the shop has been inspected, serviced, and documented to a known standard.",
+     "This matters for operator audits, for fleet reliability across multiple regions, and for the kind of operational consistency that lets ProTorque mobilize crews on short notice for completions, workovers, and specialty applications."
+    ],
+    "quote": "<em>“Every CRT that leaves the shop has a paper trail. Every tool on the floor has a record. Every record stands up to an audit.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Where the CRT goes to work, supported by skilled crews and calibrated power tongs.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/teeth-inspection.jpg",
+      "title": "Tubular Thread Cleaning and Inspection",
+      "text": "Confirms connection integrity before pipe reaches the rig floor.",
+      "cta": "Explore Thread Cleaning",
+      "url": "/tubular-running-services/tubular-thread-cleaning-and-inspection/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Engineered Equipment",
+      "text": "CRT Tether Ring and CRT Nubbin engineered to support CRT operations on the rig floor.",
+      "cta": "Explore Equipment",
+      "url": "/equipment-and-innovation/"
+     }
+    ],
+    "intro": [
+     "The CRT is the centerpiece of every casing run. These services and equipment connect directly to it."
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need a CRT for your next program?",
+    "paras": [
+     "ProTorque keeps a documented, ready CRT fleet for casing operations across Canada, the USA, and South America. Talk to us about your upcoming work."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "tubular-thread-cleaning-and-inspection": {
+  "slug": "tubular-thread-cleaning-and-inspection",
+  "kind": "service",
+  "title": "Tubular Thread Cleaning and Inspection",
+  "id": 836,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Tubular Thread Cleaning and Inspection",
+    "sub": "Clean threads, gauged connections, and a documented tally before pipe reaches the rig floor."
+   },
+   {
+    "kind": "overview",
+    "title": "The pre-job step that protects the run.",
+    "paras": [
+     "Thread cleaning and inspection is one of the most understated steps in a casing program, and one of the most consequential. Before a single joint of casing goes in the hole, ProTorque crews handle the preparation work that determines whether the run is a success or a callback. Clean threads. Gauged connections. Documented tally.",
+     "When this work is done right, casing runs are predictable. When it is skipped or rushed, problems show up after the cement has set."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Visual inspection of every connection for damage, corrosion, and handling marks"
+     },
+     {
+      "kind": "li",
+      "text": "Cleaning of pin and box ends to remove debris, mill scale, and old thread compound"
+     },
+     {
+      "kind": "li",
+      "text": "Gauge inspection where required to verify connections are within spec"
+     },
+     {
+      "kind": "li",
+      "text": "Laser tally confirmation so every joint is accounted for before it reaches the rig"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation that supports post-job reporting and QA records"
+     },
+     {
+      "kind": "li",
+      "text": "Service for casing, tubing, drill pipe, and premium connections"
+     },
+     {
+      "kind": "li",
+      "text": "On-site or pre-mobilization service depending on program requirements"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with the casing crew so prepared pipe arrives ready to run"
+     }
+    ],
+    "intro": [
+     "Every casing job runs through the same standard sequence:"
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Receiving and Layout",
+      "text": "Pipe is received, laid out, and prepared for inspection. Every joint is accounted for before the work starts."
+     },
+     {
+      "title": "Visual and Gauge Inspection",
+      "text": "Each connection is inspected for damage, corrosion, and handling marks. Gauge inspection confirms the connection is within manufacturer spec."
+     },
+     {
+      "title": "Cleaning",
+      "text": "Pin and box ends are cleaned to remove debris, mill scale, and old thread compound. Connections are prepared for proper make-up."
+     },
+     {
+      "title": "Laser Tally and Documentation",
+      "text": "Every joint is logged, measured, and confirmed. The operator receives a complete tally and inspection report before the run begins."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Every casing connection is a pressure seal. It has to transfer load, resist fatigue, and hold up to the conditions of the wellbore for the life of the well. That performance depends on clean, undamaged threads that mate the way the manufacturer designed them to.",
+     "Debris, corrosion, storage damage, or leftover thread compound can compromise make-up. On the rig floor, under time pressure, these problems are easy to miss. The result is wasted connections, rework, or worse: integrity issues that surface after the casing is cemented.",
+     "Thread cleaning and inspection removes that variable. It gives the crew a known starting point and gives the operator documented evidence that the program started with sound pipe."
+    ],
+    "quote": "<em>“The small step that protects the rest of the program. Done in daylight before the run, not after the cement has set.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Where the prepared pipe goes next. Skilled crews and calibrated tongs running the program.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/vacuum-drift-card.jpg",
+      "title": "Vacuum Drifting and Casing ID Confirmation",
+      "text": "Dimensional verification that complements thread inspection.",
+      "cta": "Explore Vacuum Drifting",
+      "url": "/tubular-running-services/vacuum-drifting-and-casing-id-confirmation/"
+     },
+     {
+      "img": "content/crt-redress-2.jpg",
+      "title": "CRT Redress and Maintenance Program",
+      "text": "The other pre-job readiness service. Tools that arrive ready to run.",
+      "cta": "Explore CRT Redress",
+      "url": "/tubular-running-services/crt-redress-and-maintenance-program/"
+     }
+    ],
+    "intro": [
+     "Thread services are step one in the casing program. These are the services that follow"
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Get your next casing program off to a clean start.",
+    "paras": [
+     "Talk to ProTorque about thread cleaning, inspection, and tally services for your upcoming run."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "vacuum-drifting-and-casing-id-confirmation": {
+  "slug": "vacuum-drifting-and-casing-id-confirmation",
+  "kind": "service",
+  "title": "Vacuum Drifting and Casing ID Confirmation",
+  "id": 837,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Vacuum Drifting and Casing ID Confirmation",
+    "sub": "Verify casing ID. Confirm the program. Catch dimensional issues before pipe goes downhole."
+   },
+   {
+    "kind": "overview",
+    "title": "Drift testing that actually catches what matters.",
+    "paras": [
+     "Conventional drift methods get the job done, but they leave room for inconsistency. Vacuum drifting changes that. ProTorque’s vacuum drift system verifies casing ID with documented evidence, faster handling, and a cleaner pre-run workflow.",
+     "For operators running premium connections, tight-tolerance programs, or specialty casing for CCS or fiber-optic strings, vacuum drifting is the dimensional confirmation that protects the program from downhole surprises."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Vacuum drift testing on every joint of casing"
+     },
+     {
+      "kind": "li",
+      "text": "Drift size verification to API or program-specific spec"
+     },
+     {
+      "kind": "li",
+      "text": "Casing ID confirmation across the full length of pipe"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation of drift results for every joint"
+     },
+     {
+      "kind": "li",
+      "text": "Service for surface, intermediate, and production casing"
+     },
+     {
+      "kind": "li",
+      "text": "Pre-mobilization or on-site service options"
+     },
+     {
+      "kind": "li",
+      "text": "Compatible with chrome casing, premium connections, and specialty materials"
+     },
+     {
+      "kind": "li",
+      "text": "Reject pipe identification and traceability for rework or replacement"
+     }
+    ],
+    "intro": [
+     "Every casing job runs through the same standard sequence:"
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Joint Preparation",
+      "text": "Casing is laid out and the drift program is confirmed against the operator’s spec."
+     },
+     {
+      "title": "Vacuum Drift Verification",
+      "text": "Each joint is verified using the vacuum drift system. The method confirms ID consistency across the full pipe length, not just the mouth of the connection"
+     },
+     {
+      "title": "Documentation",
+      "text": "Drift results are logged per joint, with anomalies flagged and rejected pipe identified before mobilization."
+     },
+     {
+      "title": "Ready for Run",
+      "text": "Verified pipe is released for the run. The operator has confirmed, documented evidence that the casing string meets dimensional requirements."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "A dimensional issue downhole is a problem with no good answer. Stuck tools, restricted ID, or unexpected drift inconsistencies turn into NPT, remedial work, or compromised well integrity. Vacuum drifting catches those issues before they happen.",
+     "For operators running tight-tolerance casing programs, this is the dimensional confidence the rest of the program depends on. For operators running specialty materials, including chrome casing for CCS work or instrumented strings with fiber-optic cable, this is the verification step that protects the investment in premium pipe."
+    ],
+    "quote": "<em>“Faster than conventional drift. Cleaner workflow. Documented evidence on every joint, before pipe leaves the yard.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/teeth-inspection.jpg",
+      "title": "Tubular Thread Cleaning and Inspection",
+      "text": "Clean, inspected connections paired with verified casing ID.",
+      "cta": "Explore Thread Cleaning",
+      "url": "/tubular-running-services/tubular-thread-cleaning-and-inspection/"
+     },
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Where the verified pipe goes to the rig floor.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Vacuum Drift System",
+      "text": "Engineered vacuum drift equipment for documented casing ID confirmation. Faster, cleaner, more verifiable.",
+      "cta": "Explore Equipment",
+      "url": "/equipment-and-innovation/"
+     }
+    ],
+    "intro": [
+     "Vacuum drifting connects to every other part of the TRS program. These services and equipment make the run cleaner, faster, and more verifiable."
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Verify your next casing string before it goes downhole.",
+    "paras": [
+     "Talk to ProTorque about vacuum drifting and casing ID confirmation for your upcoming program."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "catm-for-power-tongs": {
+  "slug": "catm-for-power-tongs",
+  "kind": "service",
+  "title": "CATM for Power Tongs",
+  "id": 851,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "CATM for Power Tongs",
+    "sub": "Independent torque verification at the connection. Calibrated. Documented. Every joint."
+   },
+   {
+    "kind": "overview",
+    "title": "Torque you can verify. Connections you can trust.",
+    "eyebrow": "Our services",
+    "paras": [
+     "CATM (Computer-Aided Torque Make-up) verifies and documents every power tong connection in real time. ProTorque’s CATM service for power tongs gives operators independent torque-turn data, calibration confidence, and a complete record of every joint that goes in the hole.",
+     "When the program calls for premium connections, deep horizontals, or specialty casing, CATM is what turns \"we made up the connection\" into \"we made up the connection to spec and here is the proof.\""
+    ],
+    "images": [
+     "content/tongs-3-683x1024-1.jpg"
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Everything CATM covers at the connection.",
+    "eyebrow": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Independent torque verification for power tong operations"
+     },
+     {
+      "kind": "li",
+      "text": "Real-time torque-turn graphing on every connection"
+     },
+     {
+      "kind": "li",
+      "text": "Make-up monitoring against operator or manufacturer specifications"
+     },
+     {
+      "kind": "li",
+      "text": "Calibration of power tong systems to traceable standards"
+     },
+     {
+      "kind": "li",
+      "text": "Connection-by-connection documentation"
+     },
+     {
+      "kind": "li",
+      "text": "Anomaly detection and flagging during make-up"
+     },
+     {
+      "kind": "li",
+      "text": "Integration with casing running and tubular running services"
+     },
+     {
+      "kind": "li",
+      "text": "Reporting that supports audits and performance reviews"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "eyebrow": "How we work",
+    "steps": [
+     {
+      "title": "Pre-Job Calibration",
+      "text": "Power tong systems calibrated to manufacturer specification and program-specific connection requirements. Calibration documented and traceable."
+     },
+     {
+      "title": "Setup & Sync",
+      "text": "CATM equipment integrated with the power tong. Connection profiles loaded. Communication with the casing crew confirmed."
+     },
+     {
+      "title": "Live Make-Up Monitoring",
+      "text": "Every connection monitored in real time. Torque-turn graphs captured and reviewed live. Anomalies flagged for the crew to address before moving to the next joint."
+     },
+     {
+      "title": "Documentation & Handoff",
+      "text": "Connection-by-connection data delivered to the operator. The casing string leaves with a complete record of every make-up."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "A bad connection on the rig floor does not become a problem until the well is cemented. By then it is too late. CATM is the difference between catching the bad connection at make-up and discovering it in production. The cost difference between the two is rarely small.",
+     "For operators running premium connections, chrome casing, or specialty programs like CCS, CATM is not optional. It is the verification step that protects every other investment in the casing string."
+    ],
+    "quote": "The connection you do not verify is the integrity problem you cannot explain six months from now."
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "CATM applied to top drive make-up operations.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running & Power Tong Services",
+      "text": "The casing operation CATM supports.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Engineered Equipment",
+      "text": "Engineered equipment supporting tubular running and verification.",
+      "cta": "Explore Equipment",
+      "url": "/equipment-and-innovation/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need CATM on your next casing program?",
+    "paras": [
+     "Talk to ProTorque about CATM for power tongs. We provide independent torque verification, calibrated systems, and documented results."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "catm-for-top-drive": {
+  "slug": "catm-for-top-drive",
+  "kind": "service",
+  "title": "CATM for Top Drive",
+  "id": 855,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "CATM for Top Drive",
+    "sub": "Calibrated make-up for every connection. Independent verification on top drive operations."
+   },
+   {
+    "kind": "overview",
+    "title": "Trust your top drive. Verify the numbers.",
+    "paras": [
+     "Top drive make-up is the foundation of every drilling and casing operation. When the top drive is calibrated and the connections are documented, the program runs on schedule. When calibration drifts or torque readings go unchecked, small problems become expensive ones.",
+     "ProTorque’s CATM service for top drives provides independent torque verification on every connection. Real-time torque-turn graphing, calibration confirmation, and documented results give operators the data confidence they need to keep drilling decisions informed."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Independent torque verification on top drive make-up"
+     },
+     {
+      "kind": "li",
+      "text": "Real-time torque-turn graphing per connection"
+     },
+     {
+      "kind": "li",
+      "text": "Calibration confirmation against manufacturer or program spec"
+     },
+     {
+      "kind": "li",
+      "text": "Drift detection and alerting"
+     },
+     {
+      "kind": "li",
+      "text": "Make-up data integration with rig data systems"
+     },
+     {
+      "kind": "li",
+      "text": "Connection-by-connection documentation"
+     },
+     {
+      "kind": "li",
+      "text": "Service for drill pipe, casing, and tubing make-up"
+     },
+     {
+      "kind": "li",
+      "text": "Reporting for performance benchmarking and audits"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Top Drive Assessment",
+      "text": "Initial inspection of the top drive system and confirmation of calibration baseline. Connection profiles and program-specific torque targets locked in."
+     },
+     {
+      "title": "Calibration Verification",
+      "text": "Independent verification of top drive torque output against traceable standards. Calibration documented for the operator’s records."
+     },
+     {
+      "title": "Live Make-Up Monitoring",
+      "text": "Real-time monitoring during operations. Every connection captured. Drift, anomalies, or out-of-spec readings flagged immediately."
+     },
+     {
+      "title": "Reporting",
+      "text": "Connection-by-connection data delivered to the operator. The drilling and casing program leaves with a verified record."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Top drives drift. That is the operational reality of running connection after connection in the field. The question is not whether the equipment will drift, but whether anyone is watching. ProTorque’s CATM service for top drives is the answer.",
+     "For operators running tight-tolerance programs, premium connections, or extended-reach wells, drift is a problem worth catching early. CATM catches it."
+    ],
+    "quote": "<em>“If the top drive is drifting, you want to know in real time, not after the casing is cemented.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs",
+      "text": "Same CATM discipline applied to power tong operations.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/card-hook-load.jpg",
+      "title": "Top Drive + Hook Load Verification",
+      "text": "Broader top drive system verification beyond torque.",
+      "cta": "Explore Hook Load Verification",
+      "url": "/drilling-services/top-drive-and-hook-load-verification/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Engineered Equipment",
+      "text": "Engineered equipment supporting the rig.",
+      "cta": "Explore Equipment",
+      "url": "/equipment-and-innovation/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need CATM on your top drive?",
+    "paras": [
+     "Talk to ProTorque about CATM for top drive operations. Independent verification, calibrated systems, real-time data."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "ccs-casing-operations": {
+  "slug": "ccs-casing-operations",
+  "kind": "service",
+  "title": "Carbon Capture and Storage (CCS) Casing Operations",
+  "id": 950,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Carbon Capture and Storage (CCS) Casing Operations",
+    "sub": "Chrome casing, premium connections, and the documented discipline CCS wells demand for the long run."
+   },
+   {
+    "kind": "overview",
+    "title": "CCS is changing what casing programs demand.",
+    "eyebrow": "THE OPPORTUNITY",
+    "paras": [
+     "Carbon capture and storage is one of the fastest-growing applications in oil and gas. CCS wells are built to inject and contain CO2 for decades, sometimes generations. That means everything about the casing program is held to a higher standard. Materials, connections, make-up, and documentation all have to be right the first time, and the records have to hold up for the lifetime of the well.",
+     "For operators investing in CCS infrastructure, the casing service provider is not a vendor decision. It is a long-term integrity decision."
+    ],
+    "tiles": [
+     {
+      "value": "Growing",
+      "label": "CCS hub activity across Alberta and the US"
+     },
+     {
+      "value": "Higher",
+      "label": "integrity and material standards than conventional wells"
+     },
+     {
+      "value": "Decades",
+      "label": "of operational life span the casing has to support"
+     }
+    ],
+    "images": [
+     "content/IMG_9368.jpg"
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Casing crews built for the program CCS requires.",
+    "eyebrow": "PROTORQUE’S ROLE",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "The services that protect every CCS casing program:"
+     },
+     {
+      "kind": "li",
+      "text": "Vacuum drifting and casing ID confirmation on every joint"
+     },
+     {
+      "kind": "li",
+      "text": "Tubular thread cleaning and inspection before mobilization"
+     },
+     {
+      "kind": "li",
+      "text": "Premium and chrome connection make-up with calibrated power tongs"
+     },
+     {
+      "kind": "li",
+      "text": "CRT operations from the redress and maintenance program"
+     },
+     {
+      "kind": "li",
+      "text": "Documented torque-turn data per joint"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with completion and intervention crews"
+     }
+    ],
+    "intro": [
+     "ProTorque runs casing on CCS wells across North America. The experience covers chrome casing handling, premium connection make-up, documented torque-turn execution, and the pre-run discipline that protects every joint before it goes downhole.",
+     "CCS is not a different service line for ProTorque. It is the same crews, equipment, and standards applied to a program that has zero margin for error."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the work covers",
+    "eyebrow": "TECHNICAL SCOPE",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Chrome casing handling (13Cr, 22Cr, super-chrome grades)"
+     },
+     {
+      "kind": "li",
+      "text": "Premium connection make-up (gas-tight, integral, semi-flush)"
+     },
+     {
+      "kind": "li",
+      "text": "CO2-service casing programs"
+     },
+     {
+      "kind": "li",
+      "text": "Workover support for CCS well re-entry"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with completion and intervention crews"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation for regulatory compliance and long-term integrity verification"
+     },
+     {
+      "kind": "li",
+      "text": "Specialty pipe handling for tight-tolerance programs"
+     },
+     {
+      "kind": "li",
+      "text": "Cross-coordination with fiber-optic casing where deployed for injection monitoring"
+     }
+    ],
+    "intro": [
+     "ProTorque CCS casing services include the full scope of work required for injection well construction, intervention, and re-entry:"
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "What’s behind the program",
+    "eyebrow": "EQUIPMENT AND SERVICES",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running & Power Tong Services",
+      "text": "Calibrated power tongs and skilled crews for chrome and premium connection make-up.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/vacuum-drift-card.jpg",
+      "title": "Vacuum Drifting and Casing ID Confirmation",
+      "text": "Documented ID verification on every joint before the run.",
+      "cta": "Explore Vacuum Drifting",
+      "url": "/tubular-running-services/vacuum-drifting-and-casing-id-confirmation/"
+     },
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs (Drilling Services)",
+      "text": "Independent torque verification to confirm make-up integrity on premium connections.",
+      "cta": "Explore CATM",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Engineered Equipment",
+      "text": "CRT Tether Ring, Mobile BHA Frame, and Mobile Bucking Frame for safer, controlled handling of CCS casing.",
+      "cta": "Explore Equipment and Innovation",
+      "url": "/equipment-and-innovation/"
+     }
+    ],
+    "intro": [
+     "CCS casing operations require equipment that is calibrated, documented, and inspected. ProTorque coordinates the supporting capability:"
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Planning a CCS casing program?",
+    "paras": [
+     "Talk to ProTorque about how we support CCS operators with chrome casing operations, premium connection make-up, and the documentation a multi-decade well requires."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "fiber-optic-casing-installation": {
+  "slug": "fiber-optic-casing-installation",
+  "kind": "service",
+  "title": "Fiber-Optic Casing Installation",
+  "id": 971,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Fiber-Optic Casing Installation",
+    "sub": "Run casing with the data line that comes with it. Cable protected, connection protected, program protected."
+   },
+   {
+    "kind": "overview",
+    "title": "Real-time well data starts at the casing string.",
+    "eyebrow": "THE OPPORTUNITY",
+    "paras": [
+     "Fiber-optic instrumented casing has become standard equipment for operators who need real-time monitoring of pressure, temperature, and acoustic events across the wellbore. Distributed Acoustic Sensing (DAS) and Distributed Temperature Sensing (DTS) systems deliver insights that conventional wireline interventions cannot. The catch is that the data is only as good as the deployment.",
+     "Running casing with fiber-optic cable on the outside is not a standard casing job. The cable is fragile. The make-up has to protect it. The handling has to keep it intact from the rack to total depth."
+    ],
+    "tiles": [
+     {
+      "value": "DAS / DTS",
+      "label": "real-time acoustic and temperature monitoring"
+     },
+     {
+      "value": "Unconv.",
+      "label": "frac monitoring, CCS, geothermal applications"
+     },
+     {
+      "value": "Permanent",
+      "label": "monitoring across the life of the well"
+     }
+    ],
+    "images": [
+     "content/IMG_9368.jpg"
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Casing crews that protect the cable as well as the connection.",
+    "eyebrow": "PROTORQUE’S ROLE",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "What that looks like in practice:"
+     },
+     {
+      "kind": "li",
+      "text": "Pre-job planning with the fiber installation team to lock in handling protocols"
+     },
+     {
+      "kind": "li",
+      "text": "Casing crew workflows adapted to fiber-protected make-up"
+     },
+     {
+      "kind": "li",
+      "text": "Clamping and cable management coordinated across every joint"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation of any handling events or anomalies for the operator’s data record"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with the verification team to confirm make-up without disturbing the cable"
+     }
+    ],
+    "intro": [
+     "ProTorque runs fiber-instrumented casing across North America. Our crews coordinate directly with fiber installation teams, manage cable protection through make-up, and verify connection integrity without compromising the data line.",
+     "The difference between a good fiber-optic casing deployment and a bad one is in the details: how the cable is clamped, how the crew handles the joint, how make-up is coordinated with the fiber team. Get those right and the operator has a working monitoring system for the life of the well. Get them wrong and the cable is dead before the cement sets."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the work covers",
+    "eyebrow": "TECHNICAL SCOPE",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Casing running with DAS or DTS fiber-optic cable strapped or clamped externally"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with the fiber deployment crew"
+     },
+     {
+      "kind": "li",
+      "text": "Cable protection through make-up, alignment, and handling"
+     },
+     {
+      "kind": "li",
+      "text": "Premium and standard connection make-up with cable accommodation"
+     },
+     {
+      "kind": "li",
+      "text": "Power tong operation calibrated for fiber-protected workflows"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation of cable status throughout the run"
+     },
+     {
+      "kind": "li",
+      "text": "Compatible with conventional, CCS, geothermal, and unconventional well applications"
+     },
+     {
+      "kind": "li",
+      "text": "Cross-coordination with thread inspection and vacuum drifting teams"
+     }
+    ],
+    "intro": [
+     "ProTorque fiber-optic casing services cover the full scope of running casing with externally deployed fiber cable:"
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "What’s behind the program",
+    "eyebrow": "EQUIPMENT AND SERVICES",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running & Power Tong Services",
+      "text": "Skilled crews and calibrated power tongs adapted to fiber-protected workflows.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/vacuum-drift-card.jpg",
+      "title": "Vacuum Drifting and Casing ID Confirmation",
+      "text": "Pre-run dimensional verification on instrumented strings.",
+      "cta": "Explore Vacuum Drifting",
+      "url": "/tubular-running-services/vacuum-drifting-and-casing-id-confirmation/"
+     },
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "Independent torque verification on fiber-instrumented make-up.",
+      "cta": "Explore CATM",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Equipment (by ProStar)",
+      "text": "Pipe rollers, BHA frames, and supporting equipment for handling fiber-protected casing.",
+      "cta": "Explore Equipment and Innovation",
+      "url": "/equipment-and-innovation/"
+     }
+    ],
+    "intro": [
+     "Running fiber-instrumented casing requires the same pre-run discipline as any specialty casing program, with added coordination for cable handling."
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Running fiber on your next well?",
+    "paras": [
+     "Talk to ProTorque about how we support fiber-optic casing installations on monitoring programs across North America."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "top-drive-and-hook-load-verification": {
+  "slug": "top-drive-and-hook-load-verification",
+  "kind": "service",
+  "title": "Top Drive and Hook Load Verification",
+  "id": 856,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Top Drive and Hook Load Verification",
+    "sub": "Trust the readings. Trust the equipment. Independent verification of the rig’s most important measurements."
+   },
+   {
+    "kind": "overview",
+    "title": "The numbers the rig is reading. Verified.",
+    "paras": [
+     "Every drilling decision is made off the numbers the rig is showing. Hook load. Top drive torque. Weight on bit. RPM. When the readings are accurate, the decisions are sound. When they are off, even by a small margin, the program suffers.",
+     "ProTorque’s top drive and hook load verification service confirms that what the rig is reporting is what is actually happening. Independent sensors, calibrated reference standards, and documented verification across the rig equipment that matters most."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Hook load verification against independent reference standards"
+     },
+     {
+      "kind": "li",
+      "text": "Top drive torque verification across operating range"
+     },
+     {
+      "kind": "li",
+      "text": "Weight indicator calibration and accuracy check"
+     },
+     {
+      "kind": "li",
+      "text": "Load cell verification on drilling rigs and workover rigs"
+     },
+     {
+      "kind": "li",
+      "text": "Documented verification reports for operator records"
+     },
+     {
+      "kind": "li",
+      "text": "Pre-job, periodic, and post-job verification options"
+     },
+     {
+      "kind": "li",
+      "text": "Service across drilling rigs, workover rigs, and pulling units"
+     },
+     {
+      "kind": "li",
+      "text": "Integration with real-time drilling data systems"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Scope and Pre-Job",
+      "text": "Define the verification scope with the operator. Confirm equipment, operating ranges, and any operator-specific accuracy targets."
+     },
+     {
+      "title": "Independent Reference Setup",
+      "text": "Independent reference standards installed and calibrated to traceable benchmarks. The rig reading is checked against the truth."
+     },
+     {
+      "title": "Verification",
+      "text": "Verification across the operating range. Hook load, top drive torque, and weight indicator data captured and compared. Discrepancies documented."
+     },
+     {
+      "title": "Reporting",
+      "text": "Full verification report delivered. The operator knows what the rig is reading accurately and where corrections are needed."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "A drilling rig is a complex machine reporting dozens of measurements every second. The decisions made off those numbers determine the entire program. Hook load drives weight-on-bit. Top drive torque drives connection integrity. Weight indicators drive trip safety. If those readings are wrong, every downstream decision compounds the error.",
+     "Independent verification is the only way to know for sure. It is also the only way to satisfy operator audits, performance benchmarking, and AFE justification with documented confidence."
+    ],
+    "quote": "<em>“You cannot manage what you cannot measure. You cannot measure what you cannot verify.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "Continuous torque verification on every connection.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/irong-roughneck-card-2.jpg",
+      "title": "Iron Roughneck Torque Testing",
+      "text": "Verification on iron roughneck systems.",
+      "cta": "Explore Iron Roughneck",
+      "url": "/drilling-services/iron-roughneck-torque-testing/"
+     },
+     {
+      "img": "content/real-time-drilling-data-card.jpg",
+      "title": "Real-Time Drilling Data",
+      "text": "Real-time monitoring across the rig.",
+      "cta": "Explore Real-Time Data",
+      "url": "/drilling-services/real-time-drilling-data/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need verification on your rig’s top drive or hook load?",
+    "paras": [
+     "Talk to ProTorque about hook load and top drive verification. Independent measurements, calibrated references, documented results."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "torque-verification": {
+  "slug": "torque-verification",
+  "kind": "service",
+  "title": "Torque Verification",
+  "id": 857,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Torque Verification",
+    "sub": "Catch the drift before it costs you time. Independent torque verification across rig equipment."
+   },
+   {
+    "kind": "overview",
+    "title": "Torque you can verify. Drift you can catch.",
+    "paras": [
+     "Torque is one of the most consequential measurements on a drilling rig. It determines connection integrity, bit performance, and the difference between a clean trip and stuck pipe. When torque readings drift unnoticed, small calibration errors compound into expensive operational problems.",
+     "ProTorque provides independent torque verification across drilling rigs, workover rigs, and specialty operations. Calibrated reference standards, documented results, and the kind of catch-it-early discipline that protects programs from preventable NPT."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Independent torque verification on top drives, power tongs, and iron roughnecks"
+     },
+     {
+      "kind": "li",
+      "text": "BHA make-up torque verification and documentation"
+     },
+     {
+      "kind": "li",
+      "text": "Calibration of torque measurement systems"
+     },
+     {
+      "kind": "li",
+      "text": "Drift detection across operating ranges"
+     },
+     {
+      "kind": "li",
+      "text": "Pre-job, periodic, and program-end verification options"
+     },
+     {
+      "kind": "li",
+      "text": "Service for drilling, completions, and workover operations"
+     },
+     {
+      "kind": "li",
+      "text": "Reporting for QA, audits, and AFE justification"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with CATM and casing make-up services"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Scope Definition",
+      "text": "Confirm the equipment and operating ranges to be verified. Set the program-specific torque targets and tolerances."
+     },
+     {
+      "title": "Reference Calibration",
+      "text": "Independent reference standards installed and calibrated to traceable benchmarks."
+     },
+     {
+      "title": "Verification Pass",
+      "text": "Verification across the operating range. Discrepancies between rig readings and reference readings documented per measurement."
+     },
+     {
+      "title": "Documentation",
+      "text": "Verification report delivered. The operator has the numbers and the proof, both ready for audit and decision-making."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "A torque reading off by a few percent can mean the difference between a connection inside spec and one that fails downhole. It can mean the difference between proper BHA make-up and a backed-off bottom hole assembly. It can mean the difference between a trouble-free trip and an expensive fishing job.",
+     "The cost of independent torque verification is small. The cost of getting it wrong is not."
+    ],
+    "quote": "<em>“The drift you do not catch is the NPT you cannot explain.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs",
+      "text": "Continuous torque verification on power tong make-up.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "Continuous torque verification on top drive make-up.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/irong-roughneck-card-2.jpg",
+      "title": "Iron Roughneck Torque Testing",
+      "text": "Specific to iron roughneck systems.",
+      "cta": "Explore Iron Roughneck",
+      "url": "/drilling-services/iron-roughneck-torque-testing/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need torque verification on your rig?",
+    "paras": [
+     "Talk to ProTorque about independent torque verification. Calibrated references, documented results, real protection from drift."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "iron-roughneck-torque-testing": {
+  "slug": "iron-roughneck-torque-testing",
+  "kind": "service",
+  "title": "Iron Roughneck Torque Testing",
+  "id": 858,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Iron Roughneck Torque Testing",
+    "sub": "Verify the iron roughneck. Verify the connection. Documented torque accuracy on every make-up."
+   },
+   {
+    "kind": "overview",
+    "title": "Iron roughneck make-up. Verified to spec.",
+    "paras": [
+     "Iron roughneck systems are the workhorses of modern rig floors. They make up and break out connections faster, safer, and more consistently than crews working tongs by hand. But like any piece of equipment, they drift. And when they drift, the connections they make up start drifting with them.",
+     "ProTorque’s iron roughneck torque testing service confirms that the equipment is making up connections to spec. Independent verification, calibrated test fixtures, and documented results across the operating range."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Independent torque testing on iron roughneck systems"
+     },
+     {
+      "kind": "li",
+      "text": "Calibration verification against manufacturer or program spec"
+     },
+     {
+      "kind": "li",
+      "text": "Drift detection across the operating range"
+     },
+     {
+      "kind": "li",
+      "text": "Make-up and break-out torque accuracy confirmation"
+     },
+     {
+      "kind": "li",
+      "text": "Service for new equipment, returning equipment, and periodic verification"
+     },
+     {
+      "kind": "li",
+      "text": "Test fixture deployment with traceable standards"
+     },
+     {
+      "kind": "li",
+      "text": "Documented results for operator records and audits"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with CATM and torque verification services"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Equipment Assessment",
+      "text": "Iron roughneck inspected. Manufacturer spec confirmed. Test scope and torque ranges defined with the operator."
+     },
+     {
+      "title": "Test Fixture Setup",
+      "text": "Independent test fixture installed. Calibrated reference standards verified against traceable benchmarks."
+     },
+     {
+      "title": "Torque Testing",
+      "text": "Make-up and break-out testing across the equipment’s operating range. Readings captured and compared against reference. Drift or out-of-spec performance flagged."
+     },
+     {
+      "title": "Documentation",
+      "text": "Test report delivered. Operator has confirmation of accuracy or documented findings for service and recalibration."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "A drifting iron roughneck makes up connections that look fine on the floor but are not. Operators do not see the problem until pressure testing, until pulling pipe, or until something goes wrong downhole. By then, the cost is real.",
+     "Periodic torque testing on iron roughneck systems is the standard discipline that prevents the slow, invisible drift that costs operators time and money. ProTorque provides the discipline."
+    ],
+    "quote": "<em>“An iron roughneck that drifts unnoticed makes the same connection wrong, joint after joint.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/card-torque-verification.jpg",
+      "title": "Torque Verification",
+      "text": "Broader torque verification services across the rig.",
+      "cta": "Explore Torque Verification",
+      "url": "/drilling-services/torque-verification/"
+     },
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs",
+      "text": "Continuous torque verification on power tong make-up.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/card-hook-load.jpg",
+      "title": "Top Drive + Hook Load Verification",
+      "text": "Verification across the wider rig system.",
+      "cta": "Explore Hook Load Verification",
+      "url": "/drilling-services/top-drive-and-hook-load-verification/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need iron roughneck verification on your rig?",
+    "paras": [
+     "Talk to ProTorque about iron roughneck torque testing. Independent verification, calibrated fixtures, audit-ready documentation."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "real-time-drilling-data": {
+  "slug": "real-time-drilling-data",
+  "kind": "service",
+  "title": "Real-Time Drilling Data",
+  "id": 869,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Real-Time Drilling Data",
+    "sub": "Drilling data that supports the decision. Captured, integrated, and delivered when it matters."
+   },
+   {
+    "kind": "overview",
+    "title": "Drilling data, working for the operator.",
+    "paras": [
+     "Real-time drilling data is only useful if the operator can act on it. ProTorque’s real-time data service captures, integrates, and delivers drilling measurements in the moments where decisions are made.",
+     "Pressure, torque, hook load, weight on bit, ROP, and connection data captured per second, integrated across the rig data systems, and delivered through dashboards, alerts, and reports operators trust."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Real-time data capture across rig equipment"
+     },
+     {
+      "kind": "li",
+      "text": "Integration with EDR, mud logging, and rig data systems"
+     },
+     {
+      "kind": "li",
+      "text": "Connection make-up data including torque-turn graphs"
+     },
+     {
+      "kind": "li",
+      "text": "Pressure, hook load, and weight-on-bit measurements"
+     },
+     {
+      "kind": "li",
+      "text": "Anomaly detection and alerting"
+     },
+     {
+      "kind": "li",
+      "text": "Dashboard and reporting tailored to operator workflows"
+     },
+     {
+      "kind": "li",
+      "text": "Foundation for RTOC (Remote Technology Operations Center) operations"
+     },
+     {
+      "kind": "li",
+      "text": "Data archive and historical performance review"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Data Scope and Architecture",
+      "text": "Define the data points the operator needs. Confirm integration touchpoints with existing rig data systems."
+     },
+     {
+      "title": "Equipment Deployment",
+      "text": "Sensors, data acquisition systems, and integration hardware deployed on the rig. Communication confirmed with central systems."
+     },
+     {
+      "title": "Live Capture",
+      "text": "Drilling data captured in real time across the operation. Anomalies flagged. Dashboards updated. Operators have what they need to act."
+     },
+     {
+      "title": "Reporting and Archive",
+      "text": "Post-job reports delivered. Historical data archived for performance benchmarking and program-over-program analysis."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Drilling efficiency improves when decisions are made on data, not on instinct. Real-time data systems are the foundation that supports faster, safer, and more cost-effective operations.",
+     "For operators looking to extend their data programs to remote operations, ProTorque’s real-time data service is the foundation that RTOC (Remote Technology Operations Center) will extend. Build the data foundation now. Run it remotely later."
+    ],
+    "quote": "<em>“Decisions made on data are better than decisions made without it. Real-time data makes both possible.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "Real-time torque data on top drive make-up.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs",
+      "text": "Real-time torque data on power tong make-up.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/card-hook-load.jpg",
+      "title": "Top Drive & Hook Load Verification",
+      "text": "Independent verification of the rig’s most important measurements.",
+      "cta": "Explore Top Drive & Hook Load Verification",
+      "url": "/drilling-services/top-drive-and-hook-load-verification/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to put real-time data to work?",
+    "paras": [
+     "Talk to ProTorque about real-time drilling data services. Integration, dashboards, alerting, and the foundation for RTOC."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "data-center-water-drilling": {
+  "slug": "data-center-water-drilling",
+  "kind": "service",
+  "title": "Data Center Water Drilling",
+  "id": 982,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Data Center Water Drilling",
+    "sub": "Drilling water for the infrastructure powering tomorrow. Conventional drilling expertise applied to a new market."
+   },
+   {
+    "kind": "overview",
+    "title": "Data centers run on water. Someone has to drill for it.",
+    "eyebrow": "THE OPPORTUNITY",
+    "paras": [
+     "Modern data centers consume staggering volumes of water for cooling. As hyperscale infrastructure expands across North America, the water supply has to expand with it. Data center developers need access to reliable, high-volume water sources, often from drilled wells, often on aggressive timelines.",
+     "Drilling water wells for data center infrastructure is not the same as drilling for oil and gas. But the disciplines are remarkably similar. Calibrated equipment. Verified make-up. Independent monitoring. Documented results.",
+     "ProTorque brings twenty-plus years of drilling discipline to a new market that needs exactly that discipline."
+    ],
+    "tiles": [
+     {
+      "value": "Growing",
+      "label": "data center infrastructure"
+     },
+     {
+      "value": "High-volume",
+      "label": "cooling water demand"
+     },
+     {
+      "value": "Drilling",
+      "label": "expertise that transfers"
+     }
+    ],
+    "images": [
+     "content/IMG_9368.jpg"
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "The same discipline. A different market.",
+    "eyebrow": "PROTORQUE’S ROLE",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "What ProTorque brings to data center water drilling:"
+     },
+     {
+      "kind": "li",
+      "text": "Calibrated drilling and casing equipment"
+     },
+     {
+      "kind": "li",
+      "text": "Independent torque and hook load verification on every job"
+     },
+     {
+      "kind": "li",
+      "text": "Documented operations supporting permitting and audits"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with EPCs, water resource consultants, and developers"
+     },
+     {
+      "kind": "li",
+      "text": "Experience with deep water wells and challenging formations"
+     },
+     {
+      "kind": "li",
+      "text": "Crew discipline built across twenty-plus years of oil and gas operations"
+     }
+    ],
+    "intro": [
+     "ProTorque’s drilling expertise was built supporting oil and gas operators across Canada and the United States. The skills that protect a casing program also protect a water well. Calibrated equipment, documented operations, and a crew culture built on doing the work right the first time.",
+     "For data center developers entering new geographic areas, ProTorque offers a drilling partner that brings established processes, verification discipline, and the kind of operational reliability that hyperscale infrastructure requires."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the work covers",
+    "eyebrow": "TECHNICAL SCOPE",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Water well drilling for data center cooling and supply"
+     },
+     {
+      "kind": "li",
+      "text": "Deep water well casing installation"
+     },
+     {
+      "kind": "li",
+      "text": "Verified equipment make-up across the casing string"
+     },
+     {
+      "kind": "li",
+      "text": "Production well completion for high-volume sustained delivery"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with water resource consultants and EPCs"
+     },
+     {
+      "kind": "li",
+      "text": "Documented operations for regulatory and permitting requirements"
+     },
+     {
+      "kind": "li",
+      "text": "Industrial and municipal water well capability as adjacent applications"
+     },
+     {
+      "kind": "li",
+      "text": "Cross-coordination with Environmental and Water Management (Midstream)"
+     }
+    ],
+    "intro": [
+     "ProTorque data center water drilling services include the full scope of work from siting through delivery:"
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "What’s behind the program",
+    "eyebrow": "EQUIPMENT AND SERVICES",
+    "cards": [
+     {
+      "img": "content/real-time-drilling-data-card.jpg",
+      "title": "Real-Time Drilling Data",
+      "text": "Drilling data captured and delivered across water well operations.",
+      "cta": "Explore Real-Time Drilling Data",
+      "url": "/drilling-services/real-time-drilling-data/"
+     },
+     {
+      "img": "content/card-hook-load.jpg",
+      "title": "Top Drive + Hook Load Verification",
+      "text": "Independent verification of rig equipment for water well operations.",
+      "cta": "Explore Hook Load Verification",
+      "url": "/drilling-services/top-drive-and-hook-load-verification/"
+     },
+     {
+      "img": "content/environmental-water-card.jpg",
+      "title": "Environmental and Water Management",
+      "text": "Midstream water management services connecting to water well operations.",
+      "cta": "Explore Environmental and Water Management",
+      "url": "/midstream-services/environmental-and-water-management/"
+     },
+     {
+      "img": "content/bucking-frame-4.jpg",
+      "title": "Engineered Equipment",
+      "text": "Engineered equipment supporting drilling and casing operations.",
+      "cta": "Explore Equipment",
+      "url": "/equipment-and-innovation/"
+     }
+    ],
+    "intro": [
+     "Water well drilling uses the same calibrated equipment and verification discipline as conventional drilling operations."
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Planning a data center water program?",
+    "paras": [
+     "Talk to ProTorque about water well drilling for data center infrastructure. Calibrated equipment, documented operations, drilling discipline built on twenty-plus years of oil and gas work."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "remote-technology-operations-center": {
+  "slug": "remote-technology-operations-center",
+  "kind": "service",
+  "title": "Remote Technology Operations Center (RTOC)",
+  "id": 979,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Remote Technology Operations Center (RTOC)"
+   },
+   {
+    "kind": "overview",
+    "title": "The next step in drilling verification is not at the rig.",
+    "eyebrow": "THE OPPORTUNITY",
+    "paras": [
+     "Drilling verification has historically required people on the rig floor. CATM operators, verification crews, data specialists. They stand where the equipment is, doing the work that protects the program.",
+     "The next step is to move that work off the rig floor without losing any of the verification quality. Same data. Same calibration discipline. Same documentation. Just delivered from a centralized operations center instead of from a deck of plywood next to a top drive.",
+     "That is what RTOC delivers. ProTorque’s Remote Technology Operations Center is being built to commercialize in the second half of 2026."
+    ],
+    "tiles": [
+     {
+      "value": "Same",
+      "label": "verification quality"
+     },
+     {
+      "value": "Fewer",
+      "label": "people in the line of fire"
+     },
+     {
+      "value": "Centralized",
+      "label": "data and oversight"
+     }
+    ],
+    "images": [
+     "content/IMG_9368.jpg"
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Built on the verification work we already do.",
+    "eyebrow": "PROTORQUE’S ROLE",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "The services RTOC extends:"
+     },
+     {
+      "kind": "li",
+      "text": "CATM for power tongs and top drive"
+     },
+     {
+      "kind": "li",
+      "text": "Hook load and top drive torque verification"
+     },
+     {
+      "kind": "li",
+      "text": "Iron roughneck torque testing oversight"
+     },
+     {
+      "kind": "li",
+      "text": "Real-time drilling data monitoring and alerting"
+     },
+     {
+      "kind": "li",
+      "text": "Connection-by-connection documentation"
+     },
+     {
+      "kind": "li",
+      "text": "Performance benchmarking across multiple rigs"
+     }
+    ],
+    "intro": [
+     "RTOC is not a new service. It is the same drilling verification work ProTorque has been delivering for over twenty years, executed from a centralized operations center instead of from the rig floor. The standards are the same. The discipline is the same. The data is the same.",
+     "The difference is that ProTorque verification engineers can monitor multiple rigs from a single location. Operators get the same documented results without putting another person in harm’s way on every rig site."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the work covers",
+    "eyebrow": "TECHNICAL SCOPE",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Remote CATM oversight across drilling and casing operations"
+     },
+     {
+      "kind": "li",
+      "text": "Remote hook load and top drive torque verification"
+     },
+     {
+      "kind": "li",
+      "text": "Real-time data integration and monitoring across multi-rig fleets"
+     },
+     {
+      "kind": "li",
+      "text": "Centralized documentation and reporting"
+     },
+     {
+      "kind": "li",
+      "text": "Performance analytics across rigs and programs"
+     },
+     {
+      "kind": "li",
+      "text": "Anomaly detection and crew alerting in real time"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with on-site crews for verification handoffs"
+     },
+     {
+      "kind": "li",
+      "text": "Operator-facing dashboards and reporting"
+     }
+    ],
+    "intro": [
+     "RTOC is being built to support a defined scope of remote drilling verification and monitoring services. As the capability comes online in second half of 2026, scope will expand based on operator demand and field-validated workflows."
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "What’s behind the program",
+    "eyebrow": "EQUIPMENT AND SERVICES",
+    "cards": [
+     {
+      "img": "content/real-time-drilling-data-card.jpg",
+      "title": "Real-Time Drilling Data",
+      "text": "The data foundation RTOC operates on. Real-time capture, integration, and dashboards.",
+      "cta": "Explore Real-Time Drilling Data",
+      "url": "/drilling-services/real-time-drilling-data/"
+     },
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "Remote CATM oversight on top drive make-up operations.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs",
+      "text": "Remote CATM oversight on power tong make-up operations.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/card-torque-verification.jpg",
+      "title": "Torque Verification",
+      "text": "Independent torque verification across the rig, supported from RTOC.",
+      "cta": "Explore Torque Verification",
+      "url": "/drilling-services/torque-verification/"
+     }
+    ],
+    "intro": [
+     "Running fiber-instrumented casing requires the same pre-run discipline as any specialty casing program, with added coordination for cable handling."
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Interested in remote drilling verification?",
+    "paras": [
+     "RTOC commercialization is targeted for second half of 2026. If your team is planning ahead, get in touch to discuss program fit and timing."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "midstream-construction": {
+  "slug": "midstream-construction",
+  "kind": "service",
+  "title": "Midstream Construction",
+  "id": 872,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Midstream Construction",
+    "sub": "New facilities, pipelines, and infrastructure built right. Combo welders for poly, carbon, and stainless. Turnkey delivery."
+   },
+   {
+    "kind": "overview",
+    "title": "Building midstream infrastructure that operators can count on.",
+    "eyebrow": "Our services",
+    "paras": [
+     "Midstream construction is not a single trade. It is the coordinated execution of welding, civil, mechanical, electrical, instrumentation, and specialty piping work, all delivered on time and to spec. ProTorque brings the full trade capability under one roof and the field discipline to keep projects moving.",
+     "New facilities. Plant expansions. Pipeline construction. Tank batteries. Saltwater disposal (SWD) builds. Specialty piping installations. ProTorque construction crews work across the Permian Basin and West Texas for operators that need a contractor who can build the whole thing without managing five different subs to do it."
+    ],
+    "images": [
+     "content/tongs-3-683x1024-1.jpg"
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "The full scope, from ground work to commissioning.",
+    "eyebrow": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Civil work, foundations, and concrete pads"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination across electrical, instrumentation, mechanical, and specialty trades"
+     },
+     {
+      "kind": "li",
+      "text": "Combo welding for poly, carbon, and stainless pipe"
+     },
+     {
+      "kind": "li",
+      "text": "Turnkey project delivery from scope to commissioning"
+     },
+     {
+      "kind": "li",
+      "text": "New facility construction and expansion"
+     },
+     {
+      "kind": "li",
+      "text": "Plant builds and process facility installations"
+     },
+     {
+      "kind": "li",
+      "text": "Pipeline construction and tie-ins"
+     },
+     {
+      "kind": "li",
+      "text": "Tank battery construction"
+     },
+     {
+      "kind": "li",
+      "text": "Saltwater disposal (SWD) facility construction"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "eyebrow": "How we work",
+    "steps": [
+     {
+      "title": "Project Scoping",
+      "text": "Pre-job scoping with the operator or EPC. Materials, trades, timeline, site access, permitting, and specialty considerations locked in before mobilization."
+     },
+     {
+      "title": "Mobilization",
+      "text": "Crews, equipment, materials, and supporting trades coordinated for site arrival. Welders, electricians, mechanical, and civil crews ready before the first day of work."
+     },
+     {
+      "title": "Execution",
+      "text": "Construction executed to spec and schedule. Welds inspected. Civil work documented. Trades coordinated by ProTorque project leadership instead of by the operator."
+     },
+     {
+      "title": "Commissioning & Handoff",
+      "text": "Final inspections, commissioning, as-built documentation, and turnover. The operator takes possession of a built facility with the records to prove it."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Midstream construction projects fail in the gaps between trades. Welders waiting on civil. Electrical waiting on welders. Operators stuck managing subcontractors instead of running their business. ProTorque’s full-trade capability removes the gaps. One contractor. Coordinated execution. Built to spec and built to schedule.",
+     "For operators expanding facility capacity, running new pipelines, or building tank batteries and SWDs, ProTorque is the construction partner that turns a project plan into a working facility."
+    ],
+    "quote": "Midstream construction projects fail in the gaps between trades. ProTorque removes the gaps."
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/plant-and-pipeline-card.jpg",
+      "title": "Plant and Pipeline Maintenance",
+      "text": "The maintenance discipline that protects what we build.",
+      "cta": "Explore Plant and Pipeline Maintenance",
+      "url": "/midstream-services/plant-and-pipeline-maintenance/"
+     },
+     {
+      "img": "content/facilities-electrical-card.jpg",
+      "title": "Facilities E&I and Mechanical",
+      "text": "Electrical and mechanical trades supporting facility construction.",
+      "cta": "Explore Facilities E&I",
+      "url": "/midstream-services/facilities-electrical-instrumentation-mechanical/"
+     },
+     {
+      "img": "content/specialty-piping-card.jpg",
+      "title": "Specialty Piping",
+      "text": "Fiber glass and specialty material installation for facility builds.",
+      "cta": "Explore Specialty Piping",
+      "url": "/midstream-services/specialty-piping/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Building a midstream facility or pipeline?",
+    "paras": [
+     "Talk to ProTorque about midstream construction. Full-trade capability, combo welding, turnkey delivery across the Permian and West Texas."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "plant-and-pipeline-maintenance": {
+  "slug": "plant-and-pipeline-maintenance",
+  "kind": "service",
+  "title": "Plant and Pipeline Maintenance",
+  "id": 874,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Plant and Pipeline Maintenance",
+    "sub": "Keeping facilities running. Responding fast when they need support. T&M, turnarounds, and ongoing maintenance."
+   },
+   {
+    "kind": "overview",
+    "title": "Facility reliability does not happen by accident.",
+    "paras": [
+     "Midstream facilities run on uptime. Every hour of unplanned downtime is revenue gone, throughput missed, and operators answering questions they would rather not be answering. ProTorque’s plant and pipeline maintenance services keep facilities operational, respond fast when problems show up, and execute turnarounds with the discipline midstream programs require.",
+     "Ongoing maintenance. T&amp;M work. Plant turnarounds. Pipeline integrity work. Tank battery upkeep. SWD maintenance. The work that keeps midstream operations in service, day in and day out, across the Permian and West Texas."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Ongoing maintenance programs for midstream facilities"
+     },
+     {
+      "kind": "li",
+      "text": "Plant turnarounds and scheduled maintenance windows"
+     },
+     {
+      "kind": "li",
+      "text": "Pipeline maintenance and integrity work"
+     },
+     {
+      "kind": "li",
+      "text": "Tank battery maintenance and upkeep"
+     },
+     {
+      "kind": "li",
+      "text": "SWD facility maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Time and materials (T&M) project work"
+     },
+     {
+      "kind": "li",
+      "text": "Emergency response and rapid mobilization"
+     },
+     {
+      "kind": "li",
+      "text": "Electrical and mechanical maintenance trades on call"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation for regulatory reporting and facility records"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Scope Definition",
+      "text": "Maintenance scope agreed with the operator. Ongoing program, T&amp;M response, or scheduled turnaround. Crew, equipment, and timeline planned around the operator’s priorities."
+     },
+     {
+      "title": "Mobilization",
+      "text": "Crews mobilized fast. For ongoing programs, ProTorque maintains crew availability for rapid response. For turnarounds, full project teams arrive on schedule."
+     },
+     {
+      "title": "Execution",
+      "text": "Maintenance work executed to spec. Coordination with operator field representatives. Documentation captured throughout for permitting, audits, and ongoing facility records."
+     },
+     {
+      "title": "Reporting",
+      "text": "Work records, inspection results, and any anomaly notes delivered to the operator. The facility is back in service with the documentation to support compliance and reliability tracking."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Downtime is the most expensive line item in any midstream operation. A scheduled turnaround that runs long, a T&amp;M repair that takes too many days, an emergency call that goes to a crew that is not ready: all of these add up. ProTorque’s maintenance discipline keeps facilities running and minimizes the time they are not.",
+     "For operators in the Permian and West Texas running active facilities and pipeline assets, ProTorque is the maintenance partner that shows up ready, executes to spec, and leaves the operator with the documentation to prove it."
+    ],
+    "quote": "<em>“Downtime is the most expensive line item. ProTorque’s job is to keep it from happening.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/midstream-card.jpg",
+      "title": "Midstream Construction",
+      "text": "The crews that build the facilities maintain them.",
+      "cta": "Explore Midstream Construction",
+      "url": "/midstream-services/midstream-construction/"
+     },
+     {
+      "img": "content/facilities-electrical-card.jpg",
+      "title": "Facilities E&I and Mechanical",
+      "text": "Electrical and mechanical capability supporting maintenance work.",
+      "cta": "Explore Facilities E&I",
+      "url": "/midstream-services/facilities-electrical-instrumentation-mechanical/"
+     },
+     {
+      "img": "content/environmental-water-card.jpg",
+      "title": "Environmental and Water Management",
+      "text": "Environmental services connected to facility maintenance programs.",
+      "cta": "Explore Environmental and Water Management",
+      "url": "/midstream-services/environmental-and-water-management/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need maintenance on a plant or pipeline?",
+    "paras": [
+     "Talk to ProTorque about plant maintenance, pipeline integrity work, turnarounds, or T&M response across the Permian and West Texas."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "facilities-electrical-instrumentation-mechanical": {
+  "slug": "facilities-electrical-instrumentation-mechanical",
+  "kind": "service",
+  "title": "Facilities Electrical I&C and Mechanical",
+  "id": 875,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Facilities Electrical I&C and Mechanical",
+    "sub": "Master electricians and mechanical trades under one roof. Turnkey E&I-Mech capability for facility builds and ongoing operations."
+   },
+   {
+    "kind": "overview",
+    "title": "Both departments. One contractor. Built for turnkey.",
+    "paras": [
+     "Most facility contractors do electrical OR mechanical. ProTorque does both. Master electricians on staff. Mechanical trades on the same crews. Instrumentation specialists working alongside the welders and pipefitters. The result is turnkey facility work delivered by a single contractor instead of three.",
+     "For midstream operators building new facilities, expanding existing ones, or running ongoing E&amp;I and mechanical maintenance programs, ProTorque’s combined trade capability eliminates the friction of managing multiple subcontractors. One scope. One project lead. One set of standards."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Electrical and instrumentation (E&I) builds and retrofits"
+     },
+     {
+      "kind": "li",
+      "text": "Master electrician services and oversight"
+     },
+     {
+      "kind": "li",
+      "text": "Process instrumentation installation and calibration"
+     },
+     {
+      "kind": "li",
+      "text": "Mechanical trades for facility builds and maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Control panel installation and wiring"
+     },
+     {
+      "kind": "li",
+      "text": "Motor control center (MCC) installation"
+     },
+     {
+      "kind": "li",
+      "text": "Pump, compressor, and skid installation"
+     },
+     {
+      "kind": "li",
+      "text": "Turnkey E&I-Mech project delivery"
+     },
+     {
+      "kind": "li",
+      "text": "Combined-trade maintenance programs for ongoing facility support"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Scope and Estimation",
+      "text": "Combined E&amp;I and mechanical scope developed with the operator or EPC. Master electrician sign-off on electrical work. Mechanical lead sign-off on mechanical scope. Single project plan."
+     },
+     {
+      "title": "Trade Coordination",
+      "text": "Internal coordination between electrical, instrumentation, and mechanical crews. Sequencing planned to avoid trade conflicts and minimize site days."
+     },
+     {
+      "title": "Execution",
+      "text": "Combined trade crews execute on site. Electrical, instrumentation, and mechanical work delivered in parallel or sequenced as the build requires. Single point of accountability throughout."
+     },
+     {
+      "title": "Commissioning",
+      "text": "Full commissioning including electrical testing, instrumentation verification, and mechanical functional testing. Documentation delivered. Facility ready for service."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "When facility construction or maintenance requires multiple trades, the question every operator asks is: who is going to coordinate this? Subcontractors blame each other when timelines slip. Operators end up doing project management work they did not sign up for. ProTorque solves the problem by being the trades.",
+     "A master electrician on staff means electrical work gets the supervision regulators expect. Mechanical trades on the same crew means sequencing happens internally, not through a status meeting between subs. Combined capability means turnkey delivery, on schedule, with one accountable contractor."
+    ],
+    "quote": "<em>“Most contractors do electrical OR mechanical. ProTorque does both. One contractor instead of three.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/midstream-card.jpg",
+      "title": "Midstream Construction",
+      "text": "New facility construction supported by combined E&amp;I-Mech capability.",
+      "cta": "Explore Midstream Construction",
+      "url": "/midstream-services/midstream-construction/"
+     },
+     {
+      "img": "content/plant-and-pipeline-card.jpg",
+      "title": "Plant and Pipeline Maintenance",
+      "text": "Ongoing E&amp;I and mechanical maintenance programs.",
+      "cta": "Explore Plant and Pipeline Maintenance",
+      "url": "/midstream-services/plant-and-pipeline-maintenance/"
+     },
+     {
+      "img": "content/specialty-piping-card.jpg",
+      "title": "Specialty Piping",
+      "text": "Specialty piping installation supporting mechanical scope.",
+      "cta": "Explore Specialty Piping",
+      "url": "/midstream-services/specialty-piping/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need E&I and mechanical work on a midstream facility?",
+    "paras": [
+     "Talk to ProTorque about turnkey E&I-Mech capability. Master electricians, mechanical trades, combined-crew delivery across the Permian and West Texas."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "environmental-and-water-management": {
+  "slug": "environmental-and-water-management",
+  "kind": "service",
+  "title": "Environmental and Water Management",
+  "id": 876,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Environmental and Water Management",
+    "sub": "Services for produced water, clean brine facilities, and environmental compliance across midstream operations."
+   },
+   {
+    "kind": "overview",
+    "title": "The crews behind clean water programs and compliant operations.",
+    "paras": [
+     "Water management is a defining capability of modern midstream operations. Produced water has to be moved, treated, stored, and disposed of. Clean brine facilities have to be built, maintained, and supported. Environmental compliance has to be documented at every step. ProTorque provides the construction, maintenance, and operational services that keep water management programs running.",
+     "ProTorque is the services contractor that supports the operators and water management companies running these programs across the Permian and West Texas. Construction, maintenance, E&amp;I, mechanical, and environmental compliance services for the facilities that handle the water."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Construction services for clean brine facilities"
+     },
+     {
+      "kind": "li",
+      "text": "Plant and pipeline maintenance for water management infrastructure"
+     },
+     {
+      "kind": "li",
+      "text": "Produced water facility maintenance and upkeep"
+     },
+     {
+      "kind": "li",
+      "text": "SWD facility construction and maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Environmental compliance services and documentation"
+     },
+     {
+      "kind": "li",
+      "text": "Containment, liner, and spill prevention work"
+     },
+     {
+      "kind": "li",
+      "text": "E&I and mechanical support for water management facilities"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with water management operators and consultants"
+     },
+     {
+      "kind": "li",
+      "text": "Connection to Data Center Water Drilling for industrial water programs"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Scope and Compliance",
+      "text": "Project scope developed with the water management operator or EPC. Environmental and regulatory requirements confirmed. Permitting status reviewed."
+     },
+     {
+      "title": "Mobilization",
+      "text": "Crews, equipment, and materials mobilized to the facility site. Specialty crews coordinated for liner work, containment, or specialty piping where required."
+     },
+     {
+      "title": "Execution",
+      "text": "Construction or maintenance work executed. Environmental controls maintained throughout. Documentation captured for regulatory reporting."
+     },
+     {
+      "title": "Documentation",
+      "text": "Complete records delivered: construction documentation, environmental compliance, inspection reports, and any regulatory submissions required."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Water management is one of the most regulated areas of midstream operations. Operators running clean brine, produced water, and SWD facilities are accountable for environmental compliance, containment integrity, and operational uptime. ProTorque’s job is to support those operators with construction and maintenance services that meet the standard.",
+     "For water management companies and integrated operators expanding water infrastructure across the Permian, ProTorque is the construction and maintenance partner that brings the trade capability and the documentation discipline these programs require."
+    ],
+    "quote": "<em>“Water management is a regulated business. ProTorque’s job is to keep facility construction and maintenance compliant from the start.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/midstream-card.jpg",
+      "title": "Midstream Construction",
+      "text": "New construction services for water management facilities.",
+      "cta": "Explore Midstream Construction",
+      "url": "/midstream-services/midstream-construction/"
+     },
+     {
+      "img": "content/plant-and-pipeline-card.jpg",
+      "title": "Plant and Pipeline Maintenance",
+      "text": "Ongoing maintenance for water management infrastructure.",
+      "cta": "Explore Plant and Pipeline Maintenance",
+      "url": "/midstream-services/plant-and-pipeline-maintenance/"
+     },
+     {
+      "img": "content/midstream-operations.jpg",
+      "title": "Data Center Water Drilling",
+      "text": "Water well drilling for industrial and data center water supply.",
+      "cta": "Explore Data Center Water Drilling",
+      "url": "/drilling-services/data-center-water-drilling/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Building or maintaining a water management facility?",
+    "paras": [
+     "Talk to ProTorque about construction, maintenance, and operational services for clean brine, produced water, and SWD facilities across the Permian."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "row-services": {
+  "slug": "row-services",
+  "kind": "service",
+  "title": "ROW Services",
+  "id": 877,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "ROW Services",
+    "sub": "Right of way clearing, new pads, civil concrete, and industrial weed control. Site work that gets the project ready."
+   },
+   {
+    "kind": "overview",
+    "title": "The work that has to happen before construction starts.",
+    "paras": [
+     "Midstream projects do not start when the construction crew arrives. They start when the site is cleared, the pad is built, and the access is in. ROW services are the foundational work that turns raw land into a buildable midstream site. ProTorque provides ROW clearing, civil work, new pad construction, and ongoing site maintenance across the Permian and West Texas.",
+     "For pipeline projects, that means ROW clearing and access roads. For facility builds, that means pad construction, foundations, and civil concrete. For operating facilities, that means industrial weed control and ongoing site upkeep. ProTorque handles all of it."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "Right of way (ROW) clearing for pipeline construction"
+     },
+     {
+      "kind": "li",
+      "text": "New pad construction"
+     },
+     {
+      "kind": "li",
+      "text": "Civil concrete work and foundations"
+     },
+     {
+      "kind": "li",
+      "text": "Access road construction"
+     },
+     {
+      "kind": "li",
+      "text": "Site grading and preparation"
+     },
+     {
+      "kind": "li",
+      "text": "Industrial weed control"
+     },
+     {
+      "kind": "li",
+      "text": "Erosion control and site stabilization"
+     },
+     {
+      "kind": "li",
+      "text": "Site maintenance for operational facilities"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with surveyors, EPCs, and permitting authorities"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Site Survey and Scope",
+      "text": "Site assessment with the operator or EPC. ROW boundaries, pad specifications, civil requirements, and permitting status confirmed."
+     },
+     {
+      "title": "Mobilization",
+      "text": "Equipment, crews, and materials mobilized to site. Specialty equipment (graders, compactors, concrete trucks) coordinated for the scope."
+     },
+     {
+      "title": "Execution",
+      "text": "ROW cleared. Pads built. Civil concrete poured. Site prepared to spec. Documentation captured throughout for the operator’s records."
+     },
+     {
+      "title": "Handoff",
+      "text": "Site released to the construction crew. As-built documentation, civil records, and any specifications relevant to the construction team delivered."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Construction crews waiting for an unfinished pad cost more than the pad. Pipeline crews waiting for ROW clearing cost more than the clearing. The work that happens before construction sets the timeline for everything after. ProTorque’s ROW services are built to keep that timeline on schedule.",
+     "For operators running pipeline programs, building new SWD or tank battery sites, or maintaining sites that need ongoing industrial weed control, ROW services are the foundational work that protects the rest of the project."
+    ],
+    "quote": "<em>“Construction starts when the site is ready. ROW services are what get it ready.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/midstream-card.jpg",
+      "title": "Midstream Construction",
+      "text": "The construction work ROW services prepare for.",
+      "cta": "Explore Midstream Construction",
+      "url": "/midstream-services/midstream-construction/"
+     },
+     {
+      "img": "content/plant-and-pipeline-card.jpg",
+      "title": "Plant and Pipeline Maintenance",
+      "text": "Ongoing site maintenance and operational support.",
+      "cta": "Explore Plant and Pipeline Maintenance",
+      "url": "/midstream-services/plant-and-pipeline-maintenance/"
+     },
+     {
+      "img": "content/environmental-water-card.jpg",
+      "title": "Environmental and Water Management",
+      "text": "Environmental compliance for site work and containment.",
+      "cta": "Explore Environmental and Water Management",
+      "url": "/midstream-services/environmental-and-water-management/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need ROW or site work on a midstream project?",
+    "paras": [
+     "Talk to ProTorque about ROW clearing, pad construction, civil concrete, and industrial weed control across the Permian and West Texas."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "specialty-piping": {
+  "slug": "specialty-piping",
+  "kind": "service",
+  "title": "Specialty Piping",
+  "id": 878,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Specialty Piping",
+    "sub": "Fiber glass piping installation. Combo-welded carbon and stainless. Specialty materials installed right."
+   },
+   {
+    "kind": "overview",
+    "title": "The piping that does what carbon steel cannot.",
+    "paras": [
+     "Some applications need more than carbon steel. Corrosive service, demanding chemistries, or specific operating conditions call for fiber glass piping, stainless installations, or combo-material runs. ProTorque’s specialty piping crews install the pipe that meets those conditions.",
+     "Fiber glass piping for facilities. Stainless piping for process applications. Combo-welded carbon and stainless for specialty builds. ProTorque brings the certified welders, the handling equipment, and the field experience to install specialty piping correctly the first time."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "What the service includes",
+    "items": [
+     {
+      "kind": "li",
+      "text": "New facility construction and expansion"
+     },
+     {
+      "kind": "li",
+      "text": "Stainless steel piping installation"
+     },
+     {
+      "kind": "li",
+      "text": "Carbon steel piping for general facility use"
+     },
+     {
+      "kind": "li",
+      "text": "Combo-welded piping (poly, carbon, and stainless)"
+     },
+     {
+      "kind": "li",
+      "text": "Specialty pipe handling and rigging"
+     },
+     {
+      "kind": "li",
+      "text": "Pressure testing and qualification"
+     },
+     {
+      "kind": "li",
+      "text": "Installation for clean brine, produced water, and corrosive service"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation for pipe specs, welds, and pressure tests"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with mechanical and E&I trades for facility builds"
+     }
+    ]
+   },
+   {
+    "kind": "process",
+    "title": "Our process",
+    "steps": [
+     {
+      "title": "Scope and Materials",
+      "text": "Specialty piping scope confirmed with the operator or EPC. Materials specified, weld procedures qualified, and inspection requirements locked in."
+     },
+     {
+      "title": "Mobilization",
+      "text": "Certified welders and specialty piping crews mobilized. Pipe handling equipment, welding gear, and pressure test equipment ready on site."
+     },
+     {
+      "title": "Installation",
+      "text": "Pipe installed to spec. Welds performed by certified welders. Inspection conducted as required by the operator and regulatory authorities."
+     },
+     {
+      "title": "Test and Documentation",
+      "text": "Pressure testing executed. Inspection records delivered. Full pipe installation documentation handed to the operator for facility records."
+     }
+    ]
+   },
+   {
+    "kind": "why",
+    "title": "Why this matters",
+    "paras": [
+     "Specialty piping installations fail when the wrong contractor handles the wrong material. Fiber glass needs different handling than carbon steel. Stainless welds need different procedures and different welder qualifications. Mixing materials without the right experience leads to failures that cost more to fix than they would have cost to install correctly the first time.",
+     "For operators specifying specialty piping in water management facilities, clean brine programs, or process installations across the Permian and NM, ProTorque is the contractor with the trades and the discipline to install it right."
+    ],
+    "quote": "<em>“Specialty piping fails when the wrong contractor handles the wrong material. ProTorque’s job is to handle it right.”</em>"
+   },
+   {
+    "kind": "related",
+    "title": "Connected services",
+    "cards": [
+     {
+      "img": "content/midstream-card.jpg",
+      "title": "Midstream Construction",
+      "text": "Specialty piping integrated into broader facility construction.",
+      "cta": "Explore Midstream Construction",
+      "url": "/midstream-services/midstream-construction/"
+     },
+     {
+      "img": "content/environmental-water-card.jpg",
+      "title": "Environmental and Water Management",
+      "text": "Fiber glass and specialty piping for water management facilities.",
+      "cta": "Explore Environmental and Water Management",
+      "url": "/midstream-services/environmental-and-water-management/"
+     },
+     {
+      "img": "content/facilities-electrical-card.jpg",
+      "title": "Facilities E&I and Mechanical",
+      "text": "Mechanical trades supporting specialty piping installation.",
+      "cta": "Explore Facilities E&I",
+      "url": "/midstream-services/facilities-electrical-instrumentation-mechanical/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Specifying fiber glass or specialty piping?",
+    "paras": [
+     "Talk to ProTorque about fiber glass installation, combo welding, and specialty piping services across the Permian and West Texas."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "rcd-press": {
+  "slug": "rcd-press",
+  "kind": "equipment",
+  "title": "RCD Press",
+  "id": 713,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "RCD Press",
+    "sub": "Take RCD installation off the rig floor. Reduce handling exposure. Reduce MPD NPT. Clear ROI on the AFE.",
+    "image": "content/rcd-press-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "RCD installation, done offline.",
+    "paras": [
+     "Rotating Control Devices (RCDs) are essential equipment for managed pressure drilling, but they are not easy to install. Conventional installation puts the RCD on the rig floor, on the critical path, with crews handling heavy equipment in tight spaces. The RCD Press changes that. The press moves RCD installation offline, into a controlled environment where the work can happen without burning rig hours or putting crew at risk.",
+     "Field-proven by ProTorque on MPD operations across North America and offshore."
+    ],
+    "video": "z54xSMQt3WI",
+    "gallery": [
+     "content/protorque-tds-drilling-6-1024x683-1.jpg",
+     "content/protorque-drilling-torque-3.jpg",
+     "content/protorque-tds-drilling-3-1024x683-1.jpg"
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "RCD Press - Specs",
+      "rows": [
+       [
+        "PRESS STROKE LENGTH",
+        "36” (914.4 mm)"
+       ],
+       [
+        "OVERALL HEAD LENGTH (MAXIMUM)",
+        "52” (1,320 mm)"
+       ],
+       [
+        "HEAD OD (MAXIMUM)",
+        "24” (609 mm)"
+       ],
+       [
+        "TUBULAR OD (RANGE)",
+        "3 – 7.63” (76.2 – 193.8 mm)"
+       ],
+       [
+        "UNIT PRESSURE RATING (MAXIMUM)",
+        "3,000 PSI (20,700 kPa)"
+       ],
+       [
+        "HYDRAULIC FLOW REQUIREMENTS",
+        "5 – 70 gal/min (19 – 265 L/min)"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "NPT reduction on MPD operations",
+      "text": "RCD installation moves off the critical path. The RCD is ready when the operation needs it. Conventional installation NPT is removed from the AFE."
+     },
+     {
+      "title": "Reduced handling exposure",
+      "text": "Crews install RCDs in a controlled environment with proper handling equipment, not on a rig floor under time pressure. Significant HSE improvement."
+     },
+     {
+      "title": "Clear ROI for operations and procurement",
+      "text": "The press pays for itself in saved rig hours on MPD programs. Operations leadership gets the safety case; procurement gets the cost justification."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "Independent torque verification on top drive make-up supporting MPD operations.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/real-time-drilling-data-card.jpg",
+      "title": "Real-Time Drilling Data",
+      "text": "Real-time data integration on MPD operations and broader drilling work.",
+      "cta": "Explore Real-Time Drilling Data",
+      "url": "/drilling-services/real-time-drilling-data/"
+     },
+     {
+      "img": "content/card-hook-load.jpg",
+      "title": "Top Drive + Hook Load Verification",
+      "text": "Verification of rig equipment supporting MPD programs.",
+      "cta": "Explore Hook Load Verification",
+      "url": "/drilling-services/top-drive-and-hook-load-verification/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the RCD Press for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the RCD Press works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "crt-tether-ring": {
+  "slug": "crt-tether-ring",
+  "kind": "equipment",
+  "title": "CRT Tether Ring",
+  "id": 725,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "CRT Tether Ring",
+    "sub": "Engineered dropped-object prevention for CRT operations. Safer rig floors. Documented protection.",
+    "image": "content/tether-ring-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "CRT operations protected from dropped object risk.",
+    "paras": [
+     "The CRT is one of the most consequential pieces of equipment on the rig floor during a casing run. It is also one of the more dangerous if anything goes wrong. The CRT Tether Ring is engineered safety equipment that prevents the CRT from becoming a dropped object during casing operations.",
+     "Field-proven by ProTorque across casing operations in Canada, the USA, and South America."
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "Tether Ring - Specs",
+      "rows": [
+       [
+        "LOAD RATING",
+        "3,000 lbs (1,665 kg)"
+       ],
+       [
+        "SHOCK RATING",
+        "40,000 lbs (18,182 kg) of force"
+       ],
+       [
+        "FALL HEIGHT RATED",
+        "24” (60.9 cm)"
+       ],
+       [
+        "RPM RATING:",
+        "120 RPM"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Dropped object prevention",
+      "text": "Engineered tether captures the CRT if a primary attachment fails. Operators get documented protection against one of the highest-consequence dropped object scenarios on the rig floor."
+     },
+     {
+      "title": "Inspection and recertification program",
+      "text": "Our Tether Ring Recertification Program keeps the equipment inspected and certified to known standards. Operators get equipment with a paper trail and a service history."
+     },
+     {
+      "title": "Field-proven across operations",
+      "text": "Used across ProTorque casing programs on conventional drilling, completions, workovers, and specialty applications including CCS. Real operational validation, not lab-only testing."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Where the CRT Tether Ring goes to work. Casing crews and calibrated power tongs supporting full casing programs.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/crt-redress-2.jpg",
+      "title": "CRT Redress and Maintenance Program",
+      "text": "CRT readiness paired with engineered safety equipment. The complete CRT operational discipline.",
+      "cta": "Explore CRT Redress",
+      "url": "/tubular-running-services/crt-redress-and-maintenance-program/"
+     },
+     {
+      "img": "content/crt-nubbin-card.jpg",
+      "title": "CRT Nubbin",
+      "text": "Supporting CRT equipment engineered for casing running operations.",
+      "cta": "Explore CRT Nubbin",
+      "url": "/equipment-and-innovation/crt-nubbin/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the CRT Tether Ring for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the CRT Tether Ring works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "mobile-bha-frame": {
+  "slug": "mobile-bha-frame",
+  "kind": "equipment",
+  "title": "Mobile BHA Frame",
+  "id": 724,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Mobile BHA Frame",
+    "sub": "Move bottom hole assembly work off the rig floor. Faster starts. Cleaner workflows. Reduced exposure.",
+    "image": "content/mobile-bha-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "BHA assembly that does not have to happen on the rig floor.",
+    "paras": [
+     "Traditional BHA assembly happens on the rig floor, on the critical path, with crews working in tight spaces and tighter timelines. The Mobile BHA Frame changes that. The frame moves BHA assembly into a controlled, horizontal setup off the rig floor, where the work can happen ahead of time without burning rig hours.",
+     "Used by ProTorque on drilling programs across North America."
+    ],
+    "video": "D7jWNjaKBso",
+    "gallery": [
+     "content/Screenshot-2024-04-21-at-1.40.08-PM-1024x572-1.jpg",
+     "content/Screenshot-2024-04-21-at-1.40.37-PM-1024x572-1.jpg",
+     "content/image002-1024x730-1.jpg"
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "BHA Frame - Specs",
+      "rows": [
+       [
+        "PIPE SIZE RANGE",
+        "4 ½”-12”"
+       ],
+       [
+        "TORQUE RANGE",
+        "100,000 ft/lbs"
+       ],
+       [
+        "WEIGHT",
+        "10,100 lbs"
+       ],
+       [
+        "DIMENSIONS",
+        "95”L X 90”W X 57”H"
+       ],
+       [
+        "BACK-UP JAW ADJUSTMENT (SCOPE)",
+        "18”"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Critical path savings",
+      "text": "BHA assembly comes off the critical path. The rig is not waiting on the BHA. The BHA is ready when the rig is."
+     },
+     {
+      "title": "Reduced HSE exposure",
+      "text": "Crew works in a controlled environment instead of on the rig floor under time pressure. Lower exposure. Cleaner workflow."
+     },
+     {
+      "title": "Documented BHA make-up",
+      "text": "Connection make-up can be documented and verified during offline assembly. The BHA arrives at the rig with the records, not the rig floor scrambling to capture them."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs",
+      "text": "Independent torque verification during offline BHA make-up.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/catm-for-top-drive.jpg",
+      "title": "CATM for Top Drive",
+      "text": "Independent torque verification on the rig once the BHA is in service.",
+      "cta": "Explore CATM for Top Drive",
+      "url": "/tubular-running-services/catm-for-top-drive/"
+     },
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Casing operations supported by the same offline-first mindset.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the Mobile BHA Frame for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the Mobile BHA Frame works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "mobile-bucking-frame": {
+  "slug": "mobile-bucking-frame",
+  "kind": "equipment",
+  "title": "Mobile Bucking Frame",
+  "id": 726,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Mobile Bucking Frame",
+    "sub": "Portable make-up off the rig floor. Controlled bucking for accessories, shop work, and remote operations.",
+    "image": "content/protorque-bucking-frame-2.png"
+   },
+   {
+    "kind": "overview",
+    "title": "Make-up that moves to where the work is.",
+    "paras": [
+     "Not every connection needs to be made up on the rig floor. Accessories, shop builds, and remote operations all call for controlled make-up in a setting designed for the work. The Mobile Bucking Frame brings calibrated, documented bucking capability to any site that needs it.",
+     "Used by ProTorque across operations in Canada and the USA, with growing application in shop-based casing accessory work and bucking services."
+    ],
+    "video": "QqpkAYveo90",
+    "gallery": [
+     "content/bucking-frame-145678.jpg",
+     "content/bucking-frame-1456786.jpg",
+     "content/protorque-bucking-frame-1.jpg"
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "Mobile Bucking Frame - Specs",
+      "rows": [
+       [
+        "PIPE SIZE RANGE",
+        "Power Tong 4.5 – 13.63” (114.3 – 346 mm)\nBack-up jaw 4 – 15” (101.6 – 381 mm)"
+       ],
+       [
+        "TORQUE RANGE",
+        "4.5 – 5.5” (114.3 – 139.7 mm) 25,000 ft/lbs (33,850 Nm)\n7 – 13.63” (177.8 – 346 mm) 35,000 ft/lbs (47,400 Nm)"
+       ],
+       [
+        "FLOW RATING",
+        "40 – 60 GPM (152 – 227 LPM)"
+       ],
+       [
+        "WEIGHT",
+        "4,500 lbs (2045 kg)"
+       ],
+       [
+        "DIMENSIONS",
+        "Length 95” (2,413 mm), Width 58” (1,473 mm), Height 68” (1,727 mm)"
+       ],
+       [
+        "HEIGHT ADJUSTMENT",
+        "12” (305 mm)"
+       ],
+       [
+        "BACK-UP JAW ADJUSTMENT (SCOPE)",
+        "Maximum 52” (1,321 mm) Minimum 9” (229 mm)"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Portable and ready",
+      "text": "The frame goes where the work is. Shop floor, remote yard, satellite location. Controlled make-up without depending on rig floor availability."
+     },
+     {
+      "title": "Supports bucking services growth",
+      "text": "Aligned with ProTorque’s expansion into bucking services across Canada. Operators get a vendor offering both the equipment and the crews to use it."
+     },
+     {
+      "title": "Calibrated and documented",
+      "text": "Connection make-up is captured and documented the same way it would be on a rig floor. Records travel with the work."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Bucking services connected to ProTorque’s broader TRS capability.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/catm-for-power-tongs.jpg",
+      "title": "CATM for Power Tongs",
+      "text": "Independent torque verification during bucking make-up.",
+      "cta": "Explore CATM for Power Tongs",
+      "url": "/tubular-running-services/catm-for-power-tongs/"
+     },
+     {
+      "img": "content/mobile-bha-800.png",
+      "title": "Mobile BHA Frame",
+      "text": "The other Mobile Frame in the lineup, supporting offline BHA assembly.",
+      "cta": "Explore Mobile BHA Frame",
+      "url": "/equipment-and-innovation/mobile-bha-frame/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the Mobile Bucking Frame for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the Mobile Bucking Frame works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "electric-hydraulic-power-unit": {
+  "slug": "electric-hydraulic-power-unit",
+  "kind": "equipment",
+  "title": "Electric Hydraulic Power Unit",
+  "id": 719,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Electric Hydraulic Power Unit (eHPU)",
+    "sub": "Hydraulic power without the diesel. Cleaner, quieter, lower fuel burn, lower maintenance.",
+    "image": "content/ehpu-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "Hydraulic power, electrified.",
+    "paras": [
+     "Conventional hydraulic power units run on diesel. They are loud, they burn fuel, they emit exhaust, and they need maintenance the operator did not plan for. The Electric Hydraulic Power Unit (eHPU) replaces the diesel with an electric drive that delivers the same hydraulic capacity with a cleaner, quieter footprint.",
+     "Used by ProTorque on tubular running operations and supporting rig work where cleaner power matters."
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Lower fuel and emissions",
+      "text": "No diesel burn means lower fuel cost, lower emissions, and a smaller environmental footprint at the rig site."
+     },
+     {
+      "title": "Quieter operation",
+      "text": "Electric drive cuts noise significantly. Better for crew comfort, better for HSE, better for sites with sound restrictions."
+     },
+     {
+      "title": "Lower maintenance burden",
+      "text": "Fewer moving parts than a diesel HPU. Lower routine maintenance. Lower long-term cost of operation."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Tubular running operations powered by eHPU.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/mobile-bha-800.png",
+      "title": "Mobile BHA Frame",
+      "text": "Offline BHA assembly powered by eHPU.",
+      "cta": "Explore Mobile BHA Frame",
+      "url": "/equipment-and-innovation/mobile-bha-frame/"
+     },
+     {
+      "img": "content/mobile-bucking-frame-card.jpg",
+      "title": "Mobile Bucking Frame",
+      "text": "Portable bucking powered by eHPU.",
+      "cta": "Explore Mobile Bucking Frame",
+      "url": "/equipment-and-innovation/mobile-bucking-frame/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the eHPU for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the eHPU works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "vacuum-drift-system": {
+  "slug": "vacuum-drift-system",
+  "kind": "equipment",
+  "title": "Vacuum Drift System",
+  "id": 654,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Vacuum Drift System",
+    "sub": "Engineered vacuum drift equipment for documented casing ID confirmation. Faster, cleaner, more verifiable",
+    "image": "content/vacuum-drift-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "Drift testing engineered for the modern casing program.",
+    "paras": [
+     "Conventional drift methods work, but they leave room for inconsistency and miss dimensional issues that can show up downhole. The Vacuum Drift System changes the approach. The system verifies casing ID with documented evidence on every joint, faster than conventional drift methods and with cleaner workflow.",
+     "Used by ProTorque on premium connection programs, chrome casing operations, and specialty applications including CCS and fiber-optic casing."
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "Vacuum Drift System - Specs",
+      "rows": [
+       [
+        "165 CFM @ 1,150 RPM",
+        ""
+       ],
+       [
+        "27 HG (Mercury units of vacuum force)",
+        ""
+       ],
+       [
+        "13 HP Honda motor",
+        ""
+       ],
+       [
+        "Rubberized drifting ends for hoses",
+        ""
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Faster joint verification",
+      "text": "Vacuum drift verifies casing ID significantly faster than conventional methods. The system keeps casing programs on schedule."
+     },
+     {
+      "title": "Documented results per joint",
+      "text": "Every drift result captured and logged. The operator has documented evidence of casing ID compliance before the run."
+     },
+     {
+      "title": "Specialty casing compatibility",
+      "text": "Works on chrome casing, premium connections, and specialty materials where conventional methods may not provide the same verification quality."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/vacuum-drift-card.jpg",
+      "title": "Vacuum Drifting & Casing ID Confirmation",
+      "text": "The ProTorque service built around the Vacuum Drift System equipment.",
+      "cta": "Explore Vacuum Drifting Services",
+      "url": "/tubular-running-services/vacuum-drifting-and-casing-id-confirmation/"
+     },
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running & Power Tong Services",
+      "text": "Where verified casing goes next.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/teeth-inspection.jpg",
+      "title": "Tubular Thread Cleaning & Inspection",
+      "text": "The pre-run discipline that complements vacuum drifting.",
+      "cta": "Explore Thread Cleaning",
+      "url": "/tubular-running-services/tubular-thread-cleaning-and-inspection/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the Vacuum Drift System for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the Vacuum Drift System works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "break-out-vise": {
+  "slug": "break-out-vise",
+  "kind": "equipment",
+  "title": "Break-Out Vise",
+  "id": 720,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Break-Out Vise",
+    "sub": "Controlled, documented break-out for tubular operations. Built for shops, yards, and remote work.",
+    "image": "content/break-out-vise-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "Break-out without the rig floor.",
+    "paras": [
+     "Not every break-out happens on the rig floor. Shop work, accessory disassembly, remote yard operations all need controlled break-out capability that does not depend on rig availability. The Break-Out Vise provides that capability in a portable, engineered form.",
+     "Used by ProTorque across shop operations and supporting work where controlled break-out matters."
+    ],
+    "images": [
+     "content/Drill-Pipe.jpeg"
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "Break-Out Vise - Specs",
+      "rows": [
+       [
+        "TORQUE RATING",
+        "40,000 – 90,000 ft/lbs (54,230 – 12,2025 Nm)"
+       ],
+       [
+        "TUBULAR OD RANGE",
+        "4 – 14” OD"
+       ],
+       [
+        "DIMENSIONS",
+        "Length 60“ (1,524 mm), Width 46” (1,168 mm), Height 56” (1,422 mm)"
+       ],
+       [
+        "WEIGHT",
+        "1,500 lbs (680 kg)"
+       ],
+       [
+        "PRESSURE RATING",
+        "3,000 PSI (20,700 kPa)"
+       ],
+       [
+        "HYDRAULIC FLOW REQUIREMENTS",
+        "2 – 8 gal/min (7.5 – 30.5 L/min)"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Portable, ready capability",
+      "text": "The vise goes where the work is. No dependency on rig floor schedules."
+     },
+     {
+      "title": "Controlled break-out",
+      "text": "Engineered holding force keeps break-out controlled and documented. Reduces handling risk on stuck or high-torque connections."
+     },
+     {
+      "title": "Built for tubular operations",
+      "text": "Designed for the materials and connection sizes ProTorque crews work with every day. Field validation built into the product."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/mobile-bucking-frame-card.jpg",
+      "title": "Mobile Bucking Frame",
+      "text": "Companion equipment for portable make-up and break-out.",
+      "cta": "Explore Mobile Bucking Frame",
+      "url": "/equipment-and-innovation/mobile-bucking-frame/"
+     },
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Where ProTorque’s casing crews use Break-Out Vise capability.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/crt-redress-2.jpg",
+      "title": "CRT Redress and Maintenance Program",
+      "text": "CRT maintenance work using Break-Out Vise capability in the shop.",
+      "cta": "Explore CRT Redress",
+      "url": "/tubular-running-services/crt-redress-and-maintenance-program/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the Break-Out Vise for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the Break-Out Vise works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "crt-nubbin": {
+  "slug": "crt-nubbin",
+  "kind": "equipment",
+  "title": "CRT Nubbin",
+  "id": 721,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "CRT Nubbin",
+    "sub": "Supporting CRT equipment engineered for casing running operations.",
+    "image": "content/crt-nubbin-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "The supporting equipment behind CRT operations.",
+    "paras": [
+     "CRT operations depend on more than just the CRT itself. The CRT Nubbin is engineered supporting equipment that works alongside the Tether Ring and casing running crew to keep casing operations running clean.",
+     "Used by ProTorque across casing programs in Canada, the USA, and South America."
+    ],
+    "gallery": [
+     "content/protorque-volant-photo.jpg",
+     "content/protorque-min-1024x1024-1.png"
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "CRT Nubbin - Specs",
+      "rows": [
+       [
+        "SIZING",
+        "4.5 – 13.38” (114.3 – 339.7 mm)"
+       ],
+       [
+        "AVAILABLE CONNECTIONS",
+        "API and most premium manufacturers"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Engineered fit with CRT operations",
+      "text": "The Nubbin is engineered to work specifically with our CRT lineup. Compatible by design, not by adaptation."
+     },
+     {
+      "title": "Supports the broader CRT discipline",
+      "text": "Part of the CRT operational system: Nubbin, Tether Ring, redress program, and supporting equipment all working together."
+     },
+     {
+      "title": "Field-proven application",
+      "text": "Used across ProTorque casing programs. Real operational validation drives product refinement."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/crt-tether-ring.jpg",
+      "title": "CRT Tether Ring",
+      "text": "Engineered safety equipment for the same CRT operations.",
+      "cta": "Explore CRT Tether Ring",
+      "url": "/equipment-and-innovation/crt-tether-ring/"
+     },
+     {
+      "img": "content/crt-redress-2.jpg",
+      "title": "CRT Redress and Maintenance Program",
+      "text": "CRT operational discipline that the Nubbin supports.",
+      "cta": "Explore CRT Redress",
+      "url": "/tubular-running-services/crt-redress-and-maintenance-program/"
+     },
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "The casing operations where the Nubbin goes to work.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the CRT Nubbin for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the CRT Nubbin works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "pipe-roller": {
+  "slug": "pipe-roller",
+  "kind": "equipment",
+  "title": "Pipe Roller",
+  "id": 722,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Pipe Roller",
+    "sub": "Engineered pipe handling for casing yards, staging, and pre-run preparation.",
+    "image": "content/pipe-roller-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "Pipe handling. Built right.",
+    "paras": [
+     "Casing yards run on pipe handling. Joints get inspected, drifted, cleaned, and staged before they head to the rig. The Pipe Roller is engineered handling equipment that supports those operations safely, efficiently, and at the volume casing programs require.",
+     "Used by ProTorque across casing yards and pre-mobilization staging operations."
+    ],
+    "gallery": [
+     "content/pipe-rolloer-2.png"
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "Pipe Roller - Specs",
+      "rows": [
+       [
+        "CASING SIZES AVAILABLE",
+        "4.5 – 5.5” (114.3 – 139.7 mm)\n7 – 9.63” (177.8 – 244.6 mm)"
+       ],
+       [
+        "HANDLING WEIGHT",
+        "4.5 – 5.5” – 11 lbs (5 kg)\n7 – 9.63” – 14 lbs (6.4 kg)"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Safer pipe handling",
+      "text": "Engineered handling reduces manual exposure to heavy pipe. Better HSE on the yard floor."
+     },
+     {
+      "title": "Faster staging throughput",
+      "text": "Pipe moves through inspection, cleaning, and drifting workflows faster when handling is built for the volume."
+     },
+     {
+      "title": "Compatible across casing sizes",
+      "text": "Designed to handle the range of casing programs ProTorque supports. Single equipment, multi-program use."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/teeth-inspection.jpg",
+      "title": "Tubular Thread Cleaning and Inspection",
+      "text": "Pre-run inspection workflow supported by Pipe Roller equipment.",
+      "cta": "Explore Thread Cleaning",
+      "url": "/tubular-running-services/tubular-thread-cleaning-and-inspection/"
+     },
+     {
+      "img": "content/vacuum-drift-800.png",
+      "title": "Vacuum Drift System",
+      "text": "Drift verification often paired with Pipe Roller handling in the yard.",
+      "cta": "Explore Vacuum Drift System",
+      "url": "/equipment-and-innovation/vacuum-drift-system/"
+     },
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Casing operations downstream of pipe handling.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the Pipe Roller for your next program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the Pipe Roller works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "flush-mounted-spider": {
+  "slug": "flush-mounted-spider",
+  "kind": "equipment",
+  "title": "Flush Mounted Spider",
+  "id": 723,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Flush Mounted Spider",
+    "sub": "Cleaner rig floors. Reduced trip hazards. Safer casing operations.",
+    "image": "content/flush-mounted-spider-800.png"
+   },
+   {
+    "kind": "overview",
+    "title": "Floor-level safety for casing operations.",
+    "paras": [
+     "Standard rig floor spiders create raised obstructions on the work surface. Crews trip on them. Tools catch on them. They add unnecessary risk to a work environment that already has plenty. The Flush Mounted Spider sits flush with the rig floor when not in use. Cleaner footprint. Fewer trip hazards. Safer casing handling.",
+     "Supplied directly by ProTorque. Available for casing operations across our service regions in Canada, the USA, and South America."
+    ],
+    "gallery": [
+     "content/FMS-with-Adapter.jpg",
+     "content/1007514-FMS-Adapter-Painted.jpg"
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "paras": [
+     "Torque values are determined by slip upon the pipe and not the limitations of the tool"
+    ],
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "MAXIMUM TORQUE AT 2000 PSI WORKING PRESSURE ON A SINGLE JOINT"
+     }
+    ],
+    "tables": [
+     {
+      "title": "Flush Mounted Spider - Specs",
+      "rows": [
+       [
+        "MAXIMUM TENSION RATING",
+        "350 TONS"
+       ],
+       [
+        "MAXIMUM WORKING PRESSURE",
+        "2000 PSI (13,790 kPa)"
+       ],
+       [
+        "FLOW RATE REQUIRED",
+        "34 GPM (128 LPM)"
+       ],
+       [
+        "MASS (TOOL ONLY)",
+        "2,900 LBS (1,315 KG)"
+       ],
+       [
+        "MASS RANGE (CARRIERS AND GUIDE PLATES INCLUDED)",
+        "3,050-3,700 LBS (1,383-1,678 KG)"
+       ],
+       [
+        "TIME TO EXTEND AND RETRACT",
+        "6 SECONDS"
+       ],
+       [
+        "COMPATIBLE ROTARY TABLE",
+        "27 1/2”, 37 1/2*\n\nWith addition of the adapter ring, same FMS can be used with any other most common 37 1/2″ rotaries: national or EMSCO configuration"
+       ],
+       [
+        "CASING SIZE RANGE",
+        "13.625″ – 2.375″"
+       ]
+      ],
+      "head": false
+     },
+     {
+      "title": "Flush Mounted Spider - Torque - Specs",
+      "rows": [
+       [
+        "MAXIMUM TENSION RATING",
+        "50,000"
+       ],
+       [
+        "MAXIMUM WORKING PRESSURE",
+        "38,000"
+       ],
+       [
+        "FLOW RATE REQUIRED",
+        "30,000"
+       ],
+       [
+        "MASS (TOOL ONLY)",
+        "22,000"
+       ],
+       [
+        "MASS RANGE (CARRIERS AND GUIDE PLATES INCLUDED)",
+        "14,000"
+       ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Why operators use it",
+    "benefits": [
+     {
+      "title": "Cleaner rig floor",
+      "text": "The spider sits flush with the work surface when not engaged. No raised obstruction. Crews and equipment move freely."
+     },
+     {
+      "title": "Reduced trip hazard",
+      "text": "One of the most common rig floor safety issues removed by design. Direct HSE improvement."
+     },
+     {
+      "title": "Supports ProTorque casing operations",
+      "text": "Designed to integrate with ProTorque’s broader TRS and CRT operational discipline. Equipment that works the way the crews work."
+     }
+    ]
+   },
+   {
+    "kind": "related",
+    "title": "How ProTorque uses this equipment",
+    "cards": [
+     {
+      "img": "content/casing-running-card.jpg",
+      "title": "Casing Running and Power Tong Services",
+      "text": "Where the Flush Mounted Spider does its work.",
+      "cta": "Explore Casing Running",
+      "url": "/tubular-running-services/casing-running-and-power-tong-services/"
+     },
+     {
+      "img": "content/crt-tether-ring.jpg",
+      "title": "CRT Tether Ring",
+      "text": "Companion safety equipment for CRT operations.",
+      "cta": "Explore CRT Tether Ring",
+      "url": "/equipment-and-innovation/crt-tether-ring/"
+     },
+     {
+      "img": "content/crt-redress-2.jpg",
+      "title": "CRT Redress and Maintenance Program",
+      "text": "The broader operational discipline the Flush Mounted Spider integrates with.",
+      "cta": "Explore CRT Redress",
+      "url": "/tubular-running-services/crt-redress-and-maintenance-program/"
+     }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Need a Flush Mounted Spider for your next casing program?",
+    "paras": [
+     "Talk to ProTorque about field use, operational fit, and how the Flush Mounted Spider works alongside our crews."
+    ],
+    "buttons": [
+     {
+      "text": "Get in Touch",
+      "url": "/contact-us/"
+     }
+    ]
+   }
+  ]
+ },
+ "contact-us": {
+  "slug": "contact-us",
+  "kind": "contact",
+  "title": "Contact Us",
+  "id": 438,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Contact ProTorque",
+    "paras": [
+     "Is there something about your operations that you think can be improved? Do you have a safety concern? Want to inquire about our products or services? Get in touch today!"
+    ],
+    "sub": "Talk to a crew lead about your next program"
+   },
+   {
+    "kind": "locations",
+    "title": "Where we work",
+    "eyebrow": "OFFICE LOCATIONS",
+    "map": true,
+    "offices": [
+     {
+      "name": "CANADA DIVISION",
+      "lines": [
+       "24 Hour Dispatch",
+       "Grande Prairie",
+       "Red Deer"
+      ],
+      "phones": [
+       "1.780.288.6128",
+       "1.780.933.0404"
+      ],
+      "mail": [
+       "1700, 520-5th Ave SW,",
+       "Calgary, AB, T2P 3R7",
+       "Calgary, Red Deer,",
+       "Edmonton, Grande Prairie"
+      ],
+      "email": "PTCT.Sales@ptenergy.com",
+      "directions": "https://www.google.com/maps/dir/?api=1&destination=1700%2C%20520-5th%20Ave%20SW%2C%20Calgary%2C%20AB%2C%20T2P%203R7"
+     },
+     {
+      "name": "USA DIVISION",
+      "lines": [
+       "24 Hour Dispatch"
+      ],
+      "phones": [
+       "+1.713.300.5216"
+      ],
+      "mail": [
+       "3424 South Country Road 1192,",
+       "Midland TX, 79706"
+      ],
+      "email": "PTE.Sales@ptenergy.com",
+      "directions": "https://www.google.com/maps/dir/?api=1&destination=3424%20South%20County%20Road%201192%2C%20Midland%2C%20TX%2C%2079706"
+     },
+     {
+      "name": "SOUTH AMERICA",
+      "lines": [
+       "24 Hour Dispatch"
+      ],
+      "phones": [
+       "57.321.320.2213"
+      ],
+      "mail": [
+       "Bodega # 47, Parque Industrial",
+       "San Jorge, Municipio de Mosquera",
+       "Cundinamarca"
+      ],
+      "email": "PTESAS.Sales@ptenergy.com",
+      "directions": "https://www.google.com/maps/dir/?api=1&destination=Bodega%20%2347%2C%20Parque%20Industrial%20San%20Jorge%2C%20Municipio%20de%20Mosquera%2C%20Cundinamarca"
+     }
+    ]
+   },
+   {
+    "kind": "form",
+    "title": "Tell us about your program",
+    "eyebrow": "REQUEST A QUOTE",
+    "paras": [
+     "Fill in your details and a short description of the program. We will route the request to the right team and respond quickly.",
+     "As your business partner, your success is our highest priority, while offering 24 hour support."
+    ],
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Our Guarantee"
+     }
+    ],
+    "form": "Main Contact Form"
+   }
+  ]
+ },
+ "careers": {
+  "slug": "careers",
+  "kind": "careers",
+  "title": "Careers",
+  "id": 590,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Careers at ProTorque",
+    "sub": "Build a career on the rigs that build energy. Skilled crews. Real work. Documented operations."
+   },
+   {
+    "kind": "overview",
+    "title": "The foundation of ProTorque Total Rig and Midstream Solutions",
+    "eyebrow": "Why ProTorque",
+    "paras": [
+     "ProTorque crews work the rigs and facilities that make energy work. Tubular running, drilling verification, midstream construction, equipment operations. Real field work for real operators.",
+     "Every job runs through the same discipline: clean work, accurate measurement, complete records. Skilled trades doing the work the way the program calls for it.",
+     "Field crews move into supervisory roles. Operators move into project leadership. Technical specialists grow into product and equipment teams. The path exists if you put in the work."
+    ]
+   },
+   {
+    "kind": "overview",
+    "title": "Field, shop, and office",
+    "eyebrow": "Where we work",
+    "paras": [
+     "ProTorque careers happen across field operations, equipment shops, and project leadership offices. The field crews work on rigs and at midstream sites. The shops maintain CRTs, redress equipment, and prepare pipe. The offices coordinate project execution, manage equipment programs, and run the business that supports the field work.",
+     "Most ProTorque careers start in the field. The people who run our programs today started by running pipe yesterday. That path is open to people who show up ready, work clean, and want to build a career instead of just clock hours"
+    ]
+   },
+   {
+    "kind": "jobs",
+    "title": "Current opportunities",
+    "eyebrow": "Open positions",
+    "jobs": true
+   },
+   {
+    "kind": "cta",
+    "title": "Don't see the right role? Send us your resume.",
+    "buttons": [
+     {
+      "text": "careers@ptenergy.com",
+      "url": "mailto:careers%40ptenergy.com"
+     }
+    ]
+   }
+  ]
+ },
+ "news": {
+  "slug": "news",
+  "kind": "news",
+  "title": "News",
+  "id": 364,
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "News & Resources",
+    "sub": "Insights, case studies, and announcements from ProTorque."
+   },
+   {
+    "kind": "overview",
+    "title": "Featured",
+    "other": [
+     "pt_featured_post"
+    ]
+   },
+   {
+    "kind": "form",
+    "title": "Latest from ProTorque",
+    "eyebrow": "Latest",
+    "paras": [
+     "Subscribe for ProTorque insights, news, and case studies."
+    ],
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Want to stay informed?"
+     }
+    ],
+    "other": [
+     "pt_blog_grid"
+    ],
+    "form": "Newsletter Signup"
+   }
+  ]
+ }
+}

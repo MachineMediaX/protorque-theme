@@ -58,3 +58,30 @@
     if (parseFloat(m.style.top) > 58) m.classList.add('pt-map__marker--up');
   });
 })();
+
+// Process tabs on the service landings (How we run tubular operations / How drilling verification works).
+(function () {
+  document.querySelectorAll('[data-tabs]').forEach(function (sec) {
+    var tabs = [].slice.call(sec.querySelectorAll('.pt-tabs__tab'));
+    var panels = [].slice.call(sec.querySelectorAll('.pt-tabs__panel'));
+    function activate(i, focus) {
+      tabs.forEach(function (t, k) {
+        var on = k === i;
+        t.classList.toggle('is-active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.setAttribute('tabindex', on ? '0' : '-1');
+      });
+      panels.forEach(function (p, k) { p.hidden = k !== i; p.classList.toggle('is-active', k === i); });
+      if (focus) tabs[i].focus();
+    }
+    tabs.forEach(function (t, i) {
+      t.addEventListener('click', function () { activate(i); });
+      t.addEventListener('keydown', function (e) {
+        var n = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : null;
+        if (n === null) return;
+        e.preventDefault();
+        activate((n + tabs.length) % tabs.length, true);
+      });
+    });
+  });
+})();
