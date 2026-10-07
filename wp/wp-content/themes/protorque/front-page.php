@@ -13,11 +13,11 @@ get_header();
 	<!-- Hero -->
 	<section class="pt-hero">
 		<?php if ( file_exists( get_template_directory() . '/assets/video/hero.mp4' ) ) : ?>
-		<video class="pt-hero__video" autoplay muted loop playsinline poster="<?php echo esc_url( "$img/placeholder/hero-poster.jpg" ); ?>">
+		<video class="pt-hero__video" autoplay muted loop playsinline poster="<?php echo esc_url( "$img/placeholder/hero-still.jpg" ); ?>">
 			<source src="<?php echo esc_url( get_template_directory_uri() . '/assets/video/hero.mp4' ); ?>" type="video/mp4">
 		</video>
 		<?php else : ?>
-		<img class="pt-hero__video" src="<?php echo esc_url( "$img/placeholder/hero-poster.jpg" ); ?>" alt="" width="1440" height="750">
+		<img class="pt-hero__video" src="<?php echo esc_url( "$img/placeholder/hero-still.jpg" ); ?>" alt="" width="1440" height="750">
 		<?php endif; ?>
 		<div class="pt-hero__scrim"></div>
 		<h1 class="pt-hero__title">Total Rig &amp;<br>Midstream<br>Solutions</h1>
@@ -70,7 +70,6 @@ get_header();
 						'cta' => 'Explore Tubular Running Services',
 						'url' => $home . 'tubular-running-services/',
 						'img' => 'card-trs',
-						'open' => true,
 					],
 					[
 						'title' => 'Midstream<br>Construction<br>&amp; Maintenance',

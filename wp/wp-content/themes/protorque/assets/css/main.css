@@ -122,7 +122,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 /* Hero */
 .pt-hero { position: relative; height: 750px; display: grid; place-items: center; overflow: hidden; color: var(--pt-white); }
 .pt-hero__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.pt-hero__scrim { position: absolute; inset: 0; background: rgba(0,0,0,.18); }
+.pt-hero__scrim { position: absolute; inset: 0; background: rgba(0,0,0,.12); }
 .pt-hero__title {
   position: relative;
   font-family: var(--pt-font-title);
@@ -153,7 +153,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-band__item { position: relative; display: block; aspect-ratio: 720 / 525; overflow: hidden; }
 .pt-band__item img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1); transition: filter .3s ease, transform .6s ease; }
 .pt-band__item:hover img { filter: grayscale(0); }
-.pt-band__item .pt-btn { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -30%); min-width: 322px; text-align: center; padding: 34px 32px; }
+.pt-band__item .pt-btn { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -30%); width: 322px; text-align: center; padding: 34px 32px; white-space: nowrap; }
 
 /* Who We Are */
 .pt-who { padding: 150px var(--pt-gutter) 136px; }
@@ -220,7 +220,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .pt-hero__video { display: none; }
-  .pt-hero { background: url("../img/placeholder/hero-poster.jpg") center / cover; }
+  .pt-hero { background: url("../img/placeholder/hero-still.jpg") center / cover; }
   * { transition: none !important; }
 }
 
@@ -252,7 +252,6 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .pt-mobile__quote { margin-top: 20px; width: 100%; text-align: center; }
   .pt-hero { height: 72vh; min-height: 520px; }
   .pt-band { grid-template-columns: 1fr; }
-  .pt-band__item .pt-btn { min-width: 0; width: calc(100% - 2 * var(--pt-gutter)); padding: 24px; }
   .pt-cards { grid-template-columns: 1fr; gap: 24px; margin-top: 56px; }
   .pt-card { min-height: 420px; }
   .pt-card__title { padding: 0 24px 60px 24px; }
