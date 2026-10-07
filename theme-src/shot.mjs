@@ -19,6 +19,7 @@ await Promise.race([
   page.evaluate(() => Promise.all([...document.images].map(i => i.complete ? null : new Promise(r => { i.onload = i.onerror = r; })))),
   new Promise(r => setTimeout(r, 8000)),
 ]);
+await page.addStyleTag({ content: '.pt-header{position:static !important}' });
 await new Promise(r => setTimeout(r, 300));
 const w = await page.evaluate(() => document.documentElement.scrollWidth);
 await page.screenshot({ path: out, fullPage: true });
