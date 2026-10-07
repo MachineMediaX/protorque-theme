@@ -427,3 +427,86 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .pt-president__body { margin-top: 48px; }
   .pt-photoband--plain { height: 320px; }
 }
+
+/* ==========================================================================
+   Midstream landing (Revision 3.7 structure) and Template 2 service detail
+   ========================================================================== */
+
+/* Sub-page hero with subhead */
+.pt-pagehero--sub { height: 750px; }
+.pt-pagehero--sub img { filter: grayscale(1); }
+.pt-pagehero__scrim { position: absolute; inset: 0; background: rgba(0,0,0,.28); }
+.pt-pagehero__text { position: relative; text-align: center; max-width: 900px; padding: 0 var(--pt-gutter); }
+.pt-pagehero__sub { margin-top: 28px; font-size: 1.25rem; line-height: 1.45; font-weight: 500; max-width: 46rem; margin-inline: auto; }
+.pt-pagehero__text .pt-btn { margin-top: 36px; }
+
+/* Overview: photo left, text right (Our Story pattern) */
+.pt-overview { padding: 112px var(--pt-gutter) 104px; }
+.pt-overview__grid { display: grid; grid-template-columns: 520px 1fr; gap: 0 96px; align-items: center; }
+.pt-overview__photo img { width: 100%; height: auto; filter: grayscale(1); }
+.pt-overview__text .pt-h2 { margin-top: 18px; }
+.pt-overview__text p { margin-top: 22px; font-size: 1.0625rem; line-height: 1.5; }
+
+/* Full-trade / Permian / T&M panel on the red gradient */
+.pt-panel { padding: 72px var(--pt-gutter); }
+.pt-panel__tiles { display: grid; grid-template-columns: repeat(3, 1fr); max-width: 1100px; margin-inline: auto; }
+.pt-panel__tiles > div { padding: 12px 40px; text-align: center; }
+.pt-panel__tiles > div + div { border-left: 2px solid var(--pt-yellow); }
+.pt-panel__tiles dt { font-family: var(--pt-font-title); font-size: clamp(2.5rem, 4.4vw, 4rem); line-height: 1; }
+.pt-panel__tiles dd { margin-top: 10px; font-size: 1.0625rem; font-weight: 600; }
+
+/* Six services grid: black cards, no photo */
+.pt-services { padding: 112px var(--pt-gutter) 120px; }
+.pt-services .pt-lede { max-width: 50rem; }
+.pt-services__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 72px; }
+.pt-svc { background: var(--pt-black); color: var(--pt-white); padding: 44px 40px 48px; display: flex; flex-direction: column; }
+.pt-svc__eyebrow { font-family: var(--pt-font-title); font-size: 1.125rem; letter-spacing: 0.08em; color: var(--pt-red); }
+.pt-svc__title { font-family: var(--pt-font-title); font-weight: 400; font-size: 2.125rem; line-height: 0.95; text-transform: uppercase; margin-top: 16px; }
+.pt-svc__lead { font-family: var(--pt-font-heading); font-weight: 600; font-size: 1.0625rem; line-height: 1.35; margin-top: 20px; }
+.pt-svc__body { font-size: var(--pt-size-card); line-height: 1.5; margin-top: 12px; font-weight: 500; flex: 1; }
+.pt-svc__link { display: inline-block; margin-top: 26px; font-weight: 600; text-underline-offset: 4px; }
+.pt-svc__link:hover { color: var(--pt-red); }
+.pt-clients--sub { padding: 100px var(--pt-gutter) 120px; }
+.pt-clients--sub .pt-logos { margin-top: 70px; }
+
+/* Template 2 */
+.pt-svc-overview { padding: 112px var(--pt-gutter) 120px; }
+.pt-svc-overview__inner { max-width: 860px; }
+.pt-svc-overview .pt-h2 { margin-top: 18px; }
+.pt-svc-overview p { margin-top: 22px; font-size: 1.125rem; line-height: 1.5; }
+.pt-includes { padding: 104px var(--pt-gutter) 112px; }
+.pt-checklist { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 64px; max-width: 1100px; margin: 56px auto 0; }
+.pt-checklist li { display: flex; gap: 16px; align-items: flex-start; font-size: 1.125rem; font-weight: 600; line-height: 1.4; }
+.pt-checklist svg { flex: none; margin-top: 2px; color: var(--pt-white); }
+.pt-process { padding: 104px var(--pt-gutter) 112px; }
+.pt-process__grid { list-style: none; }
+.pt-step__eyebrow { font-family: var(--pt-font-title); font-size: 1.125rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--pt-yellow); text-align: center; margin-bottom: 14px; }
+.pt-step h3 { font-size: 1.875rem; }
+.pt-why { padding: 120px var(--pt-gutter) 128px; }
+.pt-why__grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 0 90px; align-items: center; }
+.pt-why__text .pt-h2 { margin-top: 18px; }
+.pt-why__text p { margin-top: 22px; font-size: 1.0625rem; line-height: 1.5; }
+.pt-quote { margin: 0; background: var(--pt-charcoal); border-left: 6px solid var(--pt-red); padding: 48px 44px; }
+.pt-quote p { font-family: var(--pt-font-heading); font-weight: 600; font-size: 1.625rem; line-height: 1.3; }
+.pt-related { padding: 104px var(--pt-gutter) 112px; }
+.pt-related__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 64px; }
+.pt-svc--light .pt-svc__title { font-size: 1.875rem; margin-top: 0; }
+.pt-ctabar__actions { display: flex; align-items: center; gap: 28px; }
+.pt-ctabar__phone { color: var(--pt-white); font-weight: 700; text-decoration: none; font-size: 1.125rem; }
+.pt-ctabar__phone:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+@media (max-width: 1180px) {
+  .pt-overview__grid { grid-template-columns: 1fr; gap: 48px 0; }
+  .pt-overview__photo { max-width: 520px; }
+  .pt-services__grid, .pt-related__grid { grid-template-columns: 1fr 1fr; }
+  .pt-why__grid { grid-template-columns: 1fr; gap: 48px 0; }
+}
+@media (max-width: 900px) {
+  .pt-pagehero--sub { height: auto; min-height: 520px; padding: 120px 0 80px; }
+  .pt-pagehero__sub { font-size: 1.0625rem; }
+  .pt-panel__tiles { grid-template-columns: 1fr; gap: 32px 0; }
+  .pt-panel__tiles > div + div { border-left: 0; border-top: 2px solid var(--pt-yellow); padding-top: 32px; }
+  .pt-services__grid, .pt-related__grid, .pt-checklist { grid-template-columns: 1fr; }
+  .pt-svc { padding: 32px 24px 36px; }
+  .pt-ctabar__actions { flex-direction: column; align-items: flex-start; gap: 16px; }
+}

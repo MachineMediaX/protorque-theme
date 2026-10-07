@@ -3,7 +3,7 @@
 Writes preview/site/{index.html, about.html, assets/..., uploads/...}. Links to pages that are not built yet show a notice."""
 import re, os, shutil, subprocess, urllib.parse
 BASE='http://localhost:8080'
-PAGES={'/': 'index.html', '/about/': 'about.html'}
+PAGES={'/': 'index.html', '/about/': 'about.html', '/midstream-services/': 'midstream-services.html', '/midstream-services/midstream-construction/': 'midstream-construction.html'}
 OUT='preview/site'
 THEME='/home/claude/protorque-wp/wp/wp-content/themes/protorque'
 UPLOADS='/home/claude/protorque-wp/wp/wp-content/uploads'
@@ -26,7 +26,7 @@ def copy_asset(url):
         return rel
     return None
 notice='''<script>document.addEventListener('click',function(e){var a=e.target.closest('a[data-notbuilt]');if(!a)return;e.preventDefault();var t=document.getElementById('pt-notbuilt');if(!t){t=document.createElement('div');t.id='pt-notbuilt';t.style.cssText='position:fixed;left:50%;bottom:48px;transform:translateX(-50%);background:#0F172A;color:#F1F5F9;font:14px/1.4 Calibri,Arial,sans-serif;padding:12px 18px;border-radius:4px;z-index:1000;box-shadow:0 10px 30px rgba(0,0,0,.3)';document.body.appendChild(t);}t.textContent='Not built yet: '+a.getAttribute('data-notbuilt');clearTimeout(t._h);t._h=setTimeout(function(){t.remove();},2200);});</script>'''
-banner='<div style="position:fixed;left:0;right:0;bottom:0;z-index:999;background:#0F172A;color:#F1F5F9;font:12px/1.4 Calibri,Arial,sans-serif;padding:8px 16px;text-align:center">Development preview. Pages built so far: Home, About. Other links show a notice. Hero still is a placeholder pending the video.</div>'
+banner='<div style="position:fixed;left:0;right:0;bottom:0;z-index:999;background:#0F172A;color:#F1F5F9;font:12px/1.4 Calibri,Arial,sans-serif;padding:8px 16px;text-align:center">Development preview. Pages built so far: Home, About, Midstream Services, Midstream Construction. Other links show a notice. Hero still is a placeholder pending the video.</div>'
 for path,fname in PAGES.items():
     html=subprocess.run(['curl','-s','--noproxy','*',BASE+path],capture_output=True,text=True).stdout
     html=re.sub(r'<!-- Google Tag Manager -->.*?<!-- End Google Tag Manager -->','',html,flags=re.S)
