@@ -75,7 +75,7 @@ get_header();
 						'body' => 'Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.',
 						'cta' => 'Explore Midstream Services',
 						'url' => $home . 'midstream-services/',
-						'img' => 'card-midstream',
+						'img' => 'card-midstream-v2',
 					],
 					[
 						'title' => 'Drilling<br>Verification<br>&amp; Monitoring',
@@ -84,7 +84,7 @@ get_header();
 						'body' => 'Torque verification. Hook load confirmation. CATM calibration. ProTorque\'s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.',
 						'cta' => 'Explore Drilling Services',
 						'url' => $home . 'drilling-services/',
-						'img' => 'card-drilling',
+						'img' => 'card-drilling-v2',
 					],
 					[
 						'title' => 'Equipment<br>&amp; Innovation',
@@ -93,7 +93,7 @@ get_header();
 						'body' => 'Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.',
 						'cta' => 'Explore Equipment &amp; Innovation',
 						'url' => $home . 'equipment-and-innovation/',
-						'img' => 'card-equipment',
+						'img' => 'card-equipment-v2',
 					],
 				];
 				foreach ( $cards as $i => $c ) :

@@ -22,7 +22,7 @@
       card.addEventListener('mouseenter', function () { set(true); });
       card.addEventListener('mouseleave', function () { set(initial); });
     }
-    if (btn) btn.addEventListener('click', function () { set(!card.classList.contains('is-open')); });
+    if (btn) btn.addEventListener('click', function (e) { e.preventDefault(); set(!card.classList.contains('is-open')); });
   });
 })();
 
@@ -56,6 +56,11 @@
     if (fine) pin.addEventListener('mouseenter', function () { open(m); });
     // Cards near the bottom of the map open upward so they stay inside the section.
     if (parseFloat(m.style.top) > 58) m.classList.add('pt-map__marker--up');
+  });
+  // A click anywhere outside the open card (and off a pin) closes it.
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('.pt-map__card') || e.target.closest('.pt-map__pin')) return;
+    if (markers.some(function (m) { return m.classList.contains('is-open'); })) open(null);
   });
 })();
 
