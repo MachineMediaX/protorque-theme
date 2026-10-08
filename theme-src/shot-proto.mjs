@@ -1,0 +1,10 @@
+import puppeteer from 'puppeteer-core'; import chromium from '@sparticuz/chromium';
+const [url,out,w]=process.argv.slice(2);
+const b=await puppeteer.launch({executablePath:await chromium.executablePath(),args:chromium.args,headless:true});
+const p=await b.newPage(); await p.setViewport({width:+w,height:900});
+await p.goto(url,{waitUntil:'networkidle0'});
+await p.evaluate(()=>document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager'));
+await new Promise(r=>setTimeout(r,800));
+await p.evaluate(()=>{document.querySelectorAll('.card')[0].classList.add('show-field');document.querySelectorAll('.card')[4].classList.add('show-field');});
+await new Promise(r=>setTimeout(r,700));
+await p.screenshot({path:out,fullPage:true}); console.log('ok'); await b.close();
