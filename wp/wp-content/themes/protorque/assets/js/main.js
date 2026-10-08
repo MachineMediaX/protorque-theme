@@ -76,7 +76,7 @@
   });
   // A click anywhere outside the open card (and off a pin) closes it.
   document.addEventListener('click', function (e) {
-    if (e.target.closest('.pt-map__card') || e.target.closest('.pt-map__pin')) return;
+    if (e.target.closest('.pt-map__card') || e.target.closest('.pt-map__pin') || e.target.closest('.pt-map__chip')) return;
     if (markers.some(function (m) { return m.classList.contains('is-open'); })) open(null);
   });
 })();
