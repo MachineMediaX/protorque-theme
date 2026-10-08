@@ -1,0 +1,46 @@
+name: Deploy theme to Kinsta
+
+# Every push to main that touches the theme syncs it to the Kinsta staging site and clears the cache.
+# Needs one repository secret: KINSTA_SSH_KEY (the private half of the deploy key added in MyKinsta > User Settings > SSH Keys).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'wp/wp-content/themes/protorque/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: kinsta-deploy
+  cancel-in-progress: false
+
+env:
+  KINSTA_HOST: 40.233.76.229
+  KINSTA_PORT: "32554"
+  KINSTA_USER: protorquea
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install SSH key
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.KINSTA_SSH_KEY }}" > ~/.ssh/kinsta
+          chmod 600 ~/.ssh/kinsta
+          ssh-keyscan -p "$KINSTA_PORT" "$KINSTA_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Sync theme
+        run: |
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/kinsta -p $KINSTA_PORT" \
+            wp/wp-content/themes/protorque/ \
+            "$KINSTA_USER@$KINSTA_HOST:public/wp-content/themes/protorque/"
+
+      - name: Clear Kinsta cache
+        run: |
+          ssh -i ~/.ssh/kinsta -p "$KINSTA_PORT" "$KINSTA_USER@$KINSTA_HOST" \
+            'cd public && (wp kinsta cache purge --all || wp cache flush) 2>/dev/null || true'

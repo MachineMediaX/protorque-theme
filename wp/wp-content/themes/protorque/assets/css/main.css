@@ -236,6 +236,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .pt-header__inner { padding-left: var(--pt-gutter); }
   .pt-nav { display: none; }
   .pt-header__quote { display: none; }
+  .pt-header__actions { margin-left: auto; }
   .pt-header__search { width: 72px; }
   .pt-header__menu { display: grid; gap: 5px; width: 72px; background: var(--pt-black); place-content: center; }
   .pt-header__menu span { display: block; width: 24px; height: 2px; background: #fff; }

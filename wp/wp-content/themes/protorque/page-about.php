@@ -119,7 +119,7 @@ get_header();
 			<ul class="pt-advantage__list">
 				<li><h3>Safety Comes First</h3><p>An uncompromised dedication to protecting people and assets.</p></li>
 				<li><h3>Partnership Mindset</h3><p>Aligning our goals with yours for long-term success.</p></li>
-				<li><h3>Industry-Leading Expertise:</h3><p>Delivering efficient and reliable solutions.</p></li>
+				<li><h3>Industry-Leading Expertise</h3><p>Delivering efficient and reliable solutions.</p></li>
 				<li><h3>Technology-Driven Approach</h3><p>Utilizing advancements to maximize results.</p></li>
 			</ul>
 		</div>
