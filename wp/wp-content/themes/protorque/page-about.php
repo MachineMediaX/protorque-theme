@@ -34,7 +34,7 @@ get_header();
 				<span class="pt-map__dot" style="left:<?php echo esc_attr( $d['px'] ); ?>%;top:<?php echo esc_attr( $d['py'] ); ?>%" aria-hidden="true"></span>
 				<?php endforeach; ?>
 				<?php foreach ( $pts['markers'] as $key => $m ) : ?>
-				<div class="pt-map__marker<?php echo $m['open'] ? ' is-open' : ''; echo empty( $m['pin'] ) ? ' pt-map__marker--dot' : ''; ?>" style="left:<?php echo esc_attr( $m['px'] ); ?>%;top:<?php echo esc_attr( $m['py'] ); ?>%">
+				<div class="pt-map__marker<?php echo $m['open'] ? ' is-open' : ''; echo empty( $m['pin'] ) ? ' pt-map__marker--dot' : ''; echo ( $m['side'] ?? '' ) === 'left' ? ' pt-map__marker--left' : ''; ?>" style="left:<?php echo esc_attr( $m['px'] ); ?>%;top:<?php echo esc_attr( $m['py'] ); ?>%">
 					<button class="pt-map__pin" type="button" aria-expanded="<?php echo $m['open'] ? 'true' : 'false'; ?>" aria-controls="map-card-<?php echo esc_attr( $key ); ?>" aria-label="<?php echo esc_attr( $m['country'] . ', ' . $m['city'] ); ?>">
 						<svg viewBox="0 0 24 32" width="24" height="32" aria-hidden="true"><path fill="#d22730" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 20 12 20s12-11 12-20C24 5.4 18.6 0 12 0z"/><circle cx="12" cy="12" r="5" fill="#fff"/></svg>
 					</button>

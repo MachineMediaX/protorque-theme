@@ -8,7 +8,7 @@
 return [
 	'dots'    => [],
 	'markers' => [
-		'midland'        => [ 'px' => 50.68, 'py' => 55.94, 'open' => true, 'pin' => true, 'country' => 'United States', 'city' => 'Midland, TX', 'phone' => '+1.713.300.5216', 'email' => 'PTE.Sales@ptenergy.com', 'photo' => 'map-midland-v2' ],
+		'midland'        => [ 'px' => 50.68, 'py' => 55.94, 'open' => true, 'side' => 'left', 'country' => 'United States', 'city' => 'Midland, TX', 'phone' => '+1.713.300.5216', 'email' => 'PTE.Sales@ptenergy.com', 'photo' => 'map-midland-v2' ],
 		'calgary'        => [ 'px' => 43.76, 'py' => 44.70, 'open' => false, 'country' => 'Canada', 'city' => 'Calgary, AB', 'phone' => '+1.780.933.0404', 'email' => 'PTCT.Sales@ptenergy.com', 'photo' => 'map-calgary' ],
 		'colombia'       => [ 'px' => 66.75, 'py' => 68.63, 'open' => false, 'country' => 'South America', 'city' => 'Colombia', 'phone' => '+57.321.320.2213', 'email' => 'PTESAS.Sales@ptenergy.com', 'photo' => 'map-colombia-v2' ],
 		'grande-prairie' => [ 'px' => 41.04, 'py' => 41.71, 'open' => false, 'country' => 'Canada', 'city' => 'Grande Prairie, AB', 'phone' => '+1.780.288.6128', 'email' => 'PTCT.Sales@ptenergy.com', 'photo' => 'map-grande-prairie' ],
