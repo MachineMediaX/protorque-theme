@@ -35,8 +35,24 @@
   var holder = map.querySelector('.pt-map__cards');
   var narrow = window.matchMedia('(max-width: 900px)').matches;
   if (narrow && holder) {
-    // On small screens the cards sit under the map instead of floating over it.
+    // On small screens the cards sit under the map, and a row of location buttons stands in for the
+    // tiny markers (Calgary and Red Deer are a few pixels apart at phone width).
     holder.hidden = false;
+    var chips = document.createElement('div');
+    chips.className = 'pt-map__chips';
+    markers.forEach(function (m) {
+      var pin = m.querySelector('.pt-map__pin');
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'pt-map__chip';
+      var city = m.querySelector('.pt-map__city');
+      b.textContent = city ? city.textContent.replace(/,.*$/, '') : (pin.getAttribute('aria-label') || '');
+      b.setAttribute('aria-controls', pin.getAttribute('aria-controls'));
+      b.addEventListener('click', function () { open(m.classList.contains('is-open') ? null : m); });
+      m._chip = b;
+      chips.appendChild(b);
+    });
+    holder.appendChild(chips);
     markers.forEach(function (m) { holder.appendChild(m.querySelector('.pt-map__card')); });
   }
   function open(m) {
@@ -46,6 +62,7 @@
       x.querySelector('.pt-map__pin').setAttribute('aria-expanded', on ? 'true' : 'false');
       var card = document.getElementById(x.querySelector('.pt-map__pin').getAttribute('aria-controls'));
       if (card) card.classList.toggle('is-open', on);
+      if (x._chip) x._chip.classList.toggle('is-active', on);
     });
   }
   var initial = markers.filter(function (m) { return m.classList.contains('is-open'); })[0];

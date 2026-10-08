@@ -423,6 +423,11 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .pt-map__cards { display: block; margin-top: 16px; }
   .pt-map__cards .pt-map__card { display: none; position: static; width: 100%; box-shadow: none; }
   .pt-map__cards .pt-map__card.is-open { display: block; }
+  .pt-map__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 16px; }
+  .pt-map__chip { font-family: var(--pt-font-title); font-size: 1.0625rem; letter-spacing: 0.04em; text-transform: uppercase; padding: 10px 14px; border: 1px solid #c9c9c9; color: var(--pt-black); }
+  .pt-map__chip.is-active { background: var(--pt-red); border-color: var(--pt-red); color: #fff; }
+  .pt-map__marker--dot .pt-map__pin { left: -14px; top: -14px; width: 28px; height: 28px; }
+  .pt-map__marker--dot .pt-map__pin::after { left: 10px; top: 10px; }
   .pt-map__cards .pt-map__card img { height: 200px; }
   .pt-principles__grid, .pt-team__grid, .pt-offices__grid, .pt-safety__cols { grid-template-columns: 1fr; }
   .pt-safety__cols > div + div { border-left: 0; padding-left: 0; margin-top: 40px; }
