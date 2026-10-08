@@ -245,3 +245,28 @@ add_action( 'admin_init', function () {
 	}
 } );
 add_action( 'import_end', 'pt_seed_news_media' );
+
+/* Concept pages for client review: static prototypes bundled in the theme, served at a clean URL, never indexed and not linked from the site. */
+add_action( 'template_redirect', function () {
+	$path     = trim( (string) wp_parse_url( $_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH ), '/' );
+	$concepts = [ 'equipment-concept' => 'equipment' ];
+	if ( ! isset( $concepts[ $path ] ) ) {
+		return;
+	}
+	$dir = get_template_directory() . '/concept/' . $concepts[ $path ];
+	if ( ! is_readable( "$dir/index.html" ) ) {
+		return;
+	}
+	status_header( 200 );
+	nocache_headers();
+	header( 'Content-Type: text/html; charset=utf-8' );
+	header( 'X-Robots-Tag: noindex, nofollow' );
+	$base = get_template_directory_uri() . '/concept/' . $concepts[ $path ] . '/';
+	$icon = get_template_directory_uri() . '/assets/img/favicon/favicon-32.png';
+	echo '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">';
+	echo '<base href="' . esc_url( $base ) . '"><link rel="icon" href="' . esc_url( $icon ) . '">';
+	echo '<style>body{margin:0}img,video{max-width:100%}[hidden]{display:none!important}</style>';
+	readfile( "$dir/index.html" );
+	echo '</html>';
+	exit;
+}, 0 );
