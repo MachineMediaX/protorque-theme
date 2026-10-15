@@ -484,7 +484,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* Template 2 */
 .pt-svc-overview { padding: 112px var(--pt-gutter) 120px; }
-.pt-svc-overview__inner { max-width: 860px; }
+/* Standalone text block, no photo beside it: centred per the design system (section intros and standalone text blocks centre; text beside a photo or in a card stays left). */
+.pt-svc-overview__inner { max-width: 860px; margin-inline: auto; text-align: center; }
 .pt-svc-overview .pt-h2 { margin-top: 18px; }
 .pt-svc-overview p { margin-top: 22px; font-size: 1.125rem; line-height: 1.5; }
 .pt-includes { padding: 104px var(--pt-gutter) 112px; }

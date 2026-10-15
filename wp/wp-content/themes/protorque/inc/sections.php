@@ -20,7 +20,19 @@ function pt_content_page( $slug ) {
 }
 
 function pt_img( $rel ) {
-	return get_template_directory_uri() . '/assets/img/' . ltrim( $rel, '/' );
+	// Migrated card images that were delivered already greyscale (so the colour rollover had nothing to reveal),
+	// swapped for colour photos from the client library. Kept here so a content re-assembly does not undo it.
+	static $swap = [
+		'content/midstream-operations.jpg'       => 'content/midstream-operations-v2.jpg',
+		'content/tubular-running-services.jpg'   => 'content/drilling-verification-card-v2.jpg', // was used on the Drilling Verification card
+		'content/casing-running-card.jpg'        => 'content/casing-running-card-v2.jpg',
+		'content/catm-for-top-drive.jpg'         => 'content/catm-for-top-drive-v2.jpg',
+		'content/irong-roughneck-card-2.jpg'     => 'content/iron-roughneck-card-v2.jpg',
+		'content/real-time-drilling-data-card.jpg' => 'content/real-time-drilling-data-card-v2.jpg',
+		'content/protorque-and-prostar.jpg'      => 'content/tubular-running-card-v2.jpg',
+	];
+	$rel = ltrim( $rel, '/' );
+	return get_template_directory_uri() . '/assets/img/' . ( $swap[ $rel ] ?? $rel );
 }
 
 /** Hero photo for a page: a dedicated frame from the client's drone footage, or a midstream photo. */
@@ -161,7 +173,7 @@ function pt_render_section( $s, $page, &$prev ) {
 					<div class="pt-container">
 						<div class="pt-svc-overview__inner">
 							<?php if ( ! empty( $s['eyebrow'] ) ) : ?><p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $s['eyebrow'] ); ?></p><?php endif; ?>
-							<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( $s['title'] ); ?></h2>
+							<h2 class="pt-h2"><?php echo esc_html( $s['title'] ); ?></h2>
 							<?php pt_paras( $s['paras'] ?? [] ); ?>
 						</div>
 						<?php if ( $has_media ) : ?>
@@ -186,7 +198,7 @@ function pt_render_section( $s, $page, &$prev ) {
 					<div class="pt-container">
 						<div class="pt-svc-overview__inner">
 							<p class="pt-eyebrow pt-eyebrow--yellow"><?php echo esc_html( $s['eyebrow'] ?? 'Overview' ); ?></p>
-							<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( $s['title'] ); ?></h2>
+							<h2 class="pt-h2"><?php echo esc_html( $s['title'] ); ?></h2>
 							<?php pt_paras( $s['paras'] ?? [] ); ?>
 						</div>
 					</div>
