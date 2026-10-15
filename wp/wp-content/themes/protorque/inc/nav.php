@@ -87,8 +87,9 @@ function pt_nav_render_split( array $node ): void {
 	echo '<div class="pt-mega__tabs"><p class="pt-mega__eyebrow">' . esc_html( $node['title'] ) . '</p><ul role="tablist">';
 	foreach ( $tabs as $i => $t ) {
 		printf(
-			'<li><button class="pt-mega__tab%s" type="button" role="tab" aria-selected="%s" aria-controls="pt-pane-%d" id="pt-tab-%d">%s<span class="pt-nav__chev" aria-hidden="true"></span></button></li>',
+			'<li><a class="pt-mega__tab%s" href="%s" role="tab" aria-selected="%s" aria-controls="pt-pane-%d" id="pt-tab-%d">%s<span class="pt-nav__chev" aria-hidden="true"></span></a></li>',
 			0 === $i ? ' is-active' : '',
+			esc_url( $t['url'] ),
 			0 === $i ? 'true' : 'false',
 			$t['id'],
 			$t['id'],

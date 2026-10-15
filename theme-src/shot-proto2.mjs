@@ -1,0 +1,11 @@
+import puppeteer from 'puppeteer-core'; import chromium from '@sparticuz/chromium';
+const [url,out,w]=process.argv.slice(2);
+const b=await puppeteer.launch({executablePath:await chromium.executablePath(),args:chromium.args,headless:true});
+const p=await b.newPage(); await p.setViewport({width:+w,height:900});
+await p.goto(url,{waitUntil:'networkidle0'});
+await p.evaluate(()=>document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager'));
+await new Promise(r=>setTimeout(r,800));
+await p.evaluate(async()=>{ for (const c of document.querySelectorAll('.card')) { c.classList.add('show-field'); const v=c.querySelector('video'); if(v){ v.preload='auto'; v.currentTime=2; try{await v.play();}catch(e){} v.pause(); } } });
+await new Promise(r=>setTimeout(r,2500));
+await p.addStyleTag({content:'.stage .toggle{display:none!important}'});
+const el=await p.$('#grid'); await el.screenshot({path:out}); console.log('ok'); await b.close();

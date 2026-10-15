@@ -42,8 +42,15 @@
         if (pane) { pane.classList.toggle('is-active', on); pane.hidden = !on; }
       });
     }
+    // Hover (or focus) switches the pane; the title itself links to the section landing page.
+    // On touch, the first tap opens the pane and a second tap on the active title follows the link.
     tabs.forEach(function (t) {
-      t.addEventListener('click', function () { activate(t); });
+      var wasActive = false;
+      t.addEventListener('pointerdown', function () { wasActive = t.classList.contains('is-active'); });
+      t.addEventListener('click', function (e) {
+        if (!fine && !wasActive) { e.preventDefault(); activate(t); }
+      });
+      t.addEventListener('focus', function () { activate(t); });
       if (fine) t.addEventListener('mouseenter', function () { activate(t); });
     });
   });
