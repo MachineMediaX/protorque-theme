@@ -59,6 +59,7 @@ function pt_hero_image( $slug ) {
  * connectors mid-heading; never lowercase anything already capitalised (ProTorque, RCD, eHPU, CATM).
  */
 function pt_title_case( $text ) {
+	$text  = preg_replace( '/\.\s*$/u', '', trim( (string) $text ) ); // headings carry no trailing period (Shane, Oct 15)
 	$small = [ 'a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into', 'nor', 'of', 'on', 'or', 'the', 'to', 'vs', 'with' ];
 	$words = preg_split( '/(\s+)/u', (string) $text, -1, PREG_SPLIT_DELIM_CAPTURE );
 	$n     = count( $words );
