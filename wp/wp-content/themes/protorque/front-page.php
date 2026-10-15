@@ -41,7 +41,7 @@ get_header();
 	<section class="pt-who pt-section--charcoal">
 		<div class="pt-container pt-center">
 			<p class="pt-eyebrow">Who We Are</p>
-			<h2 class="pt-h2">Industry Knowledge Meets Innovation</h2>
+			<h2 class="pt-h2">Industry knowledge meets innovation</h2>
 			<p class="pt-lede">Since 2004, ProTorque has delivered oilfield services backed by experienced crews and field-proven methods. We put new technology to work where it improves safety and efficiency on the job. Operating across North and South America.</p>
 			<a class="pt-btn" href="<?php echo esc_url( $home . 'about/' ); ?>">Read Our Story</a>
 		</div>
@@ -52,7 +52,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow">Core Capabilities</p>
-				<h2 class="pt-h2">Field Expertise Across Every Stage of Operations</h2>
+				<h2 class="pt-h2">Field expertise across every stage of operations</h2>
 				<p class="pt-lede">Four pillars. One standard of execution. ProTorque brings together tubular running services, drilling verification and monitoring, midstream construction and maintenance, and equipment, run by the same crews to the same procedures on every job.</p>
 			</div>
 

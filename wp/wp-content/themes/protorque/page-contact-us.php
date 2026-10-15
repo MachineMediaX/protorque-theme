@@ -62,7 +62,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--red">Office Locations</p>
-				<h2 class="pt-h2">Where We Work</h2>
+				<h2 class="pt-h2">Where we work</h2>
 			</div>
 			<ul class="pt-offices__grid">
 				<?php foreach ( $offices as $o ) : ?>
@@ -96,7 +96,7 @@ get_header();
 
 	<section class="pt-ctabar pt-section--black">
 		<div class="pt-ctabar__inner">
-			<h2 class="pt-ctabar__title">Our Guarantee</h2>
+			<h2 class="pt-ctabar__title">Our guarantee</h2>
 			<p class="pt-ctabar__text"><?php echo esc_html( $form['paras'][1] ?? 'As your business partner, your success is our highest priority, while offering 24 hour support.' ); ?></p>
 			<div class="pt-ctabar__actions"><a class="pt-btn" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Explore About ProTorque</a></div>
 		</div>
