@@ -54,6 +54,32 @@ function pt_hero_image( $slug ) {
 	return null;
 }
 
+/**
+ * Title Case for section headings (site-wide rule, Shane Oct 15): capitalise each word except short
+ * connectors mid-heading; never lowercase anything already capitalised (ProTorque, RCD, eHPU, CATM).
+ */
+function pt_title_case( $text ) {
+	$small = [ 'a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into', 'nor', 'of', 'on', 'or', 'the', 'to', 'vs', 'with' ];
+	$words = preg_split( '/(\s+)/u', (string) $text, -1, PREG_SPLIT_DELIM_CAPTURE );
+	$n     = count( $words );
+	$out   = '';
+	$first = true;
+	foreach ( $words as $i => $w ) {
+		if ( $w === '' || preg_match( '/^\s+$/u', $w ) ) { $out .= $w; continue; }
+		$last  = ( $i >= $n - 1 );
+		$plain = mb_strtolower( preg_replace( '/[^\p{L}\p{N}]/u', '', $w ) );
+		if ( ! $first && ! $last && in_array( $plain, $small, true ) ) {
+			$out .= $w; // connector word
+		} else {
+			// capitalise the first letter unless the word already carries capitals (ProTorque, eHPU, RCD), and always the letter after a hyphen (Real-Time, Make-Up)
+			$pat  = preg_match( '/\p{Lu}/u', $w ) ? '/(-)(\p{Ll})/u' : '/(^|-)(\p{Ll})/u';
+			$out .= preg_replace_callback( $pat, function ( $m ) { return $m[1] . mb_strtoupper( $m[2] ); }, $w );
+		}
+		$first = false;
+	}
+	return $out;
+}
+
 function pt_kses( $html ) {
 	return wp_kses( $html, [ 'strong' => [], 'em' => [], 'b' => [], 'i' => [], 'br' => [], 'a' => [ 'href' => [], 'title' => [] ] ] );
 }
@@ -81,7 +107,7 @@ function pt_section_head( $s, $align = 'center', $eyebrow_class = 'pt-eyebrow--r
 		echo '<p class="pt-eyebrow ' . esc_attr( $eyebrow_class ) . '">' . esc_html( $s['eyebrow'] ) . '</p>';
 	}
 	if ( ! empty( $s['title'] ) ) {
-		echo '<h2 class="pt-h2' . ( $align === 'left' ? ' pt-h2--left' : '' ) . '">' . esc_html( $s['title'] ) . '</h2>';
+		echo '<h2 class="pt-h2' . ( $align === 'left' ? ' pt-h2--left' : '' ) . '">' . esc_html( pt_title_case( $s['title'] ) ) . '</h2>';
 	}
 	echo '</div>';
 }
@@ -160,7 +186,7 @@ function pt_render_section( $s, $page, &$prev ) {
 						<div class="pt-overview__photo"><img src="<?php echo esc_url( pt_img( $s['images'][0] ) ); ?>" alt="" loading="lazy"></div>
 						<div class="pt-overview__text">
 							<?php if ( ! empty( $s['eyebrow'] ) ) : ?><p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $s['eyebrow'] ); ?></p><?php endif; ?>
-							<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( $s['title'] ); ?></h2>
+							<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( pt_title_case( $s['title'] ) ); ?></h2>
 							<?php pt_paras( $s['paras'] ?? [] ); ?>
 						</div>
 					</div>
@@ -173,7 +199,7 @@ function pt_render_section( $s, $page, &$prev ) {
 					<div class="pt-container">
 						<div class="pt-svc-overview__inner">
 							<?php if ( ! empty( $s['eyebrow'] ) ) : ?><p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $s['eyebrow'] ); ?></p><?php endif; ?>
-							<h2 class="pt-h2"><?php echo esc_html( $s['title'] ); ?></h2>
+							<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $s['title'] ) ); ?></h2>
 							<?php pt_paras( $s['paras'] ?? [] ); ?>
 						</div>
 						<?php if ( $has_media ) : ?>
@@ -198,7 +224,7 @@ function pt_render_section( $s, $page, &$prev ) {
 					<div class="pt-container">
 						<div class="pt-svc-overview__inner">
 							<p class="pt-eyebrow pt-eyebrow--yellow"><?php echo esc_html( $s['eyebrow'] ?? 'Overview' ); ?></p>
-							<h2 class="pt-h2"><?php echo esc_html( $s['title'] ); ?></h2>
+							<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $s['title'] ) ); ?></h2>
 							<?php pt_paras( $s['paras'] ?? [] ); ?>
 						</div>
 					</div>
@@ -238,7 +264,7 @@ function pt_render_section( $s, $page, &$prev ) {
 					<div class="pt-container pt-textlist__grid">
 						<div class="pt-textlist__text">
 							<?php if ( $eyebrow ) : ?><p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $eyebrow ); ?></p><?php endif; ?>
-							<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( $title ); ?></h2>
+							<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( pt_title_case( $title ) ); ?></h2>
 							<?php pt_paras( $intro ); ?>
 						</div>
 						<ul class="pt-rulelist">
@@ -257,7 +283,7 @@ function pt_render_section( $s, $page, &$prev ) {
 					<div class="pt-container">
 						<div class="pt-center">
 							<?php if ( $eyebrow ) : ?><p class="pt-eyebrow"><?php echo esc_html( $eyebrow ); ?></p><?php endif; ?>
-							<h2 class="pt-h2"><?php echo esc_html( $title ); ?></h2>
+							<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $title ) ); ?></h2>
 							<?php pt_paras( $intro, 'pt-lede' ); ?>
 						</div>
 						<ul class="pt-checklist">
@@ -301,7 +327,7 @@ function pt_render_section( $s, $page, &$prev ) {
 				<div class="pt-container pt-why__grid">
 					<div class="pt-why__text">
 						<p class="pt-eyebrow pt-eyebrow--yellow">Why This Matters</p>
-						<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( $s['title'] ?: 'Why this matters' ); ?></h2>
+						<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( pt_title_case( $s['title'] ?: 'Why this matters' ) ); ?></h2>
 						<?php pt_paras( $s['paras'] ?? [] ); ?>
 					</div>
 					<?php if ( ! empty( $s['quote'] ) ) : ?>
@@ -324,7 +350,7 @@ function pt_render_section( $s, $page, &$prev ) {
 				<div class="pt-container">
 					<div class="pt-center">
 						<p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $eyebrow ); ?></p>
-						<h2 class="pt-h2"><?php echo esc_html( $s['title'] ); ?></h2>
+						<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $s['title'] ) ); ?></h2>
 						<?php pt_paras( $s['intro'] ?? [], 'pt-lede' ); ?>
 					</div>
 					<ul class="pt-rcards pt-rcards--<?php echo count( $cards ) >= 4 ? '4' : '3'; ?>">
@@ -358,7 +384,7 @@ function pt_render_section( $s, $page, &$prev ) {
 				<div class="pt-container">
 					<div class="pt-center">
 						<p class="pt-eyebrow pt-eyebrow--yellow"><?php echo esc_html( $s['eyebrow'] ?? ( $n . ' ' . ( $page['kind'] === 'landing' && $slug === 'equipment-and-innovation' ? 'Products' : 'Service Lines' ) ) ); ?></p>
-						<h2 class="pt-h2"><?php echo esc_html( $s['title'] ); ?></h2>
+						<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $s['title'] ) ); ?></h2>
 						<?php pt_paras( $s['intro'] ?? [], 'pt-lede' ); ?>
 					</div>
 					<ul class="pt-services__grid">
@@ -456,7 +482,7 @@ function pt_render_section( $s, $page, &$prev ) {
 			?>
 			<section class="pt-ctabar pt-section--black">
 				<div class="pt-ctabar__inner">
-					<h2 class="pt-ctabar__title"><?php echo esc_html( $s['title'] ?? 'Get in Touch' ); ?></h2>
+					<h2 class="pt-ctabar__title"><?php echo esc_html( pt_title_case( $s['title'] ?? 'Get in Touch' ) ); ?></h2>
 					<p class="pt-ctabar__text"><?php echo pt_kses( implode( ' ', $s['paras'] ?? [] ) ); ?></p>
 					<div class="pt-ctabar__actions">
 						<?php foreach ( $s['buttons'] ?? [ [ 'text' => 'Get in Touch', 'url' => '/contact-us/' ] ] as $b ) : ?>

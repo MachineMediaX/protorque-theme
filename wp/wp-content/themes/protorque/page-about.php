@@ -54,7 +54,7 @@ get_header();
 
 			<div class="pt-story__text">
 				<p class="pt-eyebrow pt-eyebrow--red">Our Story</p>
-				<h2 class="pt-h2 pt-h2--left">Two decades of <br>trusted performance</h2>
+				<h2 class="pt-h2 pt-h2--left">Two Decades of <br>Trusted Performance</h2>
 				<p>Since 2004, ProTorque has built its reputation as a trusted energy services partner through field expertise, disciplined execution, and an unwavering commitment to operational excellence. What began as a focus on supplying reliable tubular running services has evolved into a recognized industry leader specializing in a vast range of rig floor and midstream solutions.</p>
 				<p>We deliver performance-driven solutions through experienced teams, proven methods, and practical innovation. Our hands-on approach allows us to tackle complex operational challenges, helping clients enhance safety, maximize efficiency, and achieve stronger outcomes where it matters most.</p>
 				<p class="pt-story__lead">Operating across North and South America</p>
@@ -71,7 +71,7 @@ get_header();
 	<section class="pt-values pt-section--charcoal">
 		<div class="pt-container pt-center">
 			<p class="pt-eyebrow pt-eyebrow--yellow">What We Stand For</p>
-			<h2 class="pt-h2">Our core values</h2>
+			<h2 class="pt-h2">Our Core Values</h2>
 			<p class="pt-lede">These four values shape how ProTorque hires, coaches, and executes. They are the standard our people hold each other to, on the rig floor and in the office.</p>
 			<ol class="pt-values__list">
 				<li>Eliminate the Mediocre</li>
@@ -87,7 +87,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--red">Our Foundation</p>
-				<h2 class="pt-h2">The principles that guide us</h2>
+				<h2 class="pt-h2">The Principles That Guide Us</h2>
 			</div>
 			<div class="pt-principles__grid">
 				<article class="pt-principle">
@@ -115,7 +115,7 @@ get_header();
 		<img class="pt-advantage__bg" src="<?php echo esc_url( "$img/about/advantage.jpg" ); ?>" srcset="<?php echo esc_url( "$img/about/advantage@2x.jpg" ); ?> 2x" alt="" width="1440" height="817" loading="lazy">
 		<div class="pt-advantage__box">
 			<p class="pt-eyebrow pt-eyebrow--red">Our Commitment</p>
-			<h2 class="pt-h2">The ProTorque advantage</h2>
+			<h2 class="pt-h2">The ProTorque Advantage</h2>
 			<ul class="pt-advantage__list">
 				<li><h3>Safety Comes First</h3><p>An uncompromised dedication to protecting people and assets.</p></li>
 				<li><h3>Partnership Mindset</h3><p>Aligning our goals with yours for long-term success.</p></li>
@@ -130,7 +130,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow">How We Work</p>
-				<h2 class="pt-h2">Safety at ProTorque is a working practice</h2>
+				<h2 class="pt-h2">Safety at ProTorque Is a Working Practice</h2>
 				<p class="pt-lede pt-safety__lede">Every job starts with a job safety analysis. High-risk work gets dedicated safety supervision. Equipment is inspected on a schedule, and any crew member can stop work when conditions call for it. The record is kept the same way the work is done: documented, current, and available to the operators who audit it. ProTorque maintains compliance across the contractor qualification networks our customers use and reports through the provincial and industry bodies that govern the work.</p>
 			</div>
 			<div class="pt-safety__cols">
@@ -146,7 +146,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--red">Our Team</p>
-				<h2 class="pt-h2">Meet the executive team</h2>
+				<h2 class="pt-h2">Meet the Executive Team</h2>
 				<p class="pt-lede pt-team__lede"><strong>ProTorque&rsquo;s greatest asset is our people.</strong> Behind every successful operation is a team of experienced professionals committed to supporting our clients and each other. At ProTorque every individual contributes to the knowledge, dedication, and solution focused thinking required to deliver excellence. We are proud of our team&rsquo;s experience, collaboration, and commitment which continues to drive our success.</p>
 			</div>
 			<ul class="pt-team__grid">
@@ -173,7 +173,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--red">From the President</p>
-				<h2 class="pt-h2">The foundation we started with</h2>
+				<h2 class="pt-h2">The Foundation We Started With</h2>
 			</div>
 			<div class="pt-president__body">
 					<p>I&rsquo;ve always considered myself an entrepreneur first. I believe the best businesses are built by people who are willing to work hard, take calculated risks, challenge the way things have always been done, and never become satisfied with where they are today. The desire to be better is what drives me.</p>
@@ -200,7 +200,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--red">Office Locations</p>
-				<h2 class="pt-h2">Where we work</h2>
+				<h2 class="pt-h2">Where We Work</h2>
 			</div>
 			<ul class="pt-offices__grid">
 				<li class="pt-office">
@@ -237,7 +237,7 @@ get_header();
 	<!-- Get in Touch bar -->
 	<section class="pt-ctabar pt-section--black">
 		<div class="pt-ctabar__inner">
-			<h2 class="pt-ctabar__title">Want to work with ProTorque?</h2>
+			<h2 class="pt-ctabar__title">Want to Work with ProTorque?</h2>
 			<p class="pt-ctabar__text">Talk to a ProTorque crew lead about your next program. We respond fast and prepare before the work begins.</p>
 			<a class="pt-btn" href="<?php echo esc_url( $home . 'contact-us/' ); ?>">Get in Touch</a>
 		</div>

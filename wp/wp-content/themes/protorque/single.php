@@ -18,7 +18,7 @@ the_post();
 </main>
 <section class="pt-ctabar pt-section--black">
 	<div class="pt-ctabar__inner">
-		<h2 class="pt-ctabar__title">Talk to ProTorque about your next program.</h2>
+		<h2 class="pt-ctabar__title">Talk to ProTorque About Your Next Program.</h2>
 		<p class="pt-ctabar__text">Tubular running, drilling verification, midstream services, and engineered equipment across Canada, the USA, and South America.</p>
 		<div class="pt-ctabar__actions"><a class="pt-btn" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Get in Touch</a></div>
 	</div>

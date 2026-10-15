@@ -35,7 +35,7 @@ function pt_equipment_lineup( array $s ): void {
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--yellow"><?php echo esc_html( $s['eyebrow'] ?? 'Equipment Lineup' ); ?></p>
-				<h2 class="pt-h2"><?php echo esc_html( $s['title'] ); ?></h2>
+				<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $s['title'] ) ); ?></h2>
 				<?php pt_paras( $s['intro'] ?? [], 'pt-lede' ); ?>
 				<p class="pt-eqlineup__by">Engineered and supplied by <a href="https://www.prostarequipment.com/" rel="noopener">ProStar Equipment</a>.</p>
 			</div>

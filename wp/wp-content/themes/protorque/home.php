@@ -39,7 +39,7 @@ get_header();
 				<?php endif; ?>
 				<div class="pt-center" style="margin-top:96px">
 					<p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $news['eyebrow'] ?? 'Latest' ); ?></p>
-					<h2 class="pt-h2"><?php echo esc_html( $news['title'] ?? 'Latest from ProTorque' ); ?></h2>
+					<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $news['title'] ?? 'Latest from ProTorque' ) ); ?></h2>
 				</div>
 				<ul class="pt-postgrid">
 					<?php while ( have_posts() ) : the_post(); get_template_part( 'template-parts/post-card' ); endwhile; ?>
@@ -55,7 +55,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-form__inner">
 				<p class="pt-eyebrow pt-eyebrow--yellow">Stay Informed</p>
-				<h2 class="pt-h2 pt-h2--left">Want to stay informed?</h2>
+				<h2 class="pt-h2 pt-h2--left">Want to Stay Informed?</h2>
 				<p><?php echo esc_html( $news['paras'][0] ?? 'Subscribe for ProTorque insights, news, and case studies.' ); ?></p>
 				<?php pt_form( 'Newsletter Signup' ); ?>
 			</div>

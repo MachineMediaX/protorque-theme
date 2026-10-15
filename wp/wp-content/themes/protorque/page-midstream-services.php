@@ -36,7 +36,7 @@ $services = [
 			</div>
 			<div class="pt-overview__text">
 				<p class="pt-eyebrow pt-eyebrow--red">Midstream Services</p>
-				<h2 class="pt-h2 pt-h2--left">The crews behind reliable midstream operations.</h2>
+				<h2 class="pt-h2 pt-h2--left">The Crews Behind Reliable Midstream Operations.</h2>
 				<p>Facility reliability does not happen by accident. It takes skilled trades, fast response, and crews that understand the infrastructure they are working on. ProTorque provides midstream services for operators across North America: construction, maintenance, electrical and instrumentation, mechanical, environmental, ROW, and specialty piping. The work that keeps facilities operational and infrastructure performing.</p>
 				<p>Whether the program is a new facility build in the Permian Basin, a turnaround in West Texas, a pipeline tie-in, or ongoing E&amp;I and mechanical support for a midstream operator, ProTorque shows up with the trades, the equipment, and the discipline to keep operations on schedule.</p>
 				<p>Twenty-plus years of energy services experience. Combo welders for poly, carbon, and stainless. Master electricians on staff. Both mechanical and electrical departments under one roof for turnkey operations and builds.</p>
@@ -58,7 +58,7 @@ $services = [
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--yellow">Six Capability Areas</p>
-				<h2 class="pt-h2">What we deliver on the midstream side</h2>
+				<h2 class="pt-h2">What We Deliver on the Midstream Side</h2>
 				<p class="pt-lede">Six capability areas, all the trades and disciplines a midstream operator needs from a single services contractor. Build, maintain, expand, or support. ProTorque covers it.</p>
 			</div>
 			<ul class="pt-services__grid">
@@ -88,7 +88,7 @@ $services = [
 
 	<section class="pt-ctabar pt-section--black">
 		<div class="pt-ctabar__inner">
-			<h2 class="pt-ctabar__title">Need crews on a midstream facility or pipeline?</h2>
+			<h2 class="pt-ctabar__title">Need Crews on a Midstream Facility or Pipeline?</h2>
 			<p class="pt-ctabar__text">Talk to ProTorque about construction, maintenance, E&amp;I, ROW, or specialty piping work.</p>
 			<a class="pt-btn" href="<?php echo esc_url( $home . 'contact-us/' ); ?>">Get in Touch</a>
 		</div>

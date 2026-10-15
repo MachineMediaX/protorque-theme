@@ -33,7 +33,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-svc-overview__inner">
 				<p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $overs[0]['eyebrow'] ?? 'Why ProTorque' ); ?></p>
-				<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( $overs[0]['title'] ); ?></h2>
+				<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( pt_title_case( $overs[0]['title'] ) ); ?></h2>
 				<?php pt_paras( $overs[0]['paras'] ?? [] ); ?>
 			</div>
 		</div>
@@ -46,7 +46,7 @@ get_header();
 			<div class="pt-overview__photo"><img src="<?php echo esc_url( "$img/content/024A7522-small.jpg" ); ?>" alt="" loading="lazy"></div>
 			<div class="pt-overview__text">
 				<p class="pt-eyebrow pt-eyebrow--yellow"><?php echo esc_html( $overs[1]['eyebrow'] ?? 'Where we work' ); ?></p>
-				<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( $overs[1]['title'] ); ?></h2>
+				<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( pt_title_case( $overs[1]['title'] ) ); ?></h2>
 				<?php pt_paras( $overs[1]['paras'] ?? [] ); ?>
 			</div>
 		</div>
@@ -57,7 +57,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $jobsS['eyebrow'] ?? 'Open positions' ); ?></p>
-				<h2 class="pt-h2"><?php echo esc_html( $jobsS['title'] ?? 'Current opportunities' ); ?></h2>
+				<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $jobsS['title'] ?? 'Current opportunities' ) ); ?></h2>
 			</div>
 			<?php if ( $jobs ) : ?>
 			<div class="pt-jobs__list">
@@ -89,7 +89,7 @@ get_header();
 
 	<section class="pt-ctabar pt-section--black">
 		<div class="pt-ctabar__inner">
-			<h2 class="pt-ctabar__title"><?php echo esc_html( $cta['title'] ?? "Don't see the right role? Send us your resume." ); ?></h2>
+			<h2 class="pt-ctabar__title"><?php echo esc_html( pt_title_case( $cta['title'] ?? "Don't see the right role? Send us your resume." ) ); ?></h2>
 			<p class="pt-ctabar__text">Email <a href="mailto:careers@ptenergy.com" style="color:inherit;font-weight:700">careers@ptenergy.com</a> with your resume and the kind of work you are looking for.</p>
 			<div class="pt-ctabar__actions"><a class="pt-btn" href="mailto:careers@ptenergy.com">Email Careers</a></div>
 		</div>
