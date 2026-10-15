@@ -42,7 +42,7 @@
   /* Scale: build to the comp, review live, bump by parameter */
   --pt-size-body: 1rem;        /* 16px */
   --pt-size-card: 0.9375rem;   /* 15px */
-  --pt-size-eyebrow: 0.8125rem;/* 13px */
+  --pt-size-eyebrow: 1rem;/* 16px, up from 13px per Shane Oct 15 */
   --pt-size-button: 0.9375rem;
   --pt-size-h2: clamp(2rem, 3.05vw, 2.75rem);     /* 44px at 1440 */
   --pt-size-hero: clamp(4rem, 8.3vw, 7.5rem);      /* 120px at 1440 */

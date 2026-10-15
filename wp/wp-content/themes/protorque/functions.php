@@ -2,9 +2,10 @@
 /**
  * ProTorque theme bootstrap.
  */
-define( 'PT_VERSION', '0.3.7' );
+define( 'PT_VERSION', '0.3.8' );
 require_once get_template_directory() . '/inc/nav.php';
 require_once get_template_directory() . '/inc/sections.php';
+require_once get_template_directory() . '/inc/equipment.php';
 require_once get_template_directory() . '/inc/setup.php';
 
 add_action( 'after_setup_theme', function () {

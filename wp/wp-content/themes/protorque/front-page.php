@@ -67,6 +67,7 @@ get_header();
 						'cta' => 'Explore Tubular Running Services',
 						'url' => $home . 'tubular-running-services/',
 						'img' => 'card-trs',
+						'rest' => 'card-trs-logo', // B&W with the coverall logo in colour at rest; full colour on hover
 					],
 					[
 						'title' => 'Midstream<br>Construction<br>&amp; Maintenance',
@@ -100,7 +101,11 @@ get_header();
 					$open = ! empty( $c['open'] );
 					?>
 				<article class="pt-card<?php echo $open ? ' is-open' : ''; ?>">
-					<img class="pt-card__img" src="<?php echo esc_url( "$img/home/{$c['img']}.jpg" ); ?>" srcset="<?php echo esc_url( "$img/home/{$c['img']}@2x.jpg" ); ?> 2x" alt="" loading="lazy">
+					<?php if ( ! empty( $c['rest'] ) && ! $open ) : ?>
+				<img class="pt-card__img pt-card__img--rest" src="<?php echo esc_url( "$img/home/{$c['rest']}.jpg" ); ?>" srcset="<?php echo esc_url( "$img/home/{$c['rest']}@2x.jpg" ); ?> 2x" data-src="<?php echo esc_url( "$img/home/{$c['img']}.jpg" ); ?>" data-srcset="<?php echo esc_url( "$img/home/{$c['img']}@2x.jpg" ); ?> 2x" alt="" loading="lazy">
+				<?php else : ?>
+				<img class="pt-card__img" src="<?php echo esc_url( "$img/home/{$c['img']}.jpg" ); ?>" srcset="<?php echo esc_url( "$img/home/{$c['img']}@2x.jpg" ); ?> 2x" alt="" loading="lazy">
+				<?php endif; ?>
 					<h3 class="pt-card__title"><?php echo $c['title']; ?></h3>
 					<button class="pt-card__toggle" type="button" aria-expanded="<?php echo $open ? 'true' : 'false'; ?>" aria-label="<?php echo esc_attr( wp_strip_all_tags( 'Open ' . $c['eyebrow'] ) ); ?>">
 						<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg>

@@ -334,6 +334,11 @@ function pt_render_section( $s, $page, &$prev ) {
 			break;
 
 		case 'services':
+			if ( $page['kind'] === 'landing' && $slug === 'equipment-and-innovation' ) {
+				$prev = 'black';
+				pt_equipment_lineup( $s );
+				break;
+			}
 			$prev = 'charcoal';
 			$n    = count( $s['cards'] );
 			?>

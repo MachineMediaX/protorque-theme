@@ -13,9 +13,16 @@
   var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   document.querySelectorAll('.pt-card').forEach(function (card) {
     var btn = card.querySelector('.pt-card__toggle');
+    // A card with a "rest" image (B&W with the logo in colour) swaps to the full-colour file when it opens.
+    var im = card.querySelector('.pt-card__img--rest');
+    if (im) { im.dataset.restSrc = im.getAttribute('src'); im.dataset.restSrcset = im.getAttribute('srcset'); }
     function set(open) {
       card.classList.toggle('is-open', open);
       if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (im) {
+        im.setAttribute('srcset', open ? im.dataset.srcset : im.dataset.restSrcset);
+        im.setAttribute('src', open ? im.dataset.src : im.dataset.restSrc);
+      }
     }
     if (fine) {
       var initial = card.classList.contains('is-open');
@@ -104,6 +111,39 @@
         e.preventDefault();
         activate((n + tabs.length) % tabs.length, true);
       });
+    });
+  });
+})();
+
+// Equipment lineup: hover (pointer) or tap (touch) swaps the cutout for the field photo or video; chips filter by application.
+(function () {
+  var grid = document.querySelector('.pt-eqgrid');
+  if (!grid) return;
+  var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  grid.querySelectorAll('.pt-eq').forEach(function (el) {
+    var vid = el.querySelector('video');
+    function setField(on) {
+      el.classList.toggle('show-field', on);
+      if (vid) { if (on) { var p = vid.play(); if (p && p.catch) p.catch(function () {}); } else { vid.pause(); } }
+    }
+    if (fine) {
+      el.addEventListener('mouseenter', function () { setField(true); });
+      el.addEventListener('mouseleave', function () { setField(false); });
+    }
+    var t = el.querySelector('.pt-eq__toggle');
+    if (t) t.addEventListener('click', function () {
+      var on = !el.classList.contains('show-field');
+      setField(on);
+      t.setAttribute('aria-pressed', on ? 'true' : 'false');
+      t.textContent = on ? 'Product' : 'In the field';
+    });
+  });
+  var chips = [].slice.call(document.querySelectorAll('.pt-eqchip'));
+  chips.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var app = b.dataset.app;
+      chips.forEach(function (c) { c.setAttribute('aria-pressed', c === b ? 'true' : 'false'); });
+      grid.querySelectorAll('.pt-eq').forEach(function (c) { c.classList.toggle('is-out', app !== 'all' && c.dataset.app !== app); });
     });
   });
 })();
