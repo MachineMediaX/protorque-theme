@@ -11,6 +11,38 @@ function pt_content_pages() {
 	static $pages = null;
 	if ( $pages === null ) {
 		$pages = json_decode( file_get_contents( get_template_directory() . '/inc/content/pages.json' ), true ) ?: [];
+		// Hand edits that must survive a content re-assembly: inc/content/overrides.json.
+		// { "<slug>": { "sections": [ { "kind": "overview", "paras": [...] }, ... ] } } merges each entry into the
+		// first section of that kind (field by field); "remove": true drops it; "append": true adds it as a new section.
+		$ov = json_decode( @file_get_contents( get_template_directory() . '/inc/content/overrides.json' ), true ) ?: [];
+		foreach ( $ov as $slug => $o ) {
+			if ( ! isset( $pages[ $slug ] ) ) {
+				continue;
+			}
+			foreach ( $o['sections'] ?? [] as $patch ) {
+				$kind = $patch['kind'] ?? '';
+				$hit  = null;
+				foreach ( $pages[ $slug ]['sections'] as $i => $sec ) {
+					if ( ( $sec['kind'] ?? '' ) === $kind && empty( $patch['append'] ) ) {
+						$hit = $i;
+						break;
+					}
+				}
+				if ( ! empty( $patch['append'] ) || $hit === null ) {
+					unset( $patch['append'] );
+					$pages[ $slug ]['sections'][] = $patch;
+				} elseif ( ! empty( $patch['remove'] ) ) {
+					array_splice( $pages[ $slug ]['sections'], $hit, 1 );
+				} else {
+					$pages[ $slug ]['sections'][ $hit ] = array_merge( $pages[ $slug ]['sections'][ $hit ], $patch );
+				}
+			}
+			foreach ( $o as $k => $v ) {
+				if ( $k !== 'sections' ) {
+					$pages[ $slug ][ $k ] = $v;
+				}
+			}
+		}
 	}
 	return $pages;
 }

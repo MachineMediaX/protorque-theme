@@ -384,6 +384,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-president { padding: 104px var(--pt-gutter) 112px; }
 /* Single column, widened per Kim (Oct 9) so the section is shorter; type a step smaller. Copy unchanged. */
 .pt-president__body { max-width: 980px; margin: 56px auto 0; }
+@media (min-width: 1200px) { .pt-president__body { max-width: 1120px; } } /* wider still on desktop, Kim Oct 15; mobile unchanged */
 .pt-president__body p { font-size: 1.0625rem; line-height: 1.55; }
 .pt-president__body p + p { margin-top: 18px; }
 .pt-president__sig { margin-top: 24px; font-size: 1.0625rem; }

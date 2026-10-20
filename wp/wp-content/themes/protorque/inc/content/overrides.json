@@ -1,0 +1,65 @@
+{
+ "break-out-vise": {
+  "sections": [
+   {
+    "kind": "hero",
+    "title": "Break-Out Vise",
+    "sub": "Portable, high-torque make-up and break-out for downhole tools. Three torque ratings. One compact footprint.",
+    "image": "content/break-out-vise-90k.png"
+   },
+   {
+    "kind": "overview",
+    "title": "Bring the break-out capability to the equipment",
+    "paras": [
+     "The ProStar Mobile Break-Out Vise gives service companies and operators a portable, high-torque solution for breaking out and making up downhole tools without relying on a conventional shop-based bucking unit. Built for the realities of field operations, it brings the break-out capability to the equipment, not the equipment to the break-out machine.",
+     "The compact footprint and mobile support stand let the assembly set up in tight areas, in the field or in the shop. A sliding head moves the vise or the adjustable roller into position, so make-up and break-out happen inside the same footprint by shifting or rotating the tool. From make-up to break-out in minutes.",
+     "Available in three configurations: 40,000, 60,000 and 90,000 ft-lb. All three models are available to order now."
+    ]
+   },
+   {
+    "kind": "specs",
+    "title": "Specifications",
+    "tables": [
+     {
+      "title": "Three Configurations",
+      "rows": [
+       [ "40K", "40,000 ft-lb (54,230 Nm)" ],
+       [ "60K", "60,000 ft-lb (81,350 Nm)" ],
+       [ "90K", "90,000 ft-lb (122,025 Nm)" ]
+      ],
+      "head": false
+     },
+     {
+      "title": "Break-Out Vise Specs",
+      "rows": [
+       [ "TORQUE RATING", "40,000 to 90,000 ft-lb (54,230 to 122,025 Nm)" ],
+       [ "TUBULAR OD RANGE", "4 to 14” OD" ],
+       [ "DIMENSIONS", "Length 60” (1,524 mm), Width 46” (1,168 mm), Height 56” (1,422 mm)" ],
+       [ "WEIGHT", "1,500 lbs (680 kg)" ],
+       [ "PRESSURE RATING", "3,000 PSI (20,700 kPa)" ],
+       [ "HYDRAULIC FLOW REQUIREMENTS", "2 to 8 gal/min (7.5 to 30.5 L/min)" ]
+      ],
+      "head": false
+     }
+    ]
+   },
+   {
+    "kind": "benefits",
+    "title": "Features",
+    "benefits": [
+     { "title": "Sliding head", "text": "The vise or the adjustable roller moves into position for make or break operations inside the same footprint." },
+     { "title": "Lift ram", "text": "Installs and removes the tong after the operation." },
+     { "title": "Mobile support stand", "text": "Adjustable roller stand sets up in tight areas, in the field or in the shop." },
+     { "title": "Low-flow hydraulics", "text": "Controlled use at 2 to 8 gal/min. Independent hydraulic control stand available on request." },
+     { "title": "Applications", "text": "Drilling BHA components, completions tool strings, fishing tools on location, downhole tool service, CRT tools and rotary shouldered connections." },
+     { "title": "Custom configurations", "text": "Custom torque ratings and configurations available on request." }
+    ]
+   },
+   {
+    "kind": "cta",
+    "title": "Ready to spec the Break-Out Vise for your next program?",
+    "paras": [ "Talk to ProTorque about specifications, lead times and custom configurations, and how the Break-Out Vise works alongside our crews." ]
+   }
+  ]
+ }
+}
