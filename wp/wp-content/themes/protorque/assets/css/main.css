@@ -794,7 +794,10 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-apply__msg { max-width: 980px; margin: 32px auto 0; padding: 18px 24px; font-weight: 600; }
 .pt-apply__msg--ok { background: #e6f6ec; color: #0f5132; }
 .pt-apply__msg--err { background: #fde8ea; color: var(--pt-red-deep); }
-.pt-apply__grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 18px 20px; margin-top: 32px; }
+.pt-apply__grid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 18px 20px; margin-top: 32px; }
+.pt-apply__field { min-width: 0; }
+.pt-apply__form { min-width: 0; overflow: hidden; }
+.pt-apply__field input, .pt-apply__field select, .pt-apply__field textarea { box-sizing: border-box; max-width: 100%; }
 .pt-apply__grid .wide { grid-column: span 6; }
 .pt-apply__grid .half { grid-column: span 3; }
 .pt-apply__grid .third { grid-column: span 2; }
