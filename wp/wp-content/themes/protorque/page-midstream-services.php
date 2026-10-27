@@ -32,7 +32,7 @@ $services = [
 	<section class="pt-overview">
 		<div class="pt-container pt-overview__grid">
 			<div class="pt-overview__photo">
-				<img src="<?php echo esc_url( "$img/midstream/overview.jpg" ); ?>" srcset="<?php echo esc_url( "$img/midstream/overview@2x.jpg" ); ?> 2x" alt="" width="620" height="670" loading="lazy">
+				<img src="<?php echo esc_url( "$img/midstream/overview-v2.jpg" ); ?>" srcset="<?php echo esc_url( "$img/midstream/overview-v2@2x.jpg" ); ?> 2x" alt="" width="620" height="670" loading="lazy">
 			</div>
 			<div class="pt-overview__text">
 				<p class="pt-eyebrow pt-eyebrow--red">Midstream Services</p>
