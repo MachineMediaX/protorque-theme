@@ -29,7 +29,12 @@
       card.addEventListener('mouseenter', function () { set(true); });
       card.addEventListener('mouseleave', function () { set(initial); });
     }
-    if (btn) btn.addEventListener('click', function (e) { e.preventDefault(); set(!card.classList.contains('is-open')); });
+    // Tap anywhere on the card (image, title or the plus) to open it; a tap on the open panel's link still follows the link.
+    card.addEventListener('click', function (e) {
+      if (e.target.closest('.pt-card__panel a')) return;
+      e.preventDefault();
+      set(!card.classList.contains('is-open'));
+    });
   });
 })();
 
