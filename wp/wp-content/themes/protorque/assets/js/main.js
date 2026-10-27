@@ -152,3 +152,32 @@
     });
   });
 })();
+
+// Careers: region tabs, Apply buttons preselect the position, invalid required fields are highlighted on submit.
+(function () {
+  var wrap = document.querySelector('.pt-apply');
+  if (!wrap) return;
+  var tabs = [].slice.call(wrap.querySelectorAll('.pt-apply__tab'));
+  var forms = [].slice.call(wrap.querySelectorAll('.pt-apply__form'));
+  function show(region) {
+    tabs.forEach(function (t) { var on = t.dataset.region === region; t.classList.toggle('is-active', on); t.setAttribute('aria-selected', on ? 'true' : 'false'); });
+    forms.forEach(function (f) { f.hidden = f.id !== 'apply-' + region; });
+  }
+  tabs.forEach(function (t) { t.addEventListener('click', function () { show(t.dataset.region); }); });
+  document.querySelectorAll('.pt-job__apply').forEach(function (a) {
+    a.addEventListener('click', function () {
+      forms.forEach(function (f) { var s = f.querySelector('select[data-positions]'); if (s) s.value = a.dataset.position; });
+    });
+  });
+  forms.forEach(function (f) {
+    f.addEventListener('submit', function (e) {
+      var bad = f.querySelector(':invalid');
+      if (bad) {
+        e.preventDefault();
+        f.querySelectorAll(':invalid').forEach(function (el) { el.classList.add('is-touched'); });
+        (bad.closest('.pt-apply__field') || bad).scrollIntoView({ behavior: 'smooth', block: 'center' });
+        if (bad.focus) bad.focus({ preventScroll: true });
+      }
+    });
+  });
+})();

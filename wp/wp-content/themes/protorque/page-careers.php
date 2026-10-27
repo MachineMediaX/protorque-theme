@@ -76,24 +76,18 @@ get_header();
 					</summary>
 					<div class="pt-job__body">
 						<?php echo wp_kses_post( apply_filters( 'the_content', $j->post_content ) ); ?>
-						<a class="pt-btn" href="mailto:<?php echo esc_attr( $email ); ?>?subject=<?php echo rawurlencode( 'Application: ' . get_the_title( $j ) ); ?>">Apply by Email</a>
+						<a class="pt-btn pt-job__apply" href="#apply" data-position="<?php echo esc_attr( get_the_title( $j ) ); ?>">Apply</a>
 					</div>
 				</details>
 				<?php endforeach; ?>
 			</div>
 			<?php else : ?>
-			<p class="pt-lede pt-center" style="margin-inline:auto">There are no open positions posted right now. Send your resume to <a href="mailto:careers@ptenergy.com">careers@ptenergy.com</a> and we will keep it on file.</p>
+			<p class="pt-lede pt-center" style="margin-inline:auto">There are no open positions posted right now. Submit a general application below and we will keep it on file.</p>
 			<?php endif; ?>
 		</div>
 	</section>
 
-	<section class="pt-ctabar pt-section--black">
-		<div class="pt-ctabar__inner">
-			<h2 class="pt-ctabar__title"><?php echo esc_html( pt_title_case( $cta['title'] ?? "Don't see the right role? Send us your resume." ) ); ?></h2>
-			<p class="pt-ctabar__text">Email <a href="mailto:careers@ptenergy.com" style="color:inherit;font-weight:700">careers@ptenergy.com</a> with your resume and the kind of work you are looking for.</p>
-			<div class="pt-ctabar__actions"><a class="pt-btn" href="mailto:careers@ptenergy.com">Email Careers</a></div>
-		</div>
-	</section>
+	<?php pt_careers_render(); ?>
 
 </main>
 <?php get_footer(); ?>

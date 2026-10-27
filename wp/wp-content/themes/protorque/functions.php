@@ -2,13 +2,14 @@
 /**
  * ProTorque theme bootstrap.
  */
-define( 'PT_VERSION', '0.4.6' );
+define( 'PT_VERSION', '0.4.7' );
 require_once get_template_directory() . '/inc/nav.php';
 require_once get_template_directory() . '/inc/sections.php';
 require_once get_template_directory() . '/inc/equipment.php';
 require_once get_template_directory() . '/inc/setup.php';
 require_once get_template_directory() . '/inc/migrations.php';
 require_once get_template_directory() . '/inc/seo.php';
+require_once get_template_directory() . '/inc/careers-form.php';
 
 add_action( 'after_setup_theme', function () {
 	add_theme_support( 'title-tag' );
