@@ -176,7 +176,7 @@ function pt_render_section( $s, $page, &$prev ) {
 							<p class="pt-eyebrow pt-eyebrow--yellow">Equipment &amp; Innovation</p>
 							<h1 class="pt-pagehero__title pt-eqhero__title"><?php echo esc_html( $s['title'] ); ?></h1>
 							<?php if ( ! empty( $s['sub'] ) ) : ?><p class="pt-pagehero__sub"><?php echo esc_html( $s['sub'] ); ?></p><?php endif; ?>
-							<p class="pt-eqhero__prostar">Engineered and supplied by <a href="https://www.prostarequipment.com/" rel="noopener">ProStar Equipment</a>.</p>
+							<p class="pt-eqhero__prostar">Engineered and supplied by <a href="https://www.prostarequipment.com/" target="_blank" rel="noopener">ProStar Equipment</a>.</p>
 							<a class="pt-btn" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a Quote</a>
 						</div>
 						<?php if ( ! empty( $s['image'] ) ) : ?>

@@ -33,7 +33,7 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-svc-overview__inner">
 				<p class="pt-eyebrow pt-eyebrow--red"><?php echo esc_html( $overs[0]['eyebrow'] ?? 'Why ProTorque' ); ?></p>
-				<h2 class="pt-h2 pt-h2--left"><?php echo esc_html( pt_title_case( $overs[0]['title'] ) ); ?></h2>
+				<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $overs[0]["title"] ) ); ?></h2>
 				<?php pt_paras( $overs[0]['paras'] ?? [] ); ?>
 			</div>
 		</div>

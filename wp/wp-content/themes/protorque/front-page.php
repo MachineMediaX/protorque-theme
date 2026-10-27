@@ -66,8 +66,8 @@ get_header();
 						'body' => 'Experienced crews and engineered tools, with disciplined preparation from thread cleaning and inspection through final make-up. ProTorque keeps casing programs predictable and on schedule.',
 						'cta' => 'Explore Tubular Running Services',
 						'url' => $home . 'tubular-running-services/',
-						'img' => 'card-trs',
-						'rest' => 'card-trs-logo', // B&W with the coverall logo in colour at rest; full colour on hover
+						'img' => 'card-trs-v3',
+						'rest' => 'card-trs-v3-logo', // B&W with the coverall logo in colour at rest; full colour on hover
 					],
 					[
 						'title' => 'Midstream<br>Construction<br>&amp; Maintenance',
