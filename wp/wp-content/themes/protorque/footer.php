@@ -39,7 +39,7 @@ $pt_home = home_url( '/' );
 		</div>
 
 		<div class="pt-footer__col">
-			<h2 class="pt-footer__heading"><?php esc_html_e( 'South America', 'protorque' ); ?></h2>
+			<h2 class="pt-footer__heading"><?php esc_html_e( 'Colombia', 'protorque' ); ?></h2>
 			<p>24 Hour Dispatch:<br><a href="tel:+573213202213">+57.321.320.2213</a><br><a href="mailto:PTESAS.Sales@ptenergy.com">PTESAS.Sales@ptenergy.com</a></p>
 			<p>Colombia Head Office<br>Bodega #47, Parque Industrial San Jorge, Municipio de Mosquera Cundinamarca</p>
 		</div>
