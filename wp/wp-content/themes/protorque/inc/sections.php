@@ -47,6 +47,22 @@ function pt_content_pages() {
 	return $pages;
 }
 
+/** Split a list's items into sub-headed groups. Returns [] when the list has no subheads (or items before the first one). */
+function pt_list_groups( array $items ): array {
+	if ( empty( $items ) || ( $items[0]['kind'] ?? '' ) !== 'subhead' ) {
+		return [];
+	}
+	$groups = [];
+	foreach ( $items as $it ) {
+		if ( ( $it['kind'] ?? '' ) === 'subhead' ) {
+			$groups[] = [ 'head' => $it['text'], 'items' => [] ];
+		} else {
+			$groups[ count( $groups ) - 1 ]['items'][] = $it['text'];
+		}
+	}
+	return $groups;
+}
+
 function pt_content_page( $slug ) {
 	return pt_content_pages()[ $slug ] ?? null;
 }
@@ -91,7 +107,10 @@ function pt_hero_image( $slug ) {
  * connectors mid-heading; never lowercase anything already capitalised (ProTorque, RCD, eHPU, CATM).
  */
 function pt_title_case( $text ) {
-	$text  = preg_replace( '/\.\s*$/u', '', trim( (string) $text ) ); // headings carry no trailing period (Shane, Oct 15)
+	$text = trim( (string) $text );
+	if ( substr_count( $text, '.' ) === 1 ) { // headings carry no trailing period (Shane, Oct 15); multi-sentence leads keep theirs
+		$text = preg_replace( '/\.\s*$/u', '', $text );
+	}
 	$small = [ 'a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into', 'nor', 'of', 'on', 'or', 'the', 'to', 'vs', 'with' ];
 	$words = preg_split( '/(\s+)/u', (string) $text, -1, PREG_SPLIT_DELIM_CAPTURE );
 	$n     = count( $words );
@@ -319,14 +338,29 @@ function pt_render_section( $s, $page, &$prev ) {
 							<h2 class="pt-h2"><?php echo esc_html( pt_title_case( $title ) ); ?></h2>
 							<?php pt_paras( $intro, 'pt-lede' ); ?>
 						</div>
+						<?php
+						$groups = pt_list_groups( $items );
+						if ( $groups ) : // Sub-headed lists (Kim, Oct 30): one column per group.
+						?>
+						<div class="pt-checkgroups pt-checkgroups--<?php echo count( $groups ); ?>">
+							<?php foreach ( $groups as $g ) : ?>
+							<div class="pt-checkgroup">
+								<h3 class="pt-checklist__head"><?php echo esc_html( $g['head'] ); ?></h3>
+								<ul class="pt-checklist pt-checklist--col">
+									<?php foreach ( $g['items'] as $t ) : ?>
+									<li><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><?php echo esc_html( $t ); ?></span></li>
+									<?php endforeach; ?>
+								</ul>
+							</div>
+							<?php endforeach; ?>
+						</div>
+						<?php else : ?>
 						<ul class="pt-checklist">
 							<?php foreach ( $items as $it ) : ?>
-								<?php if ( $it['kind'] === 'subhead' ) : ?><li class="pt-checklist__head"><?php echo esc_html( $it['text'] ); ?></li>
-								<?php else : ?>
 								<li><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span><?php echo esc_html( $it['text'] ); ?></span></li>
-								<?php endif; ?>
 							<?php endforeach; ?>
 						</ul>
+						<?php endif; ?>
 					</div>
 				</section>
 				<?php
@@ -426,7 +460,7 @@ function pt_render_section( $s, $page, &$prev ) {
 							<?php if ( ! empty( $c['img'] ) ) : ?><a class="pt-svc__thumb" href="<?php echo esc_url( pt_url( $c['url'] ) ); ?>" tabindex="-1" aria-hidden="true"><img src="<?php echo esc_url( pt_img( $c['img'] ) ); ?>" alt="" loading="lazy"></a><?php endif; ?>
 							<p class="pt-svc__eyebrow"><?php echo esc_html( str_pad( $c['n'], 2, '0', STR_PAD_LEFT ) ); ?></p>
 							<h3 class="pt-svc__title"><?php echo esc_html( $c['title'] ); ?></h3>
-							<?php if ( ! empty( $c['lead'] ) ) : ?><p class="pt-svc__lead"><?php echo esc_html( $c['lead'] ); ?></p><?php endif; ?>
+							<?php if ( ! empty( $c['lead'] ) ) : ?><p class="pt-svc__lead"><?php echo esc_html( pt_title_case( $c['lead'] ) ); ?></p><?php endif; ?>
 							<p class="pt-svc__body"><?php echo pt_kses( $c['text'] ); ?></p>
 							<a class="pt-svc__link" href="<?php echo esc_url( pt_url( $c['url'] ) ); ?>"><?php echo esc_html( $c['cta'] ); ?></a>
 						</li>

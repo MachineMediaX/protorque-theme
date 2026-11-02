@@ -72,7 +72,7 @@ get_header();
 		<div class="pt-container pt-center">
 			<p class="pt-eyebrow pt-eyebrow--yellow">What We Stand For</p>
 			<h2 class="pt-h2">Our Core Values</h2>
-			<p class="pt-lede">These four values shape how ProTorque hires, coaches, and executes. They are the standard our people hold each other to, on the rig floor and in the office.</p>
+			<p class="pt-lede">Our four values guide how we hire, coach, and operate, setting the standard our people uphold in the field and in the office.</p>
 			<ol class="pt-values__list">
 				<li>Eliminate the Mediocre</li>
 				<li>Skilled Influential Confidence</li>
@@ -238,7 +238,7 @@ get_header();
 	<section class="pt-ctabar pt-section--black">
 		<div class="pt-ctabar__inner">
 			<h2 class="pt-ctabar__title">Want to Work with ProTorque?</h2>
-			<p class="pt-ctabar__text">Talk to a ProTorque crew lead about your next program. We respond fast and prepare before the work begins.</p>
+			<p class="pt-ctabar__text">Connect with our team to discuss your needs and find the right solution for the job.</p>
 			<a class="pt-btn" href="<?php echo esc_url( $home . 'contact-us/' ); ?>">Get in Touch</a>
 		</div>
 	</section>

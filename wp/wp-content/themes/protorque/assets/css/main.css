@@ -32,7 +32,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 }
 .pt-eyebrow--dark { color: var(--pt-black); font-size: 1.625rem; letter-spacing: 0.04em; }
 .pt-h2 { font-family: var(--pt-font-heading); font-size: var(--pt-size-h2); font-weight: 500; line-height: 1.15; letter-spacing: -0.01em; margin-top: 32px; }
-.pt-lede { font-size: var(--pt-size-body); line-height: 1.5; max-width: 60rem; margin-top: 28px; font-weight: 500; }
+.pt-lede { font-size: var(--pt-size-body); line-height: 1.5; max-width: 68rem; margin-top: 28px; font-weight: 500; }
 .pt-btn {
   display: inline-block;
   background: var(--pt-red);
@@ -144,6 +144,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   max-width: 1120px;
   margin-inline: auto;
 }
+.pt-mission__text--sub { font-size: calc(var(--pt-size-mission) * 0.72); margin-top: 18px; }
 .pt-mission__text br { display: none; }
 @media (min-width: 1100px) { .pt-mission__text br { display: inline; } }
 .pt-mission__text span { color: var(--pt-red); }
@@ -367,7 +368,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* Safety */
 .pt-safety { padding: 136px var(--pt-gutter) 124px; }
-.pt-safety .pt-lede { max-width: 56rem; font-weight: 600; margin-top: 36px; }
+.pt-safety .pt-lede { max-width: 72rem; font-weight: 600; margin-top: 36px; }
 .pt-safety__cols { display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 0 40px; margin-top: 90px; max-width: 1230px; margin-inline: auto; }
 .pt-safety__cols > div { padding: 0 0 10px; text-align: center; }
 .pt-safety__cols > div + div { border-left: 2px solid var(--pt-yellow); padding-left: 40px; }
@@ -376,7 +377,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* Team */
 .pt-team { padding: 112px var(--pt-gutter) 108px; }
-.pt-team .pt-lede { max-width: 54rem; font-weight: 500; font-size: 1.0625rem; }
+.pt-team .pt-lede { max-width: 72rem; font-weight: 500; font-size: 1.0625rem; }
 .pt-team__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 90px; }
 .pt-person img { width: 100%; aspect-ratio: 1; object-fit: cover; }
 .pt-person__caption { background: var(--pt-red); color: var(--pt-white); padding: 24px 24px 30px; line-height: 1.4; font-size: 1.125rem; }
@@ -453,7 +454,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-pagehero--sub img { filter: grayscale(1); }
 .pt-pagehero__scrim { position: absolute; inset: 0; background: rgba(0,0,0,.28); }
 .pt-pagehero__text { position: relative; text-align: center; max-width: 900px; padding: 0 var(--pt-gutter); }
-.pt-pagehero__sub { margin-top: 28px; font-size: 1.25rem; line-height: 1.45; font-weight: 500; max-width: 46rem; margin-inline: auto; }
+.pt-pagehero__sub { margin-top: 28px; font-size: 1.25rem; line-height: 1.45; font-weight: 500; max-width: 66rem; margin-inline: auto; }
 .pt-pagehero__text .pt-btn { margin-top: 36px; }
 
 /* Overview: photo left, text right (Our Story pattern) */
@@ -473,7 +474,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* Six services grid: black cards, no photo */
 .pt-services { padding: 112px var(--pt-gutter) 120px; }
-.pt-services .pt-lede { max-width: 50rem; }
+.pt-services .pt-lede { max-width: 64rem; }
 .pt-services__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 72px; }
 .pt-svc { background: var(--pt-black); color: var(--pt-white); padding: 44px 40px 48px; display: flex; flex-direction: column; }
 .pt-svc__eyebrow { font-family: var(--pt-font-title); font-size: 1.125rem; letter-spacing: 0.08em; color: var(--pt-red); }
@@ -488,7 +489,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 /* Template 2 */
 .pt-svc-overview { padding: 112px var(--pt-gutter) 120px; }
 /* Standalone text block, no photo beside it: centred per the design system (section intros and standalone text blocks centre; text beside a photo or in a card stays left). */
-.pt-svc-overview__inner { max-width: 860px; margin-inline: auto; text-align: center; }
+.pt-svc-overview__inner { max-width: 1040px; margin-inline: auto; text-align: center; }
 .pt-svc-overview .pt-h2 { margin-top: 18px; }
 .pt-svc-overview p { margin-top: 22px; font-size: 1.125rem; line-height: 1.5; }
 .pt-includes { padding: 104px var(--pt-gutter) 112px; }
@@ -499,6 +500,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-process__grid { list-style: none; }
 .pt-step__eyebrow { font-family: var(--pt-font-title); font-size: 1.125rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--pt-yellow); text-align: center; margin-bottom: 14px; }
 .pt-step h3 { font-size: 1.875rem; }
+@media (min-width: 901px) { .pt-step h3 { min-height: 2.2em; display: flex; align-items: flex-end; justify-content: center; } }
 .pt-why { padding: 120px var(--pt-gutter) 128px; }
 .pt-why__grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 0 90px; align-items: center; }
 .pt-why__text .pt-h2 { margin-top: 18px; }
@@ -542,7 +544,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-band-text__p { max-width: 62rem; margin-inline: auto; text-align: center; font-size: 1.25rem; line-height: 1.5; font-weight: 500; }
 
 /* Light text overview (landings, equipment, specialty pages) */
-.pt-svc-overview--light .pt-svc-overview__inner { max-width: 900px; }
+.pt-svc-overview--light .pt-svc-overview__inner { max-width: 1040px; }
 .pt-svc-overview--light p { font-size: 1.0625rem; }
 
 /* Video + gallery (equipment overview) */
@@ -554,7 +556,13 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* Checklist heads inside the red list */
 .pt-checklist__head { grid-column: 1 / -1; font-family: var(--pt-font-title); font-size: 1.375rem; letter-spacing: 0.04em; text-transform: uppercase; margin-top: 12px; }
-.pt-includes .pt-lede { max-width: 50rem; font-weight: 500; }
+.pt-checkgroups { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px 56px; max-width: 1180px; margin: 56px auto 0; }
+.pt-checkgroups--2 { grid-template-columns: repeat(2, 1fr); max-width: 900px; }
+.pt-checkgroup .pt-checklist__head { margin: 0 0 18px; padding-bottom: 12px; border-bottom: 2px solid rgba(255,255,255,0.35); }
+.pt-checklist--col { display: block; margin: 0; max-width: none; }
+.pt-checklist--col li + li { margin-top: 14px; }
+@media (max-width: 900px) { .pt-checkgroups, .pt-checkgroups--2 { grid-template-columns: 1fr; gap: 36px; } }
+.pt-includes .pt-lede { max-width: 64rem; font-weight: 500; }
 
 /* Text + rule list (Where ProTorque runs casing, specialty page roles) */
 .pt-textlist { padding: 112px var(--pt-gutter) 112px; }

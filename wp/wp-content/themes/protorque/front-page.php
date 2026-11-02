@@ -22,7 +22,8 @@ get_header();
 
 	<!-- Mission statement -->
 	<section class="pt-mission">
-		<p class="pt-mission__text">ProTorque is an energy services company providing integrated <br><span>Tubular Running Services</span> and <span>Midstream Construction</span> <br>solutions to operators across North and South America.</p>
+		<p class="pt-mission__text">ProTorque is an energy services company</p>
+		<p class="pt-mission__text pt-mission__text--sub">We provide integrated <span>Tubular Running Services</span> and <span>Midstream Construction</span> <br>solutions to operators across North and South America</p>
 	</section>
 
 	<!-- Two-photo band -->
@@ -42,7 +43,7 @@ get_header();
 		<div class="pt-container pt-center">
 			<p class="pt-eyebrow">Who We Are</p>
 			<h2 class="pt-h2">Industry Knowledge Meets Innovation</h2>
-			<p class="pt-lede">Since 2004, ProTorque has delivered oilfield services backed by experienced crews and field-proven methods. We put new technology to work where it improves safety and efficiency on the job. Operating across North and South America.</p>
+			<p class="pt-lede">Since 2004, ProTorque has delivered oilfield services backed by experienced crews and field-proven methods. We put new technology to work where it improves safety and efficiency on the job across North and South America.</p>
 			<a class="pt-btn" href="<?php echo esc_url( $home . 'about/' ); ?>">Read Our Story</a>
 		</div>
 	</section>
@@ -52,8 +53,8 @@ get_header();
 		<div class="pt-container">
 			<div class="pt-center">
 				<p class="pt-eyebrow">Core Capabilities</p>
-				<h2 class="pt-h2">Field Expertise Across Every Stage of Operations</h2>
-				<p class="pt-lede">Four pillars. One standard of execution. ProTorque brings together tubular running services, drilling verification and monitoring, midstream construction and maintenance, and equipment, run by the same crews to the same procedures on every job.</p>
+				<h2 class="pt-h2">Field Expertise at Every Stage of Operations</h2>
+				<p class="pt-lede">Four pillars. One standard. Proven expertise across every operation.</p>
 			</div>
 
 			<div class="pt-cards">
@@ -62,7 +63,7 @@ get_header();
 					[
 						'title' => 'Tubular Running<br>Services',
 						'eyebrow' => 'Tubular Running Services',
-						'headline' => 'Casing operations done right on every connection.',
+						'headline' => 'Casing Operations Done Right on Every Connection',
 						'body' => 'Experienced crews and engineered tools, with disciplined preparation from thread cleaning and inspection through final make-up. ProTorque keeps casing programs predictable and on schedule.',
 						'cta' => 'Explore Tubular Running Services',
 						'url' => $home . 'tubular-running-services/',
@@ -72,7 +73,7 @@ get_header();
 					[
 						'title' => 'Midstream<br>Construction<br>&amp; Maintenance',
 						'eyebrow' => 'Midstream Construction &amp; Maintenance',
-						'headline' => 'Operational reliability across midstream infrastructure.',
+						'headline' => 'Operational Reliability Across Midstream Infrastructure',
 						'body' => 'Construction, maintenance, electrical, instrumentation, and mechanical services for midstream facilities and pipeline infrastructure. ProTorque keeps operations running and responds fast when they need support.',
 						'cta' => 'Explore Midstream Services',
 						'url' => $home . 'midstream-services/',
@@ -81,7 +82,7 @@ get_header();
 					[
 						'title' => 'Drilling<br>Verification<br>&amp; Monitoring',
 						'eyebrow' => 'Drilling Verification &amp; Monitoring',
-						'headline' => 'Drilling verification that keeps operations on track.',
+						'headline' => 'Drilling Verification That Keeps Operations on Track',
 						'body' => 'Torque verification. Hook load confirmation. CATM calibration. ProTorque\'s verification and monitoring services give operators the data confidence to make better decisions faster and catch problems before they cost time.',
 						'cta' => 'Explore Drilling Services',
 						'url' => $home . 'drilling-services/',
@@ -90,7 +91,7 @@ get_header();
 					[
 						'title' => 'Equipment<br>&amp; Innovation',
 						'eyebrow' => 'Equipment &amp; Innovation',
-						'headline' => 'Equipment designed by the crews that use it.',
+						'headline' => 'Equipment Designed by the Crews That Use It',
 						'body' => 'Purpose-built tools and equipment that solve real operational problems. From the CRT Tether Ring to the Mobile Bucking Frame, every product in the ProTorque lineup started with a challenge crews face every day.',
 						'cta' => 'Explore Equipment &amp; Innovation',
 						'url' => $home . 'equipment-and-innovation/',

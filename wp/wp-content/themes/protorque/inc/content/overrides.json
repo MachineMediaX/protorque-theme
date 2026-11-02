@@ -23,21 +23,48 @@
      {
       "title": "Three Configurations",
       "rows": [
-       [ "40K", "40,000 ft-lb (54,230 Nm)" ],
-       [ "60K", "60,000 ft-lb (81,350 Nm)" ],
-       [ "90K", "90,000 ft-lb (122,025 Nm)" ]
+       [
+        "40K",
+        "40,000 ft-lb (54,230 Nm)"
+       ],
+       [
+        "60K",
+        "60,000 ft-lb (81,350 Nm)"
+       ],
+       [
+        "90K",
+        "90,000 ft-lb (122,025 Nm)"
+       ]
       ],
       "head": false
      },
      {
       "title": "Break-Out Vise Specs",
       "rows": [
-       [ "TORQUE RATING", "40,000 to 90,000 ft-lb (54,230 to 122,025 Nm)" ],
-       [ "TUBULAR OD RANGE", "4 to 14” OD" ],
-       [ "DIMENSIONS", "Length 60” (1,524 mm), Width 46” (1,168 mm), Height 56” (1,422 mm)" ],
-       [ "WEIGHT", "1,500 lbs (680 kg)" ],
-       [ "PRESSURE RATING", "3,000 PSI (20,700 kPa)" ],
-       [ "HYDRAULIC FLOW REQUIREMENTS", "2 to 8 gal/min (7.5 to 30.5 L/min)" ]
+       [
+        "TORQUE RATING",
+        "40,000 to 90,000 ft-lb (54,230 to 122,025 Nm)"
+       ],
+       [
+        "TUBULAR OD RANGE",
+        "4 to 14” OD"
+       ],
+       [
+        "DIMENSIONS",
+        "Length 60” (1,524 mm), Width 46” (1,168 mm), Height 56” (1,422 mm)"
+       ],
+       [
+        "WEIGHT",
+        "1,500 lbs (680 kg)"
+       ],
+       [
+        "PRESSURE RATING",
+        "3,000 PSI (20,700 kPa)"
+       ],
+       [
+        "HYDRAULIC FLOW REQUIREMENTS",
+        "2 to 8 gal/min (7.5 to 30.5 L/min)"
+       ]
       ],
       "head": false
      }
@@ -47,18 +74,531 @@
     "kind": "benefits",
     "title": "Features",
     "benefits": [
-     { "title": "Sliding head", "text": "The vise or the adjustable roller moves into position for make or break operations inside the same footprint." },
-     { "title": "Lift ram", "text": "Installs and removes the tong after the operation." },
-     { "title": "Mobile support stand", "text": "Adjustable roller stand sets up in tight areas, in the field or in the shop." },
-     { "title": "Low-flow hydraulics", "text": "Controlled use at 2 to 8 gal/min. Independent hydraulic control stand available on request." },
-     { "title": "Applications", "text": "Drilling BHA components, completions tool strings, fishing tools on location, downhole tool service, CRT tools and rotary shouldered connections." },
-     { "title": "Custom configurations", "text": "Custom torque ratings and configurations available on request." }
+     {
+      "title": "Sliding head",
+      "text": "The vise or the adjustable roller moves into position for make or break operations inside the same footprint."
+     },
+     {
+      "title": "Lift ram",
+      "text": "Installs and removes the tong after the operation."
+     },
+     {
+      "title": "Mobile support stand",
+      "text": "Adjustable roller stand sets up in tight areas, in the field or in the shop."
+     },
+     {
+      "title": "Low-flow hydraulics",
+      "text": "Controlled use at 2 to 8 gal/min. Independent hydraulic control stand available on request."
+     },
+     {
+      "title": "Applications",
+      "text": "Drilling BHA components, completions tool strings, fishing tools on location, downhole tool service, CRT tools and rotary shouldered connections."
+     },
+     {
+      "title": "Custom configurations",
+      "text": "Custom torque ratings and configurations available on request."
+     }
     ]
    },
    {
     "kind": "cta",
     "title": "Ready to spec the Break-Out Vise for your next program?",
-    "paras": [ "Talk to ProTorque about specifications, lead times and custom configurations, and how the Break-Out Vise works alongside our crews." ]
+    "paras": [
+     "Talk to ProTorque about specifications, lead times and custom configurations, and how the Break-Out Vise works alongside our crews."
+    ]
+   }
+  ]
+ },
+ "tubular-running-services": {
+  "sections": [
+   {
+    "kind": "overview",
+    "paras": [
+     "Tubular running services are the foundation of ProTorque. From casing programs and power tong operations to CRT execution, thread inspection and vacuum drifting, we deliver the equipment, expertise and execution needed to run pipe safely and efficiently.",
+     "ProTorque crews support new well construction across Canada, completions and workovers in the United States, and specialized applications including carbon capture wells and fiber-optic instrumented casing. Our experience spans a range of operating environments and technical demands.",
+     "More than 20 years of casing experience. Crews trained across major connection types. Equipment maintained to consistent standards, ready to perform on every job, in every region, on every rig."
+    ]
+   }
+  ]
+ },
+ "drilling-services": {
+  "sections": [
+   {
+    "kind": "overview",
+    "paras": [
+     "Drilling efficiency starts with equipment that performs as expected. ProTorque provides independent verification, calibration and monitoring across drilling systems, from power tong torque and top drive performance to hook load accuracy and iron roughneck calibration. Our services give operators the data needed to drill with confidence.",
+     "Every service follows the same principle: measure performance, document results and catch discrepancies early. ProTorque gives operators clear, reliable data to support informed decisions and prevent small issues from becoming larger problems.",
+     "Across every operating location, ProTorque crews bring calibrated equipment, documented procedures and real-time data systems to the rig, providing consistent verification and visibility into equipment performance."
+    ]
+   },
+   {
+    "kind": "services",
+    "intro": [
+     "Power tongs, top drive, iron roughneck, hook load, real-time data, and emerging applications.",
+     "Every service is built around one outcome: numbers operators can act on."
+    ]
+   }
+  ]
+ },
+ "vacuum-drifting-and-casing-id-confirmation": {
+  "sections": [
+   {
+    "kind": "hero",
+    "sub": "Verify casing ID. Confirm the program. Catch dimensional issues before the pipe goes downhole."
+   }
+  ]
+ },
+ "iron-roughneck-torque-testing": {
+  "sections": [
+   {
+    "kind": "overview",
+    "paras": [
+     "Iron roughneck systems are the workhorses of modern rig floors. They make up and break out connections faster, safer, and more consistently than crews working tongs by hand. But like any piece of equipment, they drift. And when they drift, the connections they make up start drifting with them.",
+     "ProTorque’s iron roughneck torque testing service confirms that the equipment is making connections to spec. Independent verification, calibrated test fixtures, and documented results across the operating range."
+    ]
+   }
+  ]
+ },
+ "fiber-optic-casing-installation": {
+  "sections": [
+   {
+    "kind": "overview",
+    "paras": [
+     "Fiber-optic instrumented casing has become standard equipment for operators who need real-time monitoring of pressure, temperature, and acoustic events across the wellbore. Distributed Acoustic Sensing (DAS) and Distributed Temperature Sensing (DTS) systems deliver insights that conventional wireline interventions cannot. The data is only as good as the deployment.",
+     "Running casing with fiber-optic cable on the outside is not a standard casing job. The cable is fragile. The make-up has to protect it. The handling has to keep it intact from the rack to total depth."
+    ]
+   }
+  ]
+ },
+ "midstream-construction": {
+  "sections": [
+   {
+    "kind": "hero",
+    "sub": "New facilities, pipelines, and infrastructure built right. Combo welders for carbon steel and stainless. Turnkey delivery for all structural, pipeline or facility needs."
+   },
+   {
+    "kind": "overview",
+    "paras": [
+     "Midstream construction is not a single trade. It is the coordinated execution of fabrication and welding, civil, mechanical, instrumentation and electrical (I&E), and specialty piping work, all delivered on time and to spec. ProTorque brings the full trade capability under one roof and the field discipline to keep projects moving.",
+     "New facilities. Plant expansions. Pipeline construction. Tank batteries. Saltwater disposal (SWD) builds. Specialty piping installations. ProTorque construction crews work across the Permian Basin and West Texas for operators that need a contractor who can build the whole thing without managing five different subs to do it."
+    ]
+   },
+   {
+    "kind": "list",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Civil & Facility Construction"
+     },
+     {
+      "kind": "li",
+      "text": "Civil work, foundations and concrete pads"
+     },
+     {
+      "kind": "li",
+      "text": "New facility construction and expansions"
+     },
+     {
+      "kind": "li",
+      "text": "Plant and process facility installations"
+     },
+     {
+      "kind": "li",
+      "text": "Tank battery construction"
+     },
+     {
+      "kind": "li",
+      "text": "Saltwater disposal (SWD) facilities"
+     },
+     {
+      "kind": "li",
+      "text": "Clean brine facilities (CBF)"
+     },
+     {
+      "kind": "li",
+      "text": "Mainline pump stations"
+     },
+     {
+      "kind": "subhead",
+      "text": "Welding & Pipeline"
+     },
+     {
+      "kind": "li",
+      "text": "Carbon and stainless steel combo welding"
+     },
+     {
+      "kind": "li",
+      "text": "Pipeline construction and tie-ins"
+     },
+     {
+      "kind": "li",
+      "text": "Specialty piping installations"
+     },
+     {
+      "kind": "li",
+      "text": "Poly fusion and fiberglass installation"
+     },
+     {
+      "kind": "subhead",
+      "text": "Project Delivery"
+     },
+     {
+      "kind": "li",
+      "text": "Multi-trade coordination"
+     },
+     {
+      "kind": "li",
+      "text": "Electrical and instrumentation"
+     },
+     {
+      "kind": "li",
+      "text": "Mechanical installations"
+     },
+     {
+      "kind": "li",
+      "text": "Turnkey delivery from initial scope to commissioning"
+     }
+    ]
+   }
+  ]
+ },
+ "plant-and-pipeline-maintenance": {
+  "sections": [
+   {
+    "kind": "list",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Facility & Pipeline Maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Ongoing maintenance programs for midstream facilities"
+     },
+     {
+      "kind": "li",
+      "text": "Pipeline maintenance and integrity work"
+     },
+     {
+      "kind": "li",
+      "text": "Tank battery maintenance and upkeep"
+     },
+     {
+      "kind": "li",
+      "text": "SWD facility maintenance"
+     },
+     {
+      "kind": "subhead",
+      "text": "Turnarounds & Project Support"
+     },
+     {
+      "kind": "li",
+      "text": "Plant turnarounds and scheduled maintenance windows"
+     },
+     {
+      "kind": "li",
+      "text": "Time and materials (T&M) project work"
+     },
+     {
+      "kind": "li",
+      "text": "Electrical and mechanical maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Emergency response and rapid mobilization"
+     },
+     {
+      "kind": "subhead",
+      "text": "Safety & Documentation"
+     },
+     {
+      "kind": "li",
+      "text": "On-site safety support as required"
+     },
+     {
+      "kind": "li",
+      "text": "Permit-to-work procedures"
+     },
+     {
+      "kind": "li",
+      "text": "Work documentation for regulatory reporting and facility records"
+     }
+    ]
+   }
+  ]
+ },
+ "facilities-electrical-instrumentation-mechanical": {
+  "sections": [
+   {
+    "kind": "hero",
+    "sub": "Master electricians and mechanical trades under one roof. Turnkey I&E-Mech capability for facility builds and ongoing operations."
+   },
+   {
+    "kind": "overview",
+    "paras": [
+     "Most facility contractors do electrical OR mechanical. ProTorque does both. Master electricians on staff. Mechanical trades on the same crews. Instrumentation specialists working alongside the welders and pipefitters. The result is turnkey facility work delivered by a single contractor instead of three.",
+     "For midstream operators building new facilities, expanding existing ones, or running ongoing I&E and mechanical maintenance programs, ProTorque’s combined trade capability eliminates the friction of managing multiple subcontractors. One scope. One project lead. One set of standards."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Integrated electrical, instrumentation & mechanical services",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Electrical & Instrumentation"
+     },
+     {
+      "kind": "li",
+      "text": "Electrical and instrumentation (I&E) builds and retrofits"
+     },
+     {
+      "kind": "li",
+      "text": "Master electrician services and oversight"
+     },
+     {
+      "kind": "li",
+      "text": "Process instrumentation installation and calibration"
+     },
+     {
+      "kind": "li",
+      "text": "Control panel installation and wiring"
+     },
+     {
+      "kind": "li",
+      "text": "Motor control centre (MCC) installation"
+     },
+     {
+      "kind": "subhead",
+      "text": "Mechanical & Equipment"
+     },
+     {
+      "kind": "li",
+      "text": "Mechanical trades for facility builds and maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Pump, compressor and skid installation"
+     },
+     {
+      "kind": "subhead",
+      "text": "Integrated Project Delivery"
+     },
+     {
+      "kind": "li",
+      "text": "Turnkey electrical, instrumentation and mechanical projects"
+     },
+     {
+      "kind": "li",
+      "text": "Combined-trade maintenance programs for ongoing facility support"
+     }
+    ],
+    "eyebrow": "What the service includes"
+   },
+   {
+    "kind": "process",
+    "steps": [
+     {
+      "title": "Scope and Estimation",
+      "text": "Combined I&E and mechanical scope developed with the operator or EPC. Master electrician sign-off on electrical work. Mechanical lead sign-off on mechanical scope. Single project plan."
+     },
+     {
+      "title": "Trade Coordination",
+      "text": "Internal coordination between electrical, instrumentation, and mechanical crews. Sequencing planned to avoid trade conflicts and minimize site days."
+     },
+     {
+      "title": "Execution",
+      "text": "Combined trade crews execute on site. Electrical, instrumentation, and mechanical work delivered in parallel or sequenced as the build requires. Single point of accountability throughout."
+     },
+     {
+      "title": "Commissioning",
+      "text": "Full commissioning including electrical testing, instrumentation verification, and mechanical functional testing. Documentation delivered. Facility ready for service."
+     }
+    ]
+   }
+  ]
+ },
+ "environmental-and-water-management": {
+  "sections": [
+   {
+    "kind": "overview",
+    "paras": [
+     "Water management is a defining capability of modern midstream operations. Produced water has to be moved, treated, stored, and disposed of. Clean brine facilities have to be built, maintained, and supported. Environmental compliance has to be documented at every step. ProTorque provides the construction, maintenance, and operational services that keep water management programs running.",
+     "ProTorque is the services contractor that supports the operators and water management companies running these programs across the Permian and West Texas. Construction, maintenance, I&E, mechanical, and environmental compliance services for the facilities that handle the water."
+    ]
+   },
+   {
+    "kind": "list",
+    "title": "Water management & facility support",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Facility Construction & Maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Clean brine facility (CBF) construction"
+     },
+     {
+      "kind": "li",
+      "text": "SWD facility construction and maintenance"
+     },
+     {
+      "kind": "li",
+      "text": "Produced water facility maintenance and upkeep"
+     },
+     {
+      "kind": "li",
+      "text": "Plant and pipeline maintenance for water management infrastructure"
+     },
+     {
+      "kind": "subhead",
+      "text": "Environmental & Technical Support"
+     },
+     {
+      "kind": "li",
+      "text": "Containment, liner and spill prevention work"
+     },
+     {
+      "kind": "li",
+      "text": "Environmental compliance services and documentation"
+     },
+     {
+      "kind": "li",
+      "text": "Electrical, instrumentation and mechanical support for water management facilities"
+     },
+     {
+      "kind": "subhead",
+      "text": "Project Coordination"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with water management operators and consultants"
+     },
+     {
+      "kind": "li",
+      "text": "Support for industrial water programs, including data centre water drilling"
+     }
+    ],
+    "eyebrow": "What the service includes"
+   }
+  ]
+ },
+ "row-services": {
+  "sections": [
+   {
+    "kind": "list",
+    "title": "Civil construction & site preparation",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Site Development"
+     },
+     {
+      "kind": "li",
+      "text": "Right-of-way (ROW) clearing for pipeline construction"
+     },
+     {
+      "kind": "li",
+      "text": "New pad construction"
+     },
+     {
+      "kind": "li",
+      "text": "Access road construction"
+     },
+     {
+      "kind": "li",
+      "text": "Site grading and preparation"
+     },
+     {
+      "kind": "subhead",
+      "text": "Civil & Environmental Work"
+     },
+     {
+      "kind": "li",
+      "text": "Concrete work and foundations"
+     },
+     {
+      "kind": "li",
+      "text": "Erosion control and site stabilization"
+     },
+     {
+      "kind": "li",
+      "text": "Industrial weed control"
+     },
+     {
+      "kind": "subhead",
+      "text": "Ongoing Site Support"
+     },
+     {
+      "kind": "li",
+      "text": "Site maintenance for operational facilities"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with surveyors, EPCs and permitting authorities"
+     }
+    ],
+    "eyebrow": "What the service includes"
+   }
+  ]
+ },
+ "specialty-piping": {
+  "sections": [
+   {
+    "kind": "list",
+    "title": "Facility & specialty piping",
+    "items": [
+     {
+      "kind": "subhead",
+      "text": "Piping Installation"
+     },
+     {
+      "kind": "li",
+      "text": "New facility construction and expansions"
+     },
+     {
+      "kind": "li",
+      "text": "Stainless steel piping installation"
+     },
+     {
+      "kind": "li",
+      "text": "Carbon steel piping for general facility applications"
+     },
+     {
+      "kind": "li",
+      "text": "Combo-welded piping across poly, carbon steel and stainless steel"
+     },
+     {
+      "kind": "li",
+      "text": "Specialty pipe handling and rigging"
+     },
+     {
+      "kind": "subhead",
+      "text": "Testing & Quality Control"
+     },
+     {
+      "kind": "li",
+      "text": "Pressure testing and qualification"
+     },
+     {
+      "kind": "li",
+      "text": "Installation for clean brine, produced water and corrosive service"
+     },
+     {
+      "kind": "li",
+      "text": "Documentation of pipe specifications, welds and pressure tests"
+     },
+     {
+      "kind": "subhead",
+      "text": "Project Coordination"
+     },
+     {
+      "kind": "li",
+      "text": "Coordination with mechanical and I&E trades for integrated facility builds"
+     }
+    ],
+    "eyebrow": "What the service includes"
    }
   ]
  }
