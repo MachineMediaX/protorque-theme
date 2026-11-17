@@ -43,7 +43,7 @@ get_header();
 						<div class="pt-map__cardbody">
 							<p class="pt-map__country"><?php echo esc_html( $m['country'] ); ?></p>
 							<p class="pt-map__city"><?php echo esc_html( $m['city'] ); ?></p>
-							<p><a href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', $m['phone'] ) ); ?>"><?php echo esc_html( $m['phone'] ); ?></a><br><a href="mailto:<?php echo esc_attr( $m['email'] ); ?>"><?php echo esc_html( $m['email'] ); ?></a></p>
+							<p><?php if ( ! empty( $m['phone'] ) ) : ?><a href="tel:<?php echo esc_attr( preg_replace( '/[^0-9+]/', '', $m['phone'] ) ); ?>"><?php echo esc_html( $m['phone'] ); ?></a><br><?php endif; ?><a href="mailto:<?php echo esc_attr( $m['email'] ); ?>"><?php echo esc_html( $m['email'] ); ?></a></p>
 						</div>
 					</div>
 				</div>
@@ -208,7 +208,6 @@ get_header();
 					<div class="pt-office__body">
 						<h3>Canada</h3><p class="pt-office__city">Calgary, AB</p>
 						<p><strong>ProTorque Energy headquarters.</strong><br>Tubular running services, drilling verification, equipment programs, and corporate operations.</p>
-						<p>1700, 520-5th Ave SW,<br>Calgary, AB, T2P 3R7<br><a href="tel:+17809330404">+1.780.933.0404</a></p>
 					</div>
 				</li>
 				<li class="pt-office">
@@ -216,7 +215,6 @@ get_header();
 					<div class="pt-office__body">
 						<h3>United States</h3><p class="pt-office__city">Midland, TX</p>
 						<p><strong>ProTorque US operations base.</strong><br>Midstream construction and maintenance services, tubular running services for completions and workovers, and drilling verification across the Permian Basin and New Mexico.</p>
-						<p>3424 South County Road 1192,<br>Midland, TX, 79706<br><a href="tel:+17133005216">+1.713.300.5216</a></p>
 					</div>
 				</li>
 				<li class="pt-office">
@@ -224,7 +222,6 @@ get_header();
 					<div class="pt-office__body">
 						<h3>South America</h3><p class="pt-office__city">Colombia</p>
 						<p><strong>ProTorque Energy SAS.</strong><br>Tubular running services and drilling verification supporting operators across Colombia and select South American markets.</p>
-						<p>Bodega # 47, Parque Industrial San Jorge, Municipio de Mosquera Cundinamarca<br><a href="tel:+573213202213">+57.321.320.2213</a></p>
 					</div>
 				</li>
 			</ul>
