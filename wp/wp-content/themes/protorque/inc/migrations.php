@@ -173,6 +173,27 @@ function pt_migration_blog_ie_2026_11_17() {
 }
 add_action( 'init', 'pt_migration_blog_ie_2026_11_17', 22 );
 
+/** 2026-11-17: menu labels and page titles stored with an encoded ampersand (I&#038;C, E&#038;I) missed by the first pass. */
+function pt_migration_menu_ie_2026_11_17() {
+	if ( pt_migration_done( 'menu-ie-2026-11-17' ) ) {
+		return;
+	}
+	global $wpdb;
+	$rows = $wpdb->get_results( "SELECT ID, post_title FROM {$wpdb->posts} WHERE post_type IN ('page','nav_menu_item') AND post_title <> ''" );
+	foreach ( (array) $rows as $r ) {
+		$t = preg_replace( '/Facilities Electrical I(&amp;|&#0?38;|&)C and Mechanical/', 'Facilities I$1E and Mechanical', $r->post_title );
+		$t = preg_replace( '/\bE(&amp;|&#0?38;|&)I\b/', 'I$1E', $t );
+		$t = preg_replace( '/\bI(&amp;|&#0?38;|&)C\b/', 'I$1E', $t );
+		if ( $t !== $r->post_title ) {
+			$wpdb->update( $wpdb->posts, [ 'post_title' => $t ], [ 'ID' => $r->ID ] );
+			clean_post_cache( $r->ID );
+		}
+	}
+	wp_cache_flush();
+	pt_migration_mark( 'menu-ie-2026-11-17' );
+}
+add_action( 'init', 'pt_migration_menu_ie_2026_11_17', 23 );
+
 /**
  * Launch redirects (301) from the old ptenergy.com URLs, crawled Oct 20, 2026 from the live sitemaps and the
  * Services and Products pages. Explicit map first, then the blog rule: /portfolio/<slug>/ to /<slug>/ for any post.
