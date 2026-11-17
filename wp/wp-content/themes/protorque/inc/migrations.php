@@ -219,3 +219,19 @@ add_action( 'template_redirect', function () {
 		exit;
 	}
 }, 1 );
+
+/**
+ * Full-page cache: the deploy's WP-CLI purge does not always clear Kinsta's page cache, so the first PHP request
+ * after a theme version change purges it here (Kinsta MU plugin when present, object cache always).
+ */
+add_action( 'init', function () {
+	if ( wp_installing() || get_option( 'pt_deployed_version' ) === PT_VERSION ) {
+		return;
+	}
+	update_option( 'pt_deployed_version', PT_VERSION, false );
+	global $kinsta_cache;
+	if ( is_object( $kinsta_cache ) && ! empty( $kinsta_cache->kinsta_cache_purge ) && method_exists( $kinsta_cache->kinsta_cache_purge, 'purge_complete_caches' ) ) {
+		$kinsta_cache->kinsta_cache_purge->purge_complete_caches();
+	}
+	wp_cache_flush();
+}, 30 );
