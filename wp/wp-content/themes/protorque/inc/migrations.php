@@ -149,6 +149,30 @@ function pt_migration_feedback_2026_11_17() {
 }
 add_action( 'init', 'pt_migration_feedback_2026_11_17', 21 );
 
+/** 2026-11-17: blog posts use I&E as well (Shane). Titles, excerpts and body copy. */
+function pt_migration_blog_ie_2026_11_17() {
+	if ( pt_migration_done( 'blog-ie-2026-11-17' ) ) {
+		return;
+	}
+	global $wpdb;
+	$from = [ 'E&amp;I', 'E&#038;I', 'E&#38;I', 'E&I', 'I&amp;C', 'I&#038;C', 'I&#38;C', 'I&C' ];
+	$to   = [ 'I&amp;E', 'I&amp;E', 'I&amp;E', 'I&E', 'I&amp;E', 'I&amp;E', 'I&amp;E', 'I&E' ];
+	$rows = $wpdb->get_results( "SELECT ID, post_title, post_excerpt, post_content FROM {$wpdb->posts} WHERE post_type = 'post' AND post_status IN ('publish','draft','future','private')" );
+	foreach ( (array) $rows as $r ) {
+		$new = [
+			'post_title'   => str_replace( $from, $to, $r->post_title ),
+			'post_excerpt' => str_replace( $from, $to, $r->post_excerpt ),
+			'post_content' => str_replace( $from, $to, $r->post_content ),
+		];
+		if ( $new['post_title'] !== $r->post_title || $new['post_excerpt'] !== $r->post_excerpt || $new['post_content'] !== $r->post_content ) {
+			$wpdb->update( $wpdb->posts, $new, [ 'ID' => $r->ID ] );
+			clean_post_cache( $r->ID );
+		}
+	}
+	pt_migration_mark( 'blog-ie-2026-11-17' );
+}
+add_action( 'init', 'pt_migration_blog_ie_2026_11_17', 22 );
+
 /**
  * Launch redirects (301) from the old ptenergy.com URLs, crawled Oct 20, 2026 from the live sitemaps and the
  * Services and Products pages. Explicit map first, then the blog rule: /portfolio/<slug>/ to /<slug>/ for any post.

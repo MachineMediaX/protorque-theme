@@ -75,7 +75,6 @@ get_header();
 						<p><?php foreach ( $o['dispatch'] as $i => [ $label, $num, $tel ] ) : ?><?php echo $i ? '<br>' : ''; ?><?php echo $label ? esc_html( $label ) . ' ' : ''; ?><a href="tel:<?php echo esc_attr( $tel ); ?>"><?php echo esc_html( $num ); ?></a><?php endforeach; ?><br><a href="mailto:<?php echo esc_attr( $o['email'] ); ?>"><?php echo esc_html( $o['email'] ); ?></a></p>
 						<p><strong><?php echo esc_html( $o['address'][0] ); ?></strong><br><?php echo esc_html( $o['address'][1] ); ?><br><?php echo esc_html( $o['address'][2] ); ?></p>
 						<?php if ( $o['regions'] ) : ?><p><strong>Operating across</strong><br><?php echo esc_html( $o['regions'] ); ?></p><?php endif; ?>
-						<p><a class="pt-office__dir" href="<?php echo esc_url( $o['directions'] ); ?>" rel="noopener">Get Directions</a></p>
 					</div>
 				</li>
 				<?php endforeach; ?>
