@@ -119,6 +119,37 @@ add_action( 'init', function () {
 }, 20 );
 
 /**
+ * 2026-11-17 (Kim, final feedback): I&E naming in stored titles (pages, menu items), and the five seeded
+ * test job postings removed until real postings are supplied.
+ */
+function pt_migration_feedback_2026_11_17() {
+	if ( pt_migration_done( 'feedback-2026-11-17' ) ) {
+		return;
+	}
+	global $wpdb;
+	$rows = $wpdb->get_results( "SELECT ID, post_title FROM {$wpdb->posts} WHERE post_type IN ('page','nav_menu_item') AND ( post_title LIKE '%E&I%' OR post_title LIKE '%E&amp;I%' OR post_title LIKE '%I&C%' OR post_title LIKE '%I&amp;C%' )" );
+	foreach ( (array) $rows as $r ) {
+		$t = str_replace(
+			[ 'Facilities Electrical I&amp;C and Mechanical', 'Facilities Electrical I&C and Mechanical', 'E&amp;I', 'E&I', 'I&amp;C', 'I&C' ],
+			[ 'Facilities I&amp;E and Mechanical', 'Facilities I&E and Mechanical', 'I&amp;E', 'I&E', 'I&amp;E', 'I&E' ],
+			$r->post_title
+		);
+		if ( $t !== $r->post_title ) {
+			$wpdb->update( $wpdb->posts, [ 'post_title' => $t ], [ 'ID' => $r->ID ] );
+			clean_post_cache( $r->ID );
+		}
+	}
+	foreach ( [ 1, 2, 3, 4, 5 ] as $n ) {
+		$jobs = get_posts( [ 'post_type' => 'pt_job', 'post_status' => 'any', 'title' => "Power Tong Operator $n", 'numberposts' => -1, 'fields' => 'ids' ] );
+		foreach ( $jobs as $id ) {
+			wp_delete_post( $id, true );
+		}
+	}
+	pt_migration_mark( 'feedback-2026-11-17' );
+}
+add_action( 'init', 'pt_migration_feedback_2026_11_17', 21 );
+
+/**
  * Launch redirects (301) from the old ptenergy.com URLs, crawled Oct 20, 2026 from the live sitemaps and the
  * Services and Products pages. Explicit map first, then the blog rule: /portfolio/<slug>/ to /<slug>/ for any post.
  */

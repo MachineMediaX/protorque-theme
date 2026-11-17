@@ -12,7 +12,7 @@ get_header();
 $services = [
 	[ 'n' => '01', 'title' => 'Midstream Construction', 'lead' => 'New facilities, pipelines, and infrastructure built right.', 'body' => 'Plant construction, pipeline construction, facility expansion, civil work, foundations, and turnkey midstream builds. Combo welders for poly, carbon, and stainless.', 'url' => $home . 'midstream-services/midstream-construction/', 'cta' => 'Explore Midstream Construction' ],
 	[ 'n' => '02', 'title' => 'Plant and Pipeline Maintenance', 'lead' => 'Keeping facilities running. Responding fast when they need support.', 'body' => 'Ongoing maintenance, plant turnarounds, T&amp;M work, pipeline maintenance, and reliability programs. The crews operators call when downtime is not an option.', 'url' => $home . 'midstream-services/plant-and-pipeline-maintenance/', 'cta' => 'Explore Plant and Pipeline Maintenance' ],
-	[ 'n' => '03', 'title' => 'Facilities Electrical I&amp;C and Mechanical', 'lead' => 'Master electricians and mechanical trades under one roof.', 'body' => 'Electrical and instrumentation, mechanical trades, and full E&amp;I-Mech capability for facility builds, expansions, and ongoing maintenance. Turnkey when operators need it.', 'url' => $home . 'midstream-services/facilities-electrical-instrumentation-mechanical/', 'cta' => 'Explore Facilities E&amp;I and Mechanical' ],
+	[ 'n' => '03', 'title' => 'Facilities I&amp;E and Mechanical', 'lead' => 'Master electricians and mechanical trades under one roof.', 'body' => 'Electrical and instrumentation, mechanical trades, and full I&amp;E-Mech capability for facility builds, expansions, and ongoing maintenance. Turnkey when operators need it.', 'url' => $home . 'midstream-services/facilities-electrical-instrumentation-mechanical/', 'cta' => 'Explore Facilities I&amp;E and Mechanical' ],
 	[ 'n' => '04', 'title' => 'Environmental and Water Management', 'lead' => 'Water, environmental, and compliance services for midstream operations.', 'body' => 'Produced water management, clean brine facility operations, environmental compliance, and integrated water management programs. Connected to ProTorque&rsquo;s broader water and drilling capability.', 'url' => $home . 'midstream-services/environmental-and-water-management/', 'cta' => 'Explore Environmental and Water Management' ],
 	[ 'n' => '05', 'title' => 'ROW Services', 'lead' => 'Right of way clearing, pads, and civil work that gets the project ready.', 'body' => 'ROW clearing, new pad construction, civil concrete work, industrial weed control, and the foundational site work that midstream construction depends on.', 'url' => $home . 'midstream-services/row-services/', 'cta' => 'Explore ROW Services' ],
 	[ 'n' => '06', 'title' => 'Specialty Piping', 'lead' => 'Fiber glass piping and specialty material installation.', 'body' => 'Fiber glass piping installation for facilities and corrosive-service applications. Combo-welded carbon and stainless piping for facility expansions and new builds.', 'url' => $home . 'midstream-services/specialty-piping/', 'cta' => 'Explore Specialty Piping' ],
@@ -25,7 +25,7 @@ $services = [
 		<div class="pt-pagehero__scrim"></div>
 		<div class="pt-pagehero__text">
 			<h1 class="pt-pagehero__title">Midstream<br>Services</h1>
-			<p class="pt-pagehero__sub">Construction, maintenance, and operational support for the facilities and pipelines that move energy.</p>
+			<p class="pt-pagehero__sub"><?php echo pt_sub( 'Construction, maintenance, and operational support for the facilities and pipelines that move energy.' ); ?></p>
 		</div>
 	</section>
 
@@ -38,7 +38,7 @@ $services = [
 				<p class="pt-eyebrow pt-eyebrow--red">Midstream Services</p>
 				<h2 class="pt-h2 pt-h2--left">The Crews Behind Reliable Midstream Operations</h2>
 				<p>Facility reliability does not happen by accident. It takes skilled trades, fast response, and crews that understand the infrastructure they are working on. ProTorque provides midstream services for operators across North America: construction, maintenance, electrical and instrumentation, mechanical, environmental, ROW, and specialty piping. The work that keeps facilities operational and infrastructure performing.</p>
-				<p>Whether the program is a new facility build in the Permian Basin, a turnaround in West Texas, a pipeline tie-in, or ongoing E&amp;I and mechanical support for a midstream operator, ProTorque shows up with the trades, the equipment, and the discipline to keep operations on schedule.</p>
+				<p>Whether the program is a new facility build in the Permian Basin, a turnaround in West Texas, a pipeline tie-in, or ongoing I&amp;E and mechanical support for a midstream operator, ProTorque shows up with the trades, the equipment, and the discipline to keep operations on schedule.</p>
 				<p>Twenty-plus years of energy services experience. Combo welders for poly, carbon, and stainless. Master electricians on staff. Both mechanical and electrical departments under one roof for turnkey operations and builds.</p>
 			</div>
 		</div>
@@ -89,7 +89,7 @@ $services = [
 	<section class="pt-ctabar pt-section--black">
 		<div class="pt-ctabar__inner">
 			<h2 class="pt-ctabar__title">Need Crews on a Midstream Facility or Pipeline?</h2>
-			<p class="pt-ctabar__text">Talk to ProTorque about construction, maintenance, E&amp;I, ROW, or specialty piping work.</p>
+			<p class="pt-ctabar__text">Talk to ProTorque about construction, maintenance, I&amp;E, ROW, or specialty piping work.</p>
 			<a class="pt-btn" href="<?php echo esc_url( $home . 'contact-us/' ); ?>">Get in Touch</a>
 		</div>
 	</section>

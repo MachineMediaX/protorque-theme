@@ -259,7 +259,7 @@
       "n": "1",
       "title": "CATM for Power Tongs",
       "lead": "Independent torque verification at the connection.",
-      "text": "Calibrated automated torque make-up for power tong operations. Documented connection-by-connection data that operators can verify and trust.",
+      "text": "Computer Analyzed Torque Monitoring (CATM) for power tong operations. Documented connection-by-connection data that operators can verify and trust.",
       "cta": "Explore CATM for Power Tongs",
       "url": "/tubular-running-services/catm-for-power-tongs/"
      },
@@ -420,7 +420,7 @@
       "text": "Engineered safety equipment that prevents the CRT from becoming a dropped object risk during casing operations. Inspection, maintenance, and field readiness backed by ProTorque.",
       "cta": "Explore CRT Tether Ring",
       "url": "/equipment-and-innovation/crt-tether-ring/",
-      "img": "content/tether-ring-800.png"
+      "img": "content/tether-ring-v2.png"
      },
      {
       "n": "2",
@@ -781,7 +781,7 @@
      "A CRT that fails on the floor is a costly problem. Rig time stops, replacement tools have to be mobilized, and the casing run goes off plan. The redress and maintenance program is how ProTorque keeps that from happening. Every tool that leaves the shop has been inspected, serviced, and documented to a known standard.",
      "This matters for operator audits, for fleet reliability across multiple regions, and for the kind of operational consistency that lets ProTorque mobilize crews on short notice for completions, workovers, and specialty applications."
     ],
-    "quote": "<em>“Every CRT that leaves the shop has a paper trail. Every tool on the floor has a record. Every record stands up to an audit.”</em>"
+    "quote": "<em>“Every CRT that leaves the shop has a documented service history. Every tool on the floor has a record. Every record stands up to an audit.”</em>"
    },
    {
     "kind": "related",
@@ -1117,7 +1117,7 @@
     "title": "Torque you can verify. Connections you can trust.",
     "eyebrow": "Our services",
     "paras": [
-     "CATM (Computer-Aided Torque Make-up) verifies and documents every power tong connection in real time. ProTorque’s CATM service for power tongs gives operators independent torque-turn data, calibration confidence, and a complete record of every joint that goes in the hole.",
+     "CATM (Computer Analyzed Torque Monitoring) verifies and documents every power tong connection in real time. ProTorque’s CATM service for power tongs gives operators independent torque-turn data, calibration confidence, and a complete record of every joint that goes in the hole.",
      "When the program calls for premium connections, deep horizontals, or specialty casing, CATM is what turns \"we made up the connection\" into \"we made up the connection to spec and here is the proof.\""
     ],
     "images": [
@@ -2679,9 +2679,9 @@
      },
      {
       "img": "content/facilities-electrical-card.jpg",
-      "title": "Facilities E&I and Mechanical",
+      "title": "Facilities I&E and Mechanical",
       "text": "Electrical and mechanical trades supporting facility construction.",
-      "cta": "Explore Facilities E&I",
+      "cta": "Explore Facilities I&E",
       "url": "/midstream-services/facilities-electrical-instrumentation-mechanical/"
      },
      {
@@ -2813,9 +2813,9 @@
      },
      {
       "img": "content/facilities-electrical-card.jpg",
-      "title": "Facilities E&I and Mechanical",
+      "title": "Facilities I&E and Mechanical",
       "text": "Electrical and mechanical capability supporting maintenance work.",
-      "cta": "Explore Facilities E&I",
+      "cta": "Explore Facilities I&E",
       "url": "/midstream-services/facilities-electrical-instrumentation-mechanical/"
      },
      {
@@ -2845,20 +2845,20 @@
  "facilities-electrical-instrumentation-mechanical": {
   "slug": "facilities-electrical-instrumentation-mechanical",
   "kind": "service",
-  "title": "Facilities Electrical I&C and Mechanical",
+  "title": "Facilities I&E and Mechanical",
   "id": 875,
   "sections": [
    {
     "kind": "hero",
-    "title": "Facilities Electrical I&C and Mechanical",
-    "sub": "Master electricians and mechanical trades under one roof. Turnkey E&I-Mech capability for facility builds and ongoing operations."
+    "title": "Facilities I&E and Mechanical",
+    "sub": "Master electricians and mechanical trades under one roof. Turnkey I&E-Mech capability for facility builds and ongoing operations."
    },
    {
     "kind": "overview",
     "title": "Both departments. One contractor. Built for turnkey.",
     "paras": [
      "Most facility contractors do electrical OR mechanical. ProTorque does both. Master electricians on staff. Mechanical trades on the same crews. Instrumentation specialists working alongside the welders and pipefitters. The result is turnkey facility work delivered by a single contractor instead of three.",
-     "For midstream operators building new facilities, expanding existing ones, or running ongoing E&amp;I and mechanical maintenance programs, ProTorque’s combined trade capability eliminates the friction of managing multiple subcontractors. One scope. One project lead. One set of standards."
+     "For midstream operators building new facilities, expanding existing ones, or running ongoing I&amp;E and mechanical maintenance programs, ProTorque’s combined trade capability eliminates the friction of managing multiple subcontractors. One scope. One project lead. One set of standards."
     ]
    },
    {
@@ -2867,7 +2867,7 @@
     "items": [
      {
       "kind": "li",
-      "text": "Electrical and instrumentation (E&I) builds and retrofits"
+      "text": "Electrical and instrumentation (I&E) builds and retrofits"
      },
      {
       "kind": "li",
@@ -2895,7 +2895,7 @@
      },
      {
       "kind": "li",
-      "text": "Turnkey E&I-Mech project delivery"
+      "text": "Turnkey I&E-Mech project delivery"
      },
      {
       "kind": "li",
@@ -2909,7 +2909,7 @@
     "steps": [
      {
       "title": "Scope and Estimation",
-      "text": "Combined E&amp;I and mechanical scope developed with the operator or EPC. Master electrician sign-off on electrical work. Mechanical lead sign-off on mechanical scope. Single project plan."
+      "text": "Combined I&amp;E and mechanical scope developed with the operator or EPC. Master electrician sign-off on electrical work. Mechanical lead sign-off on mechanical scope. Single project plan."
      },
      {
       "title": "Trade Coordination",
@@ -2941,14 +2941,14 @@
      {
       "img": "content/midstream-card.jpg",
       "title": "Midstream Construction",
-      "text": "New facility construction supported by combined E&amp;I-Mech capability.",
+      "text": "New facility construction supported by combined I&amp;E-Mech capability.",
       "cta": "Explore Midstream Construction",
       "url": "/midstream-services/midstream-construction/"
      },
      {
       "img": "content/plant-and-pipeline-card.jpg",
       "title": "Plant and Pipeline Maintenance",
-      "text": "Ongoing E&amp;I and mechanical maintenance programs.",
+      "text": "Ongoing I&amp;E and mechanical maintenance programs.",
       "cta": "Explore Plant and Pipeline Maintenance",
       "url": "/midstream-services/plant-and-pipeline-maintenance/"
      },
@@ -2963,9 +2963,9 @@
    },
    {
     "kind": "cta",
-    "title": "Need E&I and mechanical work on a midstream facility?",
+    "title": "Need I&E and mechanical work on a midstream facility?",
     "paras": [
-     "Talk to ProTorque about turnkey E&I-Mech capability. Master electricians, mechanical trades, combined-crew delivery across the Permian and West Texas."
+     "Talk to ProTorque about turnkey I&E-Mech capability. Master electricians, mechanical trades, combined-crew delivery across the Permian and West Texas."
     ],
     "buttons": [
      {
@@ -2992,7 +2992,7 @@
     "title": "The crews behind clean water programs and compliant operations.",
     "paras": [
      "Water management is a defining capability of modern midstream operations. Produced water has to be moved, treated, stored, and disposed of. Clean brine facilities have to be built, maintained, and supported. Environmental compliance has to be documented at every step. ProTorque provides the construction, maintenance, and operational services that keep water management programs running.",
-     "ProTorque is the services contractor that supports the operators and water management companies running these programs across the Permian and West Texas. Construction, maintenance, E&amp;I, mechanical, and environmental compliance services for the facilities that handle the water."
+     "ProTorque is the services contractor that supports the operators and water management companies running these programs across the Permian and West Texas. Construction, maintenance, I&amp;E, mechanical, and environmental compliance services for the facilities that handle the water."
     ]
    },
    {
@@ -3025,7 +3025,7 @@
      },
      {
       "kind": "li",
-      "text": "E&I and mechanical support for water management facilities"
+      "text": "I&E and mechanical support for water management facilities"
      },
      {
       "kind": "li",
@@ -3123,7 +3123,7 @@
    },
    {
     "kind": "overview",
-    "title": "The work that has to happen before construction starts.",
+    "title": "The work that happens before construction starts",
     "paras": [
      "Midstream projects do not start when the construction crew arrives. They start when the site is cleared, the pad is built, and the access is in. ROW services are the foundational work that turns raw land into a buildable midstream site. ProTorque provides ROW clearing, civil work, new pad construction, and ongoing site maintenance across the Permian and West Texas.",
      "For pipeline projects, that means ROW clearing and access roads. For facility builds, that means pad construction, foundations, and civil concrete. For operating facilities, that means industrial weed control and ongoing site upkeep. ProTorque handles all of it."
@@ -3301,7 +3301,7 @@
      },
      {
       "kind": "li",
-      "text": "Coordination with mechanical and E&I trades for facility builds"
+      "text": "Coordination with mechanical and I&E trades for facility builds"
      }
     ]
    },
@@ -3356,9 +3356,9 @@
      },
      {
       "img": "content/facilities-electrical-card.jpg",
-      "title": "Facilities E&I and Mechanical",
+      "title": "Facilities I&E and Mechanical",
       "text": "Mechanical trades supporting specialty piping installation.",
-      "cta": "Explore Facilities E&I",
+      "cta": "Explore Facilities I&E",
       "url": "/midstream-services/facilities-electrical-instrumentation-mechanical/"
      }
     ]
@@ -3453,7 +3453,7 @@
       "text": "Crews install RCDs in a controlled environment with proper handling equipment, not on a rig floor under time pressure. Significant HSE improvement."
      },
      {
-      "title": "Clear ROI for operations and procurement",
+      "title": "Clear ROI",
       "text": "The press pays for itself in saved rig hours on MPD programs. Operations leadership gets the safety case; procurement gets the cost justification."
      }
     ]
@@ -3510,7 +3510,7 @@
     "kind": "hero",
     "title": "CRT Tether Ring",
     "sub": "Engineered dropped-object prevention for CRT operations. Safer rig floors. Documented protection.",
-    "image": "content/tether-ring-800.png"
+    "image": "content/tether-ring-v2.png"
    },
    {
     "kind": "overview",
@@ -3558,7 +3558,7 @@
      },
      {
       "title": "Inspection and recertification program",
-      "text": "Our Tether Ring Recertification Program keeps the equipment inspected and certified to known standards. Operators get equipment with a paper trail and a service history."
+      "text": "Our Tether Ring Recertification Program keeps the equipment inspected and certified to known standards. Operators get equipment with a documented service history."
      },
      {
       "title": "Field-proven across operations",

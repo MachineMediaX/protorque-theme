@@ -16,7 +16,7 @@ get_header();
 		<div class="pt-pagehero__scrim"></div>
 		<div class="pt-pagehero__text">
 			<h1 class="pt-pagehero__title"><?php echo esc_html( $hero['title'] ); ?></h1>
-			<?php if ( ! empty( $hero['sub'] ) ) : ?><p class="pt-pagehero__sub"><?php echo esc_html( $hero['sub'] ); ?></p><?php endif; ?>
+			<?php if ( ! empty( $hero['sub'] ) ) : ?><p class="pt-pagehero__sub"><?php echo pt_sub( $hero['sub'] ); ?></p><?php endif; ?>
 		</div>
 	</section>
 

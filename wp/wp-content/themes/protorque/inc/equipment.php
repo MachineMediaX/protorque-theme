@@ -48,7 +48,7 @@ function pt_equipment_lineup( array $s ): void {
 				<?php foreach ( $s['cards'] as $c ) :
 					$slug = basename( untrailingslashit( (string) ( $c['url'] ?? '' ) ) );
 					$m    = $media[ $slug ] ?? [ 'app' => 'other', 'field' => null, 'specs' => [] ];
-					$prod = "$dir/assets/img/equipment/$slug.png";
+					$prod = "$dir/assets/img/equipment/$slug.png?v=" . PT_VERSION;
 					$fimg = "$dir/assets/img/equipment/$slug-field.jpg";
 					$fvid = "$dir/assets/media/equipment/$slug-field.mp4";
 					$short = preg_replace( '/ \(.*\)/', '', $c['title'] );

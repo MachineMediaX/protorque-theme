@@ -27,8 +27,8 @@ $pt_home = home_url( '/' );
 		<div class="pt-footer__col">
 			<h2 class="pt-footer__heading"><?php esc_html_e( 'Canada', 'protorque' ); ?></h2>
 			<p>24 Hour Dispatch:<br><a href="mailto:PTCT.Sales@ptenergy.com">PTCT.Sales@ptenergy.com</a></p>
-			<p>Grande Prairie<br><a href="tel:+17802886128">+1.780.288.6128</a><br>Red Deer</p>
-			<p><a href="tel:+17809330404">+1.780.933.0404</a></p>
+			<p>Grande Prairie<br><a href="tel:+17802886128">+1.780.288.6128</a></p>
+			<p>Red Deer<br><a href="tel:+17809330404">+1.780.933.0404</a></p>
 			<p>Canada Head Office<br>1700, 520-5th Ave SW<br>Calgary, AB, T2P 3R7</p>
 		</div>
 

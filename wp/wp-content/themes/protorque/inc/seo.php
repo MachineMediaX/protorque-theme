@@ -25,3 +25,39 @@ add_action( 'wp_head', function () {
 		echo '<meta name="description" content="' . esc_attr( wp_strip_all_tags( $desc ) ) . '">' . "\n";
 	}
 }, 1 );
+
+/**
+ * Search result excerpt. Theme pages render from the content files, so their database content can still hold
+ * old page-builder markup; use the page's own subtitle or opening paragraph instead, and never print shortcodes.
+ */
+function pt_search_excerpt() {
+	$post = get_post();
+	if ( $post && 'page' === $post->post_type && function_exists( 'pt_content_pages' ) ) {
+		$pages = pt_content_pages();
+		$page  = $pages[ $post->post_name ] ?? null;
+		if ( $page ) {
+			foreach ( $page['sections'] ?? [] as $sec ) {
+				if ( ! empty( $sec['sub'] ) ) {
+					return wp_trim_words( wp_strip_all_tags( $sec['sub'] ), 30 );
+				}
+				if ( ! empty( $sec['paras'][0] ) ) {
+					return wp_trim_words( wp_strip_all_tags( $sec['paras'][0] ), 30 );
+				}
+			}
+		}
+		$meta = get_post_meta( $post->ID, '_pt_meta_description', true );
+		if ( $meta ) {
+			return $meta;
+		}
+	}
+	$text = has_excerpt( $post ) ? get_the_excerpt( $post ) : (string) ( $post->post_content ?? '' );
+	$text = preg_replace( '/\[\/?[a-zA-Z][^\]]*\]/', ' ', $text ); // any shortcode, registered or not
+	return wp_trim_words( wp_strip_all_tags( $text ), 24 );
+}
+
+/* Search covers pages, posts and jobs only, and matches on titles and the visible content. */
+add_action( 'pre_get_posts', function ( $q ) {
+	if ( ! is_admin() && $q->is_main_query() && $q->is_search() ) {
+		$q->set( 'post_type', [ 'page', 'post', 'pt_job' ] );
+	}
+} );

@@ -83,14 +83,24 @@ function pt_nav_render_desktop( array $tree ): void {
 
 function pt_nav_render_split( array $node ): void {
 	$tabs = $node['children'];
+	// Open on the tab for the section the visitor is in (Kim, Nov 17); first tab otherwise.
+	$here = trailingslashit( (string) wp_parse_url( $_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH ) );
+	$cur  = 0;
+	foreach ( $tabs as $i => $t ) {
+		$path = trailingslashit( (string) wp_parse_url( $t['url'], PHP_URL_PATH ) );
+		if ( '/' !== $path && 0 === strpos( $here, $path ) ) {
+			$cur = $i;
+			break;
+		}
+	}
 	echo '<div class="pt-mega pt-mega--split" role="region" aria-label="' . esc_attr( $node['title'] ) . '"><div class="pt-mega__inner">';
 	echo '<div class="pt-mega__tabs"><p class="pt-mega__eyebrow">' . esc_html( $node['title'] ) . '</p><ul role="tablist">';
 	foreach ( $tabs as $i => $t ) {
 		printf(
 			'<li><a class="pt-mega__tab%s" href="%s" role="tab" aria-selected="%s" aria-controls="pt-pane-%d" id="pt-tab-%d">%s<span class="pt-nav__chev" aria-hidden="true"></span></a></li>',
-			0 === $i ? ' is-active' : '',
+			$cur === $i ? ' is-active' : '',
 			esc_url( $t['url'] ),
-			0 === $i ? 'true' : 'false',
+			$cur === $i ? 'true' : 'false',
 			$t['id'],
 			$t['id'],
 			esc_html( $t['title'] )
@@ -98,7 +108,7 @@ function pt_nav_render_split( array $node ): void {
 	}
 	echo '</ul></div><div class="pt-mega__panes">';
 	foreach ( $tabs as $i => $t ) {
-		printf( '<div class="pt-mega__pane%s" id="pt-pane-%d" role="tabpanel" aria-labelledby="pt-tab-%d"%s>', 0 === $i ? ' is-active' : '', $t['id'], $t['id'], 0 === $i ? '' : ' hidden' );
+		printf( '<div class="pt-mega__pane%s" id="pt-pane-%d" role="tabpanel" aria-labelledby="pt-tab-%d"%s>', $cur === $i ? ' is-active' : '', $t['id'], $t['id'], $cur === $i ? '' : ' hidden' );
 		printf( '<p class="pt-mega__eyebrow"><a href="%s">%s</a></p><ul class="pt-mega__links">', esc_url( $t['url'] ), esc_html( $t['title'] ) );
 		foreach ( $t['children'] as $c ) {
 			printf( '<li><a href="%s">%s</a></li>', esc_url( $c['url'] ), esc_html( $c['title'] ) );

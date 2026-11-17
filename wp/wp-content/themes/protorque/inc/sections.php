@@ -63,6 +63,32 @@ function pt_list_groups( array $items ): array {
 	return $groups;
 }
 
+/**
+ * Hero subtitle with a deliberate line break (Kim, Nov 17): a multi-sentence subtitle too long for one line
+ * breaks at the sentence end nearest its middle on desktop, so no single word is left alone on a second line.
+ * Short or single-sentence subtitles are left to CSS (text-wrap: balance).
+ */
+function pt_sub( $text ) {
+	$text = trim( (string) $text );
+	if ( mb_strlen( $text ) > 88 && preg_match_all( '/[.!?](?=\s+\S)/u', $text, $m, PREG_OFFSET_CAPTURE ) ) {
+		$mid  = strlen( $text ) / 2;
+		$best = null;
+		foreach ( $m[0] as $hit ) {
+			$pos = $hit[1] + 1;
+			if ( $pos < 24 || strlen( $text ) - $pos < 24 ) {
+				continue;
+			}
+			if ( null === $best || abs( $pos - $mid ) < abs( $best - $mid ) ) {
+				$best = $pos;
+			}
+		}
+		if ( null !== $best ) {
+			return '<span class="pt-subline">' . esc_html( trim( substr( $text, 0, $best ) ) ) . '</span> <span class="pt-subline">' . esc_html( trim( substr( $text, $best ) ) ) . '</span>';
+		}
+	}
+	return esc_html( $text );
+}
+
 function pt_content_page( $slug ) {
 	return pt_content_pages()[ $slug ] ?? null;
 }
@@ -78,6 +104,7 @@ function pt_img( $rel ) {
 		'content/irong-roughneck-card-2.jpg'     => 'content/iron-roughneck-card-v2.jpg',
 		'content/real-time-drilling-data-card.jpg' => 'content/real-time-drilling-data-card-v2.jpg',
 		'content/protorque-and-prostar.jpg'      => 'content/tubular-running-card-v2.jpg',
+		'content/mobile-bucking-frame-card.jpg'  => 'content/bucking-frame-4.jpg', // card showed the Mobile BHA Frame (Kim, Nov 17)
 	];
 	$rel = ltrim( $rel, '/' );
 	return get_template_directory_uri() . '/assets/img/' . ( $swap[ $rel ] ?? $rel );
@@ -194,7 +221,7 @@ function pt_render_section( $s, $page, &$prev ) {
 						<div class="pt-eqhero__text">
 							<p class="pt-eyebrow pt-eyebrow--yellow">Equipment &amp; Innovation</p>
 							<h1 class="pt-pagehero__title pt-eqhero__title"><?php echo esc_html( $s['title'] ); ?></h1>
-							<?php if ( ! empty( $s['sub'] ) ) : ?><p class="pt-pagehero__sub"><?php echo esc_html( $s['sub'] ); ?></p><?php endif; ?>
+							<?php if ( ! empty( $s['sub'] ) ) : ?><p class="pt-pagehero__sub"><?php echo pt_sub( $s['sub'] ); ?></p><?php endif; ?>
 							<p class="pt-eqhero__prostar">Engineered and supplied by <a href="https://www.prostarequipment.com/" target="_blank" rel="noopener">ProStar Equipment</a>.</p>
 							<a class="pt-btn" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a Quote</a>
 						</div>
@@ -214,7 +241,7 @@ function pt_render_section( $s, $page, &$prev ) {
 				<?php if ( $hero ) : ?><img src="<?php echo esc_url( pt_img( $hero ) ); ?>" alt="" width="1440" height="810"><div class="pt-pagehero__scrim"></div><?php endif; ?>
 				<div class="pt-pagehero__text">
 					<h1 class="pt-pagehero__title<?php echo $long; ?>"><?php echo esc_html( $s['title'] ); ?></h1>
-					<?php if ( ! empty( $s['sub'] ) ) : ?><p class="pt-pagehero__sub"><?php echo esc_html( $s['sub'] ); ?></p><?php endif; ?>
+					<?php if ( ! empty( $s['sub'] ) ) : ?><p class="pt-pagehero__sub"><?php echo pt_sub( $s['sub'] ); ?></p><?php endif; ?>
 					<?php if ( $page['kind'] === 'service' ) : ?><a class="pt-btn" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Get in Touch</a><?php endif; ?>
 				</div>
 			</section>

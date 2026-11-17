@@ -18,7 +18,7 @@ get_header();
 			<li class="pt-post">
 				<p class="pt-post__date"><?php echo esc_html( get_post_type() === 'post' ? get_the_date( 'F j, Y' ) : ucfirst( get_post_type() === 'pt_job' ? 'Job' : get_post_type() ) ); ?></p>
 				<h3 class="pt-post__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-				<p class="pt-post__excerpt"><?php echo esc_html( wp_trim_words( get_the_excerpt() ?: wp_strip_all_tags( strip_shortcodes( get_the_content() ) ), 24 ) ); ?></p>
+				<p class="pt-post__excerpt"><?php echo esc_html( pt_search_excerpt() ); ?></p>
 			</li>
 			<?php endwhile; ?>
 		</ul>

@@ -185,7 +185,7 @@ get_header();
 					<p>My vision for ProTorque is not to become the biggest company in our industry. It is to build a group of companies recognized for execution, innovation, entrepreneurship, and the quality of our people, while continuing to create opportunities for the employees, customers, partners, and communities who have helped us grow.</p>
 					<p>The equipment will continue to change. Technology will continue to evolve. Markets will rise and fall. But the fundamentals of building a great company remain remarkably consistent: work hard, surround yourself with great people, take care of your customers, embrace change, and never stop looking for a better way.</p>
 					<p>That was the foundation of ProTorque when we started, and it will remain the foundation of where we go next.</p>
-					<p class="pt-president__sig"><strong>Landon McDonald</strong><br>President, ProTorque Energy Companies</p>
+					<p class="pt-president__sig"><strong>Landon McDonald</strong><br>President &amp; CEO</p>
 			</div>
 		</div>
 	</section>
@@ -216,7 +216,7 @@ get_header();
 					<img src="<?php echo esc_url( "$img/about/midland.jpg" ); ?>" srcset="<?php echo esc_url( "$img/about/midland@2x.jpg" ); ?> 2x" alt="Midland, Texas skyline" width="400" height="250" loading="lazy">
 					<div class="pt-office__body">
 						<h3>United States</h3><p class="pt-office__city">Midland, TX</p>
-						<p><strong>ProTorque US operations base.</strong><br>Tubular running services for completions and workovers, drilling verification, and midstream services across the Permian Basin and New Mexico.</p>
+						<p><strong>ProTorque US operations base.</strong><br>Midstream construction and maintenance services, tubular running services for completions and workovers, and drilling verification across the Permian Basin and New Mexico.</p>
 						<p>3424 South County Road 1192,<br>Midland, TX, 79706<br><a href="tel:+17133005216">+1.713.300.5216</a></p>
 						<p><a class="pt-office__dir" href="https://www.google.com/maps/search/?api=1&amp;query=3424+South+County+Road+1192%2C+Midland%2C+TX+79706">Get directions</a></p>
 					</div>
