@@ -61,3 +61,15 @@ add_action( 'pre_get_posts', function ( $q ) {
 		$q->set( 'post_type', [ 'page', 'post', 'pt_job' ] );
 	}
 } );
+
+/* Yoast (active on staging): never build a description from old page-builder markup left in the database. */
+function pt_clean_description( $desc ) {
+	if ( is_singular() && ( '' === trim( (string) $desc ) || false !== strpos( (string) $desc, '[' ) ) ) {
+		$meta = get_post_meta( get_queried_object_id(), '_pt_meta_description', true );
+		return $meta ? $meta : pt_search_excerpt();
+	}
+	return $desc;
+}
+add_filter( 'wpseo_opengraph_desc', 'pt_clean_description', 20 );
+add_filter( 'wpseo_metadesc', 'pt_clean_description', 20 );
+add_filter( 'wpseo_twitter_description', 'pt_clean_description', 20 );

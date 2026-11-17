@@ -229,9 +229,14 @@ add_action( 'init', function () {
 		return;
 	}
 	update_option( 'pt_deployed_version', PT_VERSION, false );
-	global $kinsta_cache;
-	if ( is_object( $kinsta_cache ) && ! empty( $kinsta_cache->kinsta_cache_purge ) && method_exists( $kinsta_cache->kinsta_cache_purge, 'purge_complete_caches' ) ) {
-		$kinsta_cache->kinsta_cache_purge->purge_complete_caches();
+	foreach ( [ 'kinsta_cache', 'KinstaCache' ] as $g ) {
+		$kc = $GLOBALS[ $g ] ?? null;
+		if ( is_object( $kc ) && ! empty( $kc->kinsta_cache_purge ) && method_exists( $kc->kinsta_cache_purge, 'purge_complete_caches' ) ) {
+			$kc->kinsta_cache_purge->purge_complete_caches();
+			break;
+		}
 	}
+	// Kinsta's own purge endpoint, as a fallback when the plugin object is not exposed.
+	wp_remote_get( 'https://localhost/kinsta-clear-cache-all', [ 'sslverify' => false, 'timeout' => 5, 'blocking' => false ] );
 	wp_cache_flush();
 }, 30 );
