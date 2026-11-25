@@ -264,7 +264,7 @@ function pt_division_clients(): array {
 	];
 }
 
-/** Division client logo block: same component as the homepage "Our Clients" block, greyscale at rest. */
+/** Division client logo block: same component as the homepage "Our Clients" block, in colour. */
 function pt_client_logos( string $heading, array $logos ): void {
 	$dir  = get_template_directory();
 	$base = get_template_directory_uri() . '/assets/img/logos/clients/';
