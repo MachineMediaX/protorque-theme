@@ -222,7 +222,7 @@ function pt_division_clients(): array {
 		'midstream-services' => [
 			'heading' => 'Midstream Clients',
 			'logos'   => [
-				'exxon.png'               => 'ExxonMobil',
+				'exxon.png'               => 'Exxon',
 				'enterprise-products.png' => 'Enterprise Products',
 				'xto.png'                 => 'XTO Energy',
 				'kinder-morgan.webp'      => 'Kinder Morgan',
