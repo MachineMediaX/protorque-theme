@@ -458,7 +458,8 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .pt-pagehero__sub { margin-top: 28px; font-size: 1.25rem; line-height: 1.45; font-weight: 500; max-width: 66rem; margin-inline: auto; text-wrap: balance; }
 @media (min-width: 1000px) { .pt-subline { display: block; } }
 /* No one-word last lines in centred copy (Kim, Nov 17) */
-.pt-lede, .pt-svc-overview p, .pt-h2, .pt-mission__text { text-wrap: balance; }
+/* Headings balance. Body paragraphs do not: balancing made stacked paragraphs different widths (Kim, Nov 25). */
+.pt-h2, .pt-mission__text { text-wrap: balance; }
 p { text-wrap: pretty; }
 .pt-pagehero__text .pt-btn { margin-top: 36px; }
 
