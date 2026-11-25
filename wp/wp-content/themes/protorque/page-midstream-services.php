@@ -75,16 +75,7 @@ $services = [
 		</div>
 	</section>
 
-	<section class="pt-clients pt-clients--sub">
-		<div class="pt-container pt-center">
-			<h2 class="pt-eyebrow pt-eyebrow--dark">Midstream Clients</h2>
-			<ul class="pt-logos">
-				<?php foreach ( [ 'cenovus.png', 'cnrl.png', 'shell.png', 'exxon.png', 'occidental.png', 'enterprise-products.png', 'paramount.svg', 'whitecap.png', 'xto.png' ] as $l ) : ?>
-				<li><img src="<?php echo esc_url( "$img/logos/clients/$l" ); ?>" alt="<?php echo esc_attr( ucwords( str_replace( [ '-', '_' ], ' ', pathinfo( $l, PATHINFO_FILENAME ) ) ) ); ?>" loading="lazy"></li>
-				<?php endforeach; ?>
-			</ul>
-		</div>
-	</section>
+	<?php $pt_mc = pt_division_clients()['midstream-services']; pt_client_logos( $pt_mc['heading'], $pt_mc['logos'] ); ?>
 
 	<section class="pt-ctabar pt-section--black">
 		<div class="pt-ctabar__inner">

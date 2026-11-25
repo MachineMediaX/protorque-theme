@@ -202,10 +202,103 @@ function pt_render_page( $page ) {
 	$slug = $page['slug'];
 	$prev = 'hero';
 	echo '<main id="main" class="pt-content pt-content--' . esc_attr( $page['kind'] ) . ' pt-page-' . esc_attr( $slug ) . '">';
+	$clients = pt_division_clients()[ $slug ] ?? null;
 	foreach ( $page['sections'] as $s ) {
+		if ( $clients && 'cta' === ( $s['kind'] ?? '' ) ) { // client logos sit directly above the Get in Touch bar
+			pt_client_logos( $clients['heading'], $clients['logos'] );
+			$clients = null;
+		}
 		pt_render_section( $s, $page, $prev );
 	}
 	echo '</main>';
+}
+
+/**
+ * Client logos by division (Kim, full company names Nov 19). The homepage keeps its own set in front-page.php.
+ * Each entry is file => company name; files live in assets/img/logos/clients/. Order is the order shown.
+ */
+function pt_division_clients(): array {
+	return [
+		'midstream-services' => [
+			'heading' => 'Midstream Clients',
+			'logos'   => [
+				'exxon.png'               => 'ExxonMobil',
+				'enterprise-products.png' => 'Enterprise Products',
+				'xto.png'                 => 'XTO Energy',
+				'kinder-morgan.webp'      => 'Kinder Morgan',
+				'energy-transfer.webp'    => 'Energy Transfer',
+			],
+		],
+		'tubular-running-services' => [
+			'heading' => 'Tubular Running Services Clients',
+			'logos'   => [
+				'occidental.png'   => 'Occidental',
+				'mewbourne.webp'   => 'Mewbourne Oil Company',
+				'logos.webp'       => 'LOGOS Energy',
+				'hilcorp.webp'     => 'Hilcorp',
+				'cnrl.png'         => 'Canadian Natural Resources',
+				'paramount.svg'    => 'Paramount Resources',
+				'cygnet.webp'      => 'Cygnet Energy',
+				'whitecap.png'     => 'Whitecap Resources',
+				'petrochina.webp'  => 'PetroChina',
+				'artis.webp'       => 'Artis Exploration',
+				'teine.webp'       => 'Teine Energy',
+				'shell.png'        => 'Shell',
+				'kelt.webp'        => 'Kelt Exploration',
+			],
+		],
+		'drilling-services' => [
+			'heading' => 'Drilling Clients',
+			'logos'   => [
+				'ensign.webp'     => 'Ensign Energy Services',
+				'precision.webp'  => 'Precision Drilling',
+				'akita.webp'      => 'Akita Drilling',
+				'savanna.webp'    => 'Savanna Drilling',
+				'tourmaline.webp' => 'Tourmaline',
+				'shell.png'       => 'Shell',
+				'cnrl.png'        => 'Canadian Natural Resources',
+				'cenovus.png'     => 'Cenovus',
+				'paramount.svg'   => 'Paramount Resources',
+			],
+		],
+	];
+}
+
+/** Division client logo block: same component as the homepage "Our Clients" block, greyscale at rest. */
+function pt_client_logos( string $heading, array $logos ): void {
+	$dir  = get_template_directory();
+	$base = get_template_directory_uri() . '/assets/img/logos/clients/';
+	?>
+	<section class="pt-clients pt-clients--sub">
+		<div class="pt-container pt-center">
+			<h2 class="pt-eyebrow pt-eyebrow--dark"><?php echo esc_html( $heading ); ?></h2>
+			<ul class="pt-logos pt-logos--flow">
+				<?php foreach ( $logos as $file => $name ) :
+					// Homepage files carry built-in padding; the "-t" copy is the same artwork trimmed, so every logo here sizes alike.
+					$trim = preg_replace( '/\.[a-z]+$/', '-t.webp', $file );
+					if ( file_exists( "$dir/assets/img/logos/clients/$trim" ) ) {
+						$file = $trim;
+					}
+					$path = "$dir/assets/img/logos/clients/$file";
+					if ( ! file_exists( $path ) ) {
+						continue; // never show a broken image if a logo file is missing
+					}
+					// Optical sizing: similar visual area for wide and tall marks, inside a 185 x 105 box.
+					$size  = 'svg' === pathinfo( $file, PATHINFO_EXTENSION ) ? [ 236, 100 ] : (array) getimagesize( $path );
+					$ratio = ! empty( $size[1] ) ? $size[0] / $size[1] : 2.4;
+					$w     = min( 185, sqrt( 11500 * $ratio ) );
+					$h     = $w / $ratio;
+					if ( $h > 105 ) {
+						$h = 105;
+						$w = $h * $ratio;
+					}
+					?>
+				<li><img src="<?php echo esc_url( $base . $file ); ?>" alt="<?php echo esc_attr( $name ); ?>" width="<?php echo (int) round( $w ); ?>" height="<?php echo (int) round( $h ); ?>" style="--w:<?php echo (int) round( $w ); ?>px" loading="lazy"></li>
+				<?php endforeach; ?>
+			</ul>
+		</div>
+	</section>
+	<?php
 }
 
 function pt_render_section( $s, $page, &$prev ) {

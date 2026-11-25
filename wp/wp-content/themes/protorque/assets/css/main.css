@@ -491,6 +491,13 @@ p { text-wrap: pretty; }
 .pt-svc__link:hover { color: var(--pt-red); }
 .pt-clients--sub { padding: 100px var(--pt-gutter) 120px; }
 .pt-clients--sub .pt-logos { margin-top: 70px; }
+/* Division client logos: any count, rows of five centred, greyscale at rest and colour on rollover. */
+.pt-logos--flow { display: flex; flex-wrap: wrap; justify-content: center; gap: 64px 0; }
+.pt-logos--flow li, .pt-logos--flow li:nth-child(6) { flex: 0 0 20%; grid-column: auto; height: 105px; }
+.pt-logos--flow img { width: var(--w, 160px); max-height: none; max-width: 86%; height: auto; object-fit: contain; filter: grayscale(1); opacity: .85; transition: filter .25s ease, opacity .25s ease; }
+@media (hover: hover) { .pt-logos--flow li:hover img { filter: none; opacity: 1; } }
+@media (max-width: 1000px) { .pt-logos--flow li, .pt-logos--flow li:nth-child(6) { flex-basis: 33.333%; height: 90px; } .pt-logos--flow img { width: calc(var(--w, 160px) * .85); } }
+@media (max-width: 640px) { .pt-logos--flow { gap: 36px 0; } .pt-logos--flow li, .pt-logos--flow li:nth-child(6) { flex-basis: 50%; height: 64px; } .pt-logos--flow img { width: calc(var(--w, 160px) * .72); max-width: 82%; } }
 
 /* Template 2 */
 .pt-svc-overview { padding: 112px var(--pt-gutter) 120px; }
