@@ -249,16 +249,11 @@ function pt_division_clients(): array {
 		],
 		'drilling-services' => [
 			'heading' => 'Drilling Clients',
-			'logos'   => [
+			'logos'   => [ // Shell, CNRL, Cenovus, Tourmaline and Paramount removed (Robert Ryan, Nov 26); they are TRS clients
 				'ensign.webp'     => 'Ensign Energy Services',
 				'precision.webp'  => 'Precision Drilling',
 				'akita.webp'      => 'Akita Drilling',
 				'savanna.webp'    => 'Savanna Drilling',
-				'tourmaline.webp' => 'Tourmaline',
-				'shell.png'       => 'Shell',
-				'cnrl.png'        => 'Canadian Natural Resources',
-				'cenovus.png'     => 'Cenovus',
-				'paramount.svg'   => 'Paramount Resources',
 			],
 		],
 	];
