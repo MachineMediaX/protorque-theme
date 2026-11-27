@@ -10,7 +10,7 @@
 /** Recipients. Filter 'pt_careers_recipients' to change without editing the theme. */
 function pt_careers_recipients( $region, $midstream ) {
 	$r = [
-		'ca'      => [ 'to' => [ 'info@machinemedia.ca' ], 'cc' => [] ],  // live Canada form posts to the site admin address (info@machinemedia.ca)
+		'ca'      => [ 'to' => [ 'PTCT.Careers@ptenergy.com' ], 'cc' => [] ],  // Shane, Nov 27: the address originally requested for Canada; the old site's form had none and fell back to the admin address. Kim to confirm.
 		'us'      => [ 'to' => [ 'PTE.Careers@ptenergy.com' ], 'cc' => [ 'ptenergycompanies@gmail.com' ] ],
 		'us-mid'  => [ 'to' => [ 'PTEM.Careers@ptenergy.com' ], 'cc' => [ 'ptenergycompanies@gmail.com' ] ],
 	];
